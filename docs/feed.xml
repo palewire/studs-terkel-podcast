@@ -9,21 +9,21 @@
     <googleplay:author>Ben Welsh</googleplay:author>
     <itunes:author>Ben Welsh</itunes:author>
     <description>Selections from the WFMT collection of Terkel’s radio interviews, delivered several times each week. An unofficial feed.</description>
-    <googleplay:image href="https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png"/>
-    <itunes:image href="https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png"/>
+    <googleplay:image href="https://studs.show/static/images/podcast.png"/>
+    <itunes:image href="https://studs.show/static/images/podcast.png"/>
     <image>
-      <link>http://studs.show</link>
+      <link>https://studs.show</link>
       <title>Studs Terkel Archive Podcast</title>
-      <url>https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png</url>
+      <url>https://studs.show/static/images/podcast.png</url>
     </image> 
     <googleplay:category text="Society &amp; Culture"/>
     <itunes:category text="Society &amp; Culture"/>
     <language>en-us</language>
-    <link>http://studs.show</link>
+    <link>https://studs.show</link>
 	
     <item>
       <title>Interviewing Shel Silverstein</title>
-      
+      <description>First broadcast on December 12, 1963. </description>
       <pubDate>Sat, 12 Dec 2020 00:00:00 -0000</pubDate>
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40605.mp3" type="audio/mpeg" />
       <itunes:duration>01:00:07</itunes:duration>
@@ -31,8 +31,8 @@
     </item>
     <item>
       <title>Dick Gregory discusses American politics</title>
-      <description>This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
-[The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned].</description>
+      <description>First broadcast on December 17, 1964. This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
+[The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned]</description>
       <pubDate>Thu, 17 Dec 2020 00:00:00 -0000</pubDate>
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33489.mp3" type="audio/mpeg" />
       <itunes:duration>00:50:36</itunes:duration>
@@ -40,7 +40,7 @@
     </item>
     <item>
       <title>Teacher Vivian Cadbury and Lane Technical High School students read and discuss &#34;Cadbury Tales&#34;</title>
-      <description>Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago..</description>
+      <description>First broadcast on December 19, 1978. Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago.</description>
       <pubDate>Sat, 19 Dec 2020 00:00:00 -0000</pubDate>
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6537.mp3" type="audio/mpeg" />
       <itunes:duration>00:37:09</itunes:duration>
@@ -48,11 +48,21 @@
     </item>
     <item>
       <title>Studs Terkel sits down with Sandra Cisneros to discuss her new book of poetry</title>
-      <description>Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions..</description>
+      <description>First broadcast on December 21, 1992. Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions.</description>
       <pubDate>Mon, 21 Dec 2020 00:00:00 -0000</pubDate>
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/28275.mp3" type="audio/mpeg" />
       <itunes:duration>00:32:32</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-sits-down-sandra-cisneros-discuss-her-new-book-poetry</guid>
+    </item>
+    <item>
+      <title>Milton Mayer discusses Quakerism and the impact they have had on society</title>
+      <description>First broadcast on December 27, 1974. Milton Mayer, journalist and educator, talks with Studs about Quakerism.  They talk about how religion relates to society in the times of change.
+Mr Mayer describes an exchange with a gentleman who asked what is a Quaker.  The man had been an SS officer who told Mr Mayer his story.  The man had been touched by the anonymous generosity of the Quakers many years before.   
+Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor and friend, and the things he learned from him.</description>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10904.mp3" type="audio/mpeg" />
+      <itunes:duration>00:54:47</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/milton-mayer-discusses-quakerism-and-impact-they-have-had-society</guid>
     </item>
   </channel>
 </rss>
