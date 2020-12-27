@@ -3,7 +3,7 @@ from email import utils
 from flask import Flask
 from datetime import date
 from dateutil.parser import parse
-from flask import render_template
+from flask import render_template, make_response
 app = Flask(__name__)
 
 
@@ -14,7 +14,10 @@ def index():
 
 @app.route('/feed.xml')
 def feed():
-    return render_template("feed.xml", item_list=DATA)
+    t = render_template("feed.xml", item_list=DATA)
+    r = make_response(t)
+    r.headers['Content-type'] = 'text/xml; chartset=utf-8'
+    return r
 
 
 def format_datetime(s):
