@@ -4,7 +4,7 @@ A Flask site for https://studs.show
 import csv
 from email import utils
 from flask import Flask
-from datetime import date
+from datetime import date, datetime
 from dateutil.parser import parse
 from flask import render_template, make_response
 app = Flask(__name__)
@@ -23,7 +23,11 @@ def feed():
     """
     The RSS feed.
     """
-    t = render_template("feed.xml", item_list=DATA)
+    t = render_template(
+        "feed.xml",
+        item_list=DATA,
+        last_build_date=utils.format_datetime(datetime.now())
+    )
     r = make_response(t)
     r.headers['Content-type'] = 'text/xml; chartset=utf-8'
     return r
