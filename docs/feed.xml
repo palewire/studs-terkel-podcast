@@ -10,11 +10,11 @@
     <itunes:author>Ben Welsh</itunes:author>
     <description>Selections from the WFMT collection of Terkel’s radio interviews, delivered several times each week. An unofficial feed.</description>
     <googleplay:image href="https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png"/>
-    <itunes:image href="https://pastpages.github.io/studs-terkel-podcast/static/"/>
+    <itunes:image href="https://pastpages.github.io/studs-terkel-podcast/static/images.podcast.png"/>
     <image>
       <link>http://studs.show</link>
       <title>Studs Terkel Archive Podcast</title>
-      <url>https://pastpages.github.io/studs-terkel-podcast/static/</url>
+      <url>https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png</url>
     </image> 
     <googleplay:category text="Society &amp; Culture"/>
     <itunes:category text="Society &amp; Culture"/>
