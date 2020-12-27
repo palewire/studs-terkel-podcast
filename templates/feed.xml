@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Studs Terkel Archive Podcast</title>
+    <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
+    <itunes:owner>
+        <itunes:email>ben.welsh@gmail.com</itunes:email>
+    </itunes:owner>
+    <googleplay:author>Ben Welsh</googleplay:author>
+    <itunes:author>Ben Welsh</itunes:author>
+    <description>Selections from the WFMT collection of Terkel’s radio interviews, delivered several times each week. An unofficial feed.</description>
+    <googleplay:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/>
+    <googleplay:category text="Society &amp; Culture"/>
+    <itunes:category text="Society &amp; Culture"/>
+    <language>en-us</language>
+    <link>https://www.example.com/podcasts/dafnas-zebras/</link>
+	{% for item in item_list %}
+    <item>
+      <title>{{ item.title }}</title>
+      {% if item.synopsis %}<description>{{ item.synopsis }}.</description>{% endif %}
+      <pubDate>{{ item.date_rfc822 }}</pubDate>
+      <enclosure url="{{ item.feed_url }}" type="audio/mpeg" />
+      <itunes:duration>{{ item.duration }}</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com{{ item.archive_url }}</guid>
+    </item>
+    {% endfor %}
+</rss>

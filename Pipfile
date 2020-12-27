@@ -13,6 +13,7 @@ requests = "*"
 flask = "*"
 frozen-flask = "*"
 boto3 = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.8"
