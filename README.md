@@ -4,6 +4,8 @@ Selections from [the WFMT collection](https://studsterkel.wfmt.com/) of Terkelâ€
 
 Subscribe: [studs.show](https://studs.show/)
 
+![Build](https://github.com/pastpages/studs-terkel-podcast/workflows/Build/badge.svg)
+
 ### Installation
 
 Clone the repostory and install the Python tools.
