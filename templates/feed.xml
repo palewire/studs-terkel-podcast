@@ -23,4 +23,5 @@
       <itunes:duration>{{ item.duration }}</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com{{ item.archive_url }}</guid>
     </item>{% endfor %}
+  </channel>
 </rss>
