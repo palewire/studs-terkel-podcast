@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Studs Terkel Archive Podcast</title>
+    <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
+    <itunes:owner>
+        <itunes:email>ben.welsh@gmail.com</itunes:email>
+    </itunes:owner>
+    <googleplay:author>Ben Welsh</googleplay:author>
+    <itunes:author>Ben Welsh</itunes:author>
+    <description>Selections from the WFMT collection of Terkel’s radio interviews, delivered several times each week. An unofficial feed.</description>
+    <googleplay:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/>
+    <googleplay:category text="Society &amp; Culture"/>
+    <itunes:category text="Society &amp; Culture"/>
+    <language>en-us</language>
+    <link>https://www.example.com/podcasts/dafnas-zebras/</link>
+	
+    <item>
+      <title>Interviewing Shel Silverstein</title>
+      
+      <pubDate>Sat, 12 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/published%2F40605.mp3" type="audio/mpeg" />
+      <itunes:duration>01:00:07</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-shel-silverstein</guid>
+    </item>
+    <item>
+      <title>Dick Gregory discusses American politics</title>
+      <description>This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
+[The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned].</description>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/published%2F33489.mp3" type="audio/mpeg" />
+      <itunes:duration>00:50:36</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dick-gregory-discusses-american-politics</guid>
+    </item>
+    <item>
+      <title>Teacher Vivian Cadbury and Lane Technical High School students read and discuss &#34;Cadbury Tales&#34;</title>
+      <description>Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago..</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6537.mp3" type="audio/mpeg" />
+      <itunes:duration>00:37:09</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/teacher-vivian-cadbury-and-lane-technical-high-school-students-read-and-discuss-cadbury</guid>
+    </item>
+    <item>
+      <title>Studs Terkel sits down with Sandra Cisneros to discuss her new book of poetry</title>
+      <description>Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions..</description>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/28275.mp3" type="audio/mpeg" />
+      <itunes:duration>00:32:32</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-sits-down-sandra-cisneros-discuss-her-new-book-poetry</guid>
+    </item>
+</rss>
