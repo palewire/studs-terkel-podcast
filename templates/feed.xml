@@ -9,21 +9,21 @@
     <googleplay:author>Ben Welsh</googleplay:author>
     <itunes:author>Ben Welsh</itunes:author>
     <description>Selections from the WFMT collection of Terkel’s radio interviews, delivered several times each week. An unofficial feed.</description>
-    <googleplay:image href="https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png"/>
-    <itunes:image href="https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png"/>
+    <googleplay:image href="https://studs.show/static/images/podcast.png"/>
+    <itunes:image href="https://studs.show/static/images/podcast.png"/>
     <image>
-      <link>http://studs.show</link>
+      <link>https://studs.show</link>
       <title>Studs Terkel Archive Podcast</title>
-      <url>https://pastpages.github.io/studs-terkel-podcast/static/images/podcast.png</url>
+      <url>https://studs.show/static/images/podcast.png</url>
     </image> 
     <googleplay:category text="Society &amp; Culture"/>
     <itunes:category text="Society &amp; Culture"/>
     <language>en-us</language>
-    <link>http://studs.show</link>
+    <link>https://studs.show</link>
 	{% for item in item_list %}
     <item>
       <title>{{ item.title }}</title>
-      {% if item.synopsis %}<description>{{ item.synopsis }}.</description>{% endif %}
+      <description>First broadcast on {{ item.broadcast_datetime.strftime("%B %d, %Y") }}. {% if item.synopsis %}{{ item.synopsis }}{% endif %}</description>
       <pubDate>{{ item.date_rfc822 }}</pubDate>
       <enclosure url="{{ item.feed_url }}" type="audio/mpeg" />
       <itunes:duration>{{ item.duration }}</itunes:duration>
