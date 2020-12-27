@@ -5,3 +5,4 @@ serve:
 .PHONY: freeze
 freeze:
 	pipenv run python freeze.py
+	echo 'studs.show' > docs/CNAME
