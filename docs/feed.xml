@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 30 Dec 2020 00:10:58 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Dec 2020 00:12:32 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -64,6 +64,14 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10904.mp3" type="audio/mpeg" />
       <itunes:duration>00:54:47</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/milton-mayer-discusses-quakerism-and-impact-they-have-had-society</guid>
+    </item>
+    <item>
+      <title>Saul Alinsky, American community organizer, political activist, and writer discusses his book &#34;Rules for Radicals&#34; with Studs Terkel</title>
+      <description>First broadcast on December 31, 1971. Community organizer and social activist, Saul Alinsky speaks about his newest book, &#34;Rules for Radicals,&#34; and reminisces about his work in the Back of the Yards neighborhood, his advocacy for African-American labor rights, and his connection with the Mexican-American civil rights movement in California. Although Studs&#39; introduction states that this is a rebroadcast of a 1962 interview, that is incorrect. The interview was recorded in 1971.</description>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/2158.mp3" type="audio/mpeg" />
+      <itunes:duration>00:57:02</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/saul-alinsky-american-community-organizer-political-activist-and-writer-discusses-his-book</guid>
     </item>
   </channel>
 </rss>
