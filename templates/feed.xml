@@ -19,6 +19,7 @@
     </image> 
     <googleplay:category text="Society &amp; Culture"/>
     <itunes:category text="Society &amp; Culture"/>
+    <itunes:explicit>false</itunes:explicit>
     <language>en-us</language>
     <link>https://studs.show</link>
 	{% for item in item_list %}
