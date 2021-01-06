@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 01 Jan 2021 14:27:16 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2021 23:00:58 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -81,6 +81,14 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/5942.mp3" type="audio/mpeg" />
       <itunes:duration>00:54:36</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/panel-women-recipients-discuss-being-welfare-recipients-chicago</guid>
+    </item>
+    <item>
+      <title>Gwendolyn Brooks discusses her poetry</title>
+      <description>First broadcast on January 03, 1961. Gwendolyn Brooks, Poet Laureate of Illinois, talks about her poetry, her books, and some of her influences.</description>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33494.mp3" type="audio/mpeg" />
+      <itunes:duration>00:21:51</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gwendolyn-brooks-discusses-her-poetry</guid>
     </item>
   </channel>
 </rss>
