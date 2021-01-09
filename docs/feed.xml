@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 08 Jan 2021 00:15:37 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jan 2021 00:16:14 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -97,6 +97,14 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/18777.mp3" type="audio/mpeg" />
       <itunes:duration>00:34:22</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/harry-belafonte-discusses-jazz-and-folk-music</guid>
+    </item>
+    <item>
+      <title>Discussing the documentary film &#34;Shoah,&#34; with the director Claude Lanzmann</title>
+      <description>First broadcast on January 09, 1986. In making this film, Lanzmann interviewed death-camp survivors and Nazi functionaries.</description>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/32660.mp3" type="audio/mpeg" />
+      <itunes:duration>00:51:53</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-documentary-film-shoah-director-claude-lanzmann</guid>
     </item>
   </channel>
 </rss>
