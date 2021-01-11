@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-jupyterlab = "*"
+jupyterlab = "3.0.1"
 pandas = "*"
 bs4 = "*"
 requests = "*"
@@ -14,6 +14,7 @@ flask = "*"
 frozen-flask = "*"
 boto3 = "*"
 python-dateutil = "*"
+xeus-python = "*"
 
 [requires]
 python_version = "3.8"

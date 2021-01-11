@@ -22,12 +22,12 @@
     <itunes:explicit>false</itunes:explicit>
     <language>en-us</language>
     <link>https://studs.show</link>
-	{% for item in item_list|reverse %}
+    {% for item in item_list|reverse %}
     <item>
       <title>{{ item.title }}</title>
       <description>First broadcast on {{ item.broadcast_datetime.strftime("%B %d, %Y") }}. {% if item.synopsis %}{{ item.synopsis }}{% endif %}</description>
       <pubDate>{{ item.date_rfc822 }}</pubDate>
-      <enclosure url="{{ item.feed_url }}" type="audio/mpeg" />
+      <enclosure url="{{ item.feed_url }}" type="audio/mpeg" {% if item.mp3_length %}length="{{ item.mp3_length }}"{% endif %} />
       <itunes:duration>{{ item.duration }}</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com{{ item.archive_url }}</guid>
     </item>{% endfor %}
