@@ -22,7 +22,7 @@
     <itunes:explicit>false</itunes:explicit>
     <language>en-us</language>
     <link>https://studs.show</link>
-	{% for item in item_list %}
+	{% for item in item_list|reverse %}
     <item>
       <title>{{ item.title }}</title>
       <description>First broadcast on {{ item.broadcast_datetime.strftime("%B %d, %Y") }}. {% if item.synopsis %}{{ item.synopsis }}{% endif %}</description>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Mon, 11 Jan 2021 00:16:31 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 17:24:02 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -24,37 +24,44 @@
     <link>https://studs.show</link>
 	
     <item>
-      <title>Interviewing Shel Silverstein</title>
-      <description>First broadcast on December 12, 1963. </description>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40605.mp3" type="audio/mpeg" />
-      <itunes:duration>01:00:07</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-shel-silverstein</guid>
+      <title>Discussing the documentary film &#34;Shoah,&#34; with the director Claude Lanzmann</title>
+      <description>First broadcast on January 09, 1986. In making this film, Lanzmann interviewed death-camp survivors and Nazi functionaries.</description>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/32660.mp3" type="audio/mpeg" />
+      <itunes:duration>00:51:53</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-documentary-film-shoah-director-claude-lanzmann</guid>
     </item>
     <item>
-      <title>Dick Gregory discusses American politics</title>
-      <description>First broadcast on December 17, 1964. This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
-[The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned]</description>
-      <pubDate>Thu, 17 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33489.mp3" type="audio/mpeg" />
-      <itunes:duration>00:50:36</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dick-gregory-discusses-american-politics</guid>
+      <title>Harry Belafonte discusses jazz and folk music</title>
+      <description>First broadcast on January 06, 1955. Singer Harry Belafonte discusses Black music including spirituals and jazz and how it has contributed to American culture.</description>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/18777.mp3" type="audio/mpeg" />
+      <itunes:duration>00:34:22</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/harry-belafonte-discusses-jazz-and-folk-music</guid>
     </item>
     <item>
-      <title>Teacher Vivian Cadbury and Lane Technical High School students read and discuss &#34;Cadbury Tales&#34;</title>
-      <description>First broadcast on December 19, 1978. Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago.</description>
-      <pubDate>Sat, 19 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6537.mp3" type="audio/mpeg" />
-      <itunes:duration>00:37:09</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/teacher-vivian-cadbury-and-lane-technical-high-school-students-read-and-discuss-cadbury</guid>
+      <title>Gwendolyn Brooks discusses her poetry</title>
+      <description>First broadcast on January 03, 1961. Gwendolyn Brooks, Poet Laureate of Illinois, talks about her poetry, her books, and some of her influences.</description>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33494.mp3" type="audio/mpeg" />
+      <itunes:duration>00:21:51</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gwendolyn-brooks-discusses-her-poetry</guid>
     </item>
     <item>
-      <title>Studs Terkel sits down with Sandra Cisneros to discuss her new book of poetry</title>
-      <description>First broadcast on December 21, 1992. Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions.</description>
-      <pubDate>Mon, 21 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/28275.mp3" type="audio/mpeg" />
-      <itunes:duration>00:32:32</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-sits-down-sandra-cisneros-discuss-her-new-book-poetry</guid>
+      <title>Panel of women recipients discuss being welfare recipients in Chicago</title>
+      <description>First broadcast on January 01, 1969. A panel of women discuss raising their families while getting welfare assistance and living in poverty in Chicago.</description>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/5942.mp3" type="audio/mpeg" />
+      <itunes:duration>00:54:36</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/panel-women-recipients-discuss-being-welfare-recipients-chicago</guid>
+    </item>
+    <item>
+      <title>Saul Alinsky, American community organizer, political activist, and writer discusses his book &#34;Rules for Radicals&#34; with Studs Terkel</title>
+      <description>First broadcast on December 31, 1971. Community organizer and social activist, Saul Alinsky speaks about his newest book, &#34;Rules for Radicals,&#34; and reminisces about his work in the Back of the Yards neighborhood, his advocacy for African-American labor rights, and his connection with the Mexican-American civil rights movement in California. Although Studs&#39; introduction states that this is a rebroadcast of a 1962 interview, that is incorrect. The interview was recorded in 1971.</description>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/2158.mp3" type="audio/mpeg" />
+      <itunes:duration>00:57:02</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/saul-alinsky-american-community-organizer-political-activist-and-writer-discusses-his-book</guid>
     </item>
     <item>
       <title>Milton Mayer discusses Quakerism and the impact they have had on society</title>
@@ -67,52 +74,37 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/milton-mayer-discusses-quakerism-and-impact-they-have-had-society</guid>
     </item>
     <item>
-      <title>Saul Alinsky, American community organizer, political activist, and writer discusses his book &#34;Rules for Radicals&#34; with Studs Terkel</title>
-      <description>First broadcast on December 31, 1971. Community organizer and social activist, Saul Alinsky speaks about his newest book, &#34;Rules for Radicals,&#34; and reminisces about his work in the Back of the Yards neighborhood, his advocacy for African-American labor rights, and his connection with the Mexican-American civil rights movement in California. Although Studs&#39; introduction states that this is a rebroadcast of a 1962 interview, that is incorrect. The interview was recorded in 1971.</description>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/2158.mp3" type="audio/mpeg" />
-      <itunes:duration>00:57:02</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/saul-alinsky-american-community-organizer-political-activist-and-writer-discusses-his-book</guid>
+      <title>Studs Terkel sits down with Sandra Cisneros to discuss her new book of poetry</title>
+      <description>First broadcast on December 21, 1992. Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions.</description>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/28275.mp3" type="audio/mpeg" />
+      <itunes:duration>00:32:32</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-sits-down-sandra-cisneros-discuss-her-new-book-poetry</guid>
     </item>
     <item>
-      <title>Panel of women recipients discuss being welfare recipients in Chicago</title>
-      <description>First broadcast on January 01, 1969. A panel of women discuss raising their families while getting welfare assistance and living in poverty in Chicago.</description>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/5942.mp3" type="audio/mpeg" />
-      <itunes:duration>00:54:36</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/panel-women-recipients-discuss-being-welfare-recipients-chicago</guid>
+      <title>Teacher Vivian Cadbury and Lane Technical High School students read and discuss &#34;Cadbury Tales&#34;</title>
+      <description>First broadcast on December 19, 1978. Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago.</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6537.mp3" type="audio/mpeg" />
+      <itunes:duration>00:37:09</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/teacher-vivian-cadbury-and-lane-technical-high-school-students-read-and-discuss-cadbury</guid>
     </item>
     <item>
-      <title>Gwendolyn Brooks discusses her poetry</title>
-      <description>First broadcast on January 03, 1961. Gwendolyn Brooks, Poet Laureate of Illinois, talks about her poetry, her books, and some of her influences.</description>
-      <pubDate>Sun, 03 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33494.mp3" type="audio/mpeg" />
-      <itunes:duration>00:21:51</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gwendolyn-brooks-discusses-her-poetry</guid>
+      <title>Dick Gregory discusses American politics</title>
+      <description>First broadcast on December 17, 1964. This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
+[The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned]</description>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33489.mp3" type="audio/mpeg" />
+      <itunes:duration>00:50:36</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dick-gregory-discusses-american-politics</guid>
     </item>
     <item>
-      <title>Harry Belafonte discusses jazz and folk music</title>
-      <description>First broadcast on January 06, 1955. Singer Harry Belafonte discusses Black music including spirituals and jazz and how it has contributed to American culture.</description>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/18777.mp3" type="audio/mpeg" />
-      <itunes:duration>00:34:22</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/harry-belafonte-discusses-jazz-and-folk-music</guid>
-    </item>
-    <item>
-      <title>Discussing the documentary film &#34;Shoah,&#34; with the director Claude Lanzmann</title>
-      <description>First broadcast on January 09, 1986. In making this film, Lanzmann interviewed death-camp survivors and Nazi functionaries.</description>
-      <pubDate>Sat, 09 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/32660.mp3" type="audio/mpeg" />
-      <itunes:duration>00:51:53</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-documentary-film-shoah-director-claude-lanzmann</guid>
-    </item>
-    <item>
-      <title>Newton Minow discusses broadcasting</title>
-      <description>First broadcast on January 11, 1964. Interviewing Newton Minow, Chicago lawyer and chairman of the Federal Communications Commission.  He discusses broadcasting as a public service and spends a great deal of time on the history of commercials and how they changed over time.</description>
-      <pubDate>Mon, 11 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11142.mp3" type="audio/mpeg" />
-      <itunes:duration>00:46:43</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/newton-minow-discusses-broadcasting</guid>
+      <title>Interviewing Shel Silverstein</title>
+      <description>First broadcast on December 12, 1963. </description>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40605.mp3" type="audio/mpeg" />
+      <itunes:duration>01:00:07</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-shel-silverstein</guid>
     </item>
   </channel>
 </rss>
