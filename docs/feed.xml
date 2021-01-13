@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 12 Jan 2021 00:19:53 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jan 2021 00:27:59 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>David Mamet discusses his play Glengarry Glen Ross</title>
+      <description>First broadcast on January 13, 1984. David Mamet discusses his play Glengarry Glen Ross.  Includes two scenes from the play recited by both David Mamet and Studs Terkel.</description>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10766.mp3" type="audio/mpeg" length="108929807" />
+      <itunes:duration>00:45:23</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-mamet-discusses-his-play-glengarry-glen-ross</guid>
+    </item>
     <item>
       <title>Newton Minow discusses broadcasting</title>
       <description>First broadcast on January 11, 1964. Interviewing Newton Minow, Chicago lawyer and chairman of the Federal Communications Commission.  He discusses broadcasting as a public service and spends a great deal of time on the history of commercials and how they changed over time.</description>
