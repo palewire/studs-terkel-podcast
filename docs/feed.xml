@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Mon, 18 Jan 2021 00:27:21 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 00:31:15 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Noam Chomsky discusses his book &#34;American Power and the New Mandarins&#34;</title>
+      <description>First broadcast on January 19, 1970. Noam Chomsky discusses his book &#34;American Power and the New Mandarins,&#34; the Vietnam war, and the role of intellectuals, including interview with A.J. Muste; audio is slowed down from 47:30 - 52:52.</description>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6826.mp3" type="audio/mpeg" length="126916687" />
+      <itunes:duration>00:52:52</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/noam-chomsky-discusses-his-book-american-power-and-new-mandarins</guid>
+    </item>
     <item>
       <title>Mike Royko and Herman Kogan talk with Studs Terkel</title>
       <description>First broadcast on January 16, 1967. Discussing Studs&#39; book &#34;Division Street: America&#34; published by Pantheon officially available January 16, 1967 and being interviewed by Herman Kogan and author-journalist Mike Royko.</description>
