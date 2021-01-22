@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 21 Jan 2021 00:32:25 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 00:29:45 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the book &#34;The Story of Jane: The Legendary Feminist Abortion Service&#34;  with the author and former member of Jane, Laura Kaplan</title>
+      <description>First broadcast on January 22, 1996. </description>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/37043.mp3" type="audio/mpeg" length="119018581" />
+      <itunes:duration>00:49:35</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-story-jane-legendary-feminist-abortion-service-author-and-former-member</guid>
+    </item>
     <item>
       <title>Noam Chomsky discusses his book &#34;American Power and the New Mandarins&#34;</title>
       <description>First broadcast on January 19, 1970. Noam Chomsky discusses his book &#34;American Power and the New Mandarins,&#34; the Vietnam war, and the role of intellectuals, including interview with A.J. Muste; audio is slowed down from 47:30 - 52:52.</description>
