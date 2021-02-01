@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 31 Jan 2021 00:03:38 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 00:04:10 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>James Earl Jones discusses the play &#34;Othello&#34;</title>
+      <description>First broadcast on February 01, 1968. Jones discusses the play &#34;Othello&#34; where he plays the  lead character Othello. </description>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9802.mp3" type="audio/mpeg" length="118625419" />
+      <itunes:duration>00:49:25</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/james-earl-jones-discusses-play-othello</guid>
+    </item>
     <item>
       <title>Norman Mailer discusses the meaning and future of space exploration</title>
       <description>First broadcast on January 29, 1971. Norman Mailer discusses how recent trips to the moon fit into the American consciousness, technology and machines in modern life, individuality, and the future of space exploration. Studs and Mailer read excerpts from &#34;Fire on the Moon.&#34;</description>
