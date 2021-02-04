@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 03 Feb 2021 00:02:11 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Feb 2021 00:01:55 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Jonathan Katz discusses his book &#34;Gay American History&#34;</title>
+      <description>First broadcast on February 04, 1977. Discussing the book, &#34;Gay American History: Lesbians and Gay Men in the U.S.A.: A Documentary,&#34; and interviewing its author, Jonathan Katz.</description>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9901.mp3" type="audio/mpeg" length="122807100" />
+      <itunes:duration>00:51:10</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jonathan-katz-discusses-his-book-gay-american-history</guid>
+    </item>
     <item>
       <title>James Earl Jones discusses the play &#34;Othello&#34;</title>
       <description>First broadcast on February 01, 1968. Jones discusses the play &#34;Othello&#34; where he plays the  lead character Othello. </description>
