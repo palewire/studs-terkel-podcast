@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 05 Feb 2021 00:02:18 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Feb 2021 00:02:05 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Dorothy Parker discusses her plays and the state of literature</title>
+      <description>First broadcast on February 06, 1959. Dorothy Parker’s thoughts as a critic and writer on the state of American literature.</description>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11705.mp3" type="audio/mpeg" length="48172129" />
+      <itunes:duration>00:20:04</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dorothy-parker-discusses-her-plays-and-state-literature</guid>
+    </item>
     <item>
       <title>Jonathan Katz discusses his book &#34;Gay American History&#34;</title>
       <description>First broadcast on February 04, 1977. Discussing the book, &#34;Gay American History: Lesbians and Gay Men in the U.S.A.: A Documentary,&#34; and interviewing its author, Jonathan Katz.</description>
