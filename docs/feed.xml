@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 07 Feb 2021 00:02:11 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2021 00:02:16 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,15 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Neil Postman discusses the book, &#34;The School Book: For People Who Want to Know What All the Hollering Is About,&#34;.</title>
+      <description>First broadcast on February 08, 1974. Neil Postman, an author, educator, media theorist and cultural critic discusses his book;  &#34;The School Book: For People Who Want to Know What All the Hollering Is About,&#34;.  Mr Postman and Studs talk about his definition of what school is for and it&#39;s worth, and they converse about several sections of the book.  
+Mr. Postman reads an excerpt from his book to begin the interview.</description>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11909.mp3" type="audio/mpeg" length="133802563" />
+      <itunes:duration>00:55:45</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/neil-postman-discusses-book-school-book-people-who-want-know-what-all-hollering-about</guid>
+    </item>
     <item>
       <title>Dorothy Parker discusses her plays and the state of literature</title>
       <description>First broadcast on February 06, 1959. Dorothy Parker’s thoughts as a critic and writer on the state of American literature.</description>
