@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 12 Feb 2021 00:02:14 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Feb 2021 00:01:56 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,15 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Calvin Trillin discusses his book “Killings”</title>
+      <description>First broadcast on February 13, 1984. Discussing the book &#34;Killings&#34; with the author Calvin Trillin.
+</description>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/22930.mp3" type="audio/mpeg" length="130731887" />
+      <itunes:duration>00:54:28</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/calvin-trillin-discusses-his-book-killings</guid>
+    </item>
     <item>
       <title>Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver&#34;</title>
       <description>First broadcast on February 12, 1976. Film director Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver,” including interview from 9:04 - 9:49 of Scorsese discussing the character, Johnny Boy, from his film &#34;Mean Streets.&#34;</description>
