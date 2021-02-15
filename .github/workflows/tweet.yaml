@@ -22,9 +22,8 @@ jobs:
 
       - name: Find tweet
         id: find-tweet
-        run: |
-          $output=$(make tweet)
-          echo "::set-output name=tweet::$output"
+        run: echo "::set-output name=tweet::$(make tweet)"
+        shell: bash
 
       - name: Get tweet
         run: echo "${{steps.find-tweet.outputs.tweet}}"
