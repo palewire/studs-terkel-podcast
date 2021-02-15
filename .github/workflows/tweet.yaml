@@ -41,5 +41,6 @@ jobs:
 
       - name: Commit
         uses: ./.github/actions/commit
+        if: ${{ steps.find-tweet.outputs.tweet }}
         with:
             message: Tweeted episode
