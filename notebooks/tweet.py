@@ -19,7 +19,7 @@ def main():
     untweeted_df = df[past_filter & untweeted_filter]
     to_tweet = untweeted_df.iloc[0]
 
-    txt = f"First broadcast on {to_tweet.broadcast_date}. {to_tweet.title}"
+    txt = f"First broadcast on {to_tweet.broadcast_date}. {to_tweet.title}. Subscribe at https://studs.show to listen."
     sys.stdout.write(txt)
 
     # df.loc[df.archive_url == to_tweet.archive_url, 'tweeted'] = True
