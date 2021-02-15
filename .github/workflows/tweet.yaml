@@ -26,6 +26,7 @@ jobs:
         shell: bash
 
       - name: Get tweet
+        if: ${{steps.find-tweet.outputs.result}}
         run: echo "${{steps.find-tweet.outputs.tweet}}"
 
 #      - name: Tweet
