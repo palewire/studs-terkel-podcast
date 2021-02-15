@@ -22,10 +22,12 @@ jobs:
 
       - name: Find tweet
         id: find-tweet
-        run: make tweet
+        run: |
+          $output=make tweet
+          echo "::set-output name=tweet::$output"
 
       - name: Get tweet
-        run: echo "${{steps.find-tweet.outputs.result}}"
+        run: echo "${{steps.find-tweet.outputs.tweet}}"
 
 #      - name: Tweet
 #        uses: ethomson/send-tweet-action@v1
@@ -40,4 +42,4 @@ jobs:
 #      - name: Commit
 #        uses: ./.github/actions/commit
 #        with:
-#            message: Site build
+#            message: Tweeted episode
