@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 10 Jan 2021 18:03:06 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 00:01:53 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,120 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Calvin Trillin discusses his book “Killings”</title>
+      <description>First broadcast on February 13, 1984. Discussing the book &#34;Killings&#34; with the author Calvin Trillin.
+</description>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/22930.mp3" type="audio/mpeg" length="130731887" />
+      <itunes:duration>00:54:28</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/calvin-trillin-discusses-his-book-killings</guid>
+    </item>
+    <item>
+      <title>Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver&#34;</title>
+      <description>First broadcast on February 12, 1976. Film director Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver,” including interview from 9:04 - 9:49 of Scorsese discussing the character, Johnny Boy, from his film &#34;Mean Streets.&#34;</description>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/26548.mp3" type="audio/mpeg" length="118643331" />
+      <itunes:duration>00:49:26</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/martin-scorsese-and-screenwriter-paul-schrader-discuss-their-movie-taxi-driver</guid>
+    </item>
+    <item>
+      <title>Neil Postman discusses the book, &#34;The School Book: For People Who Want to Know What All the Hollering Is About,&#34;.</title>
+      <description>First broadcast on February 08, 1974. Neil Postman, an author, educator, media theorist and cultural critic discusses his book;  &#34;The School Book: For People Who Want to Know What All the Hollering Is About,&#34;.  Mr Postman and Studs talk about his definition of what school is for and it&#39;s worth, and they converse about several sections of the book.  
+Mr. Postman reads an excerpt from his book to begin the interview.</description>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11909.mp3" type="audio/mpeg" length="133802563" />
+      <itunes:duration>00:55:45</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/neil-postman-discusses-book-school-book-people-who-want-know-what-all-hollering-about</guid>
+    </item>
+    <item>
+      <title>Dorothy Parker discusses her plays and the state of literature</title>
+      <description>First broadcast on February 06, 1959. Dorothy Parker’s thoughts as a critic and writer on the state of American literature.</description>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11705.mp3" type="audio/mpeg" length="48172129" />
+      <itunes:duration>00:20:04</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dorothy-parker-discusses-her-plays-and-state-literature</guid>
+    </item>
+    <item>
+      <title>Jonathan Katz discusses his book &#34;Gay American History&#34;</title>
+      <description>First broadcast on February 04, 1977. Discussing the book, &#34;Gay American History: Lesbians and Gay Men in the U.S.A.: A Documentary,&#34; and interviewing its author, Jonathan Katz.</description>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9901.mp3" type="audio/mpeg" length="122807100" />
+      <itunes:duration>00:51:10</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jonathan-katz-discusses-his-book-gay-american-history</guid>
+    </item>
+    <item>
+      <title>James Earl Jones discusses the play &#34;Othello&#34;</title>
+      <description>First broadcast on February 01, 1968. Jones discusses the play &#34;Othello&#34; where he plays the  lead character Othello. </description>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9802.mp3" type="audio/mpeg" length="118625419" />
+      <itunes:duration>00:49:25</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/james-earl-jones-discusses-play-othello</guid>
+    </item>
+    <item>
+      <title>Norman Mailer discusses the meaning and future of space exploration</title>
+      <description>First broadcast on January 29, 1971. Norman Mailer discusses how recent trips to the moon fit into the American consciousness, technology and machines in modern life, individuality, and the future of space exploration. Studs and Mailer read excerpts from &#34;Fire on the Moon.&#34;</description>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10734.mp3" type="audio/mpeg" length="104685432" />
+      <itunes:duration>00:43:37</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/norman-mailer-discusses-meaning-and-future-space-exploration</guid>
+    </item>
+    <item>
+      <title>Arthur Charles Clarke discusses science fiction</title>
+      <description>First broadcast on January 27, 1959. Arthur Charles Clarke discusses science fiction and his books &#34;Childhood&#39;s End&#34;, &#34;Prelude to Space&#34;, and &#34;the Deep Range&#34;.</description>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6905.mp3" type="audio/mpeg" length="50761384" />
+      <itunes:duration>00:21:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/arthur-charles-clarke-discusses-science-fiction</guid>
+    </item>
+    <item>
+      <title>Terkel comments and presents musical performance of Buck Clayton</title>
+      <description>First broadcast on January 25, 1978. Musical performance of Buck Clayton, includes interview by Studs Terkel.</description>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19604.mp3" type="audio/mpeg" length="66352260" />
+      <itunes:duration>00:27:39</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/terkel-comments-and-presents-musical-performance-buck-clayton</guid>
+    </item>
+    <item>
+      <title>Discussing the book &#34;The Story of Jane: The Legendary Feminist Abortion Service&#34;  with the author and former member of Jane, Laura Kaplan</title>
+      <description>First broadcast on January 22, 1996. </description>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/37043.mp3" type="audio/mpeg" length="119018581" />
+      <itunes:duration>00:49:35</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-story-jane-legendary-feminist-abortion-service-author-and-former-member</guid>
+    </item>
+    <item>
+      <title>Noam Chomsky discusses his book &#34;American Power and the New Mandarins&#34;</title>
+      <description>First broadcast on January 19, 1970. Noam Chomsky discusses his book &#34;American Power and the New Mandarins,&#34; the Vietnam war, and the role of intellectuals, including interview with A.J. Muste; audio is slowed down from 47:30 - 52:52.</description>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6826.mp3" type="audio/mpeg" length="126916687" />
+      <itunes:duration>00:52:52</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/noam-chomsky-discusses-his-book-american-power-and-new-mandarins</guid>
+    </item>
+    <item>
+      <title>Mike Royko and Herman Kogan talk with Studs Terkel</title>
+      <description>First broadcast on January 16, 1967. Discussing Studs&#39; book &#34;Division Street: America&#34; published by Pantheon officially available January 16, 1967 and being interviewed by Herman Kogan and author-journalist Mike Royko.</description>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10125.mp3" type="audio/mpeg" length="130804750" />
+      <itunes:duration>00:54:30</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/mike-royko-and-herman-kogan-talk-studs-terkel</guid>
+    </item>
+    <item>
+      <title>David Mamet discusses his play Glengarry Glen Ross</title>
+      <description>First broadcast on January 13, 1984. David Mamet discusses his play Glengarry Glen Ross.  Includes two scenes from the play recited by both David Mamet and Studs Terkel.</description>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10766.mp3" type="audio/mpeg" length="108929807" />
+      <itunes:duration>00:45:23</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-mamet-discusses-his-play-glengarry-glen-ross</guid>
+    </item>
+    <item>
+      <title>Newton Minow discusses broadcasting</title>
+      <description>First broadcast on January 11, 1964. Interviewing Newton Minow, Chicago lawyer and chairman of the Federal Communications Commission.  He discusses broadcasting as a public service and spends a great deal of time on the history of commercials and how they changed over time.</description>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11142.mp3" type="audio/mpeg" length="112157498" />
+      <itunes:duration>00:46:43</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/newton-minow-discusses-broadcasting</guid>
+    </item>
     <item>
       <title>Discussing the documentary film &#34;Shoah,&#34; with the director Claude Lanzmann</title>
       <description>First broadcast on January 09, 1986. In making this film, Lanzmann interviewed death-camp survivors and Nazi functionaries.</description>
