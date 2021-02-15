@@ -29,7 +29,7 @@ def main():
 
     # Mark the tweet as tweeted and write back to the source file
     df.loc[df.archive_url == to_tweet.archive_url, 'tweeted'] = True
-    df.to_csv("./data/feed.csv")
+    df.to_csv("./data/feed.csv", index=False)
 
 
 if __name__ == '__main__':
