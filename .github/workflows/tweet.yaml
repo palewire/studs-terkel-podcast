@@ -1,7 +1,7 @@
 name: Send a Tweet
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,11 +21,8 @@ jobs:
         uses: ./.github/actions/install-pipenv 
 
       - name: Find tweet
-        uses: actions/github-script@v3
         id: find-tweet
-        with:
-          script: make tweet
-          result-encoding: string
+        run: make tweet
 
       - name: Get tweet
         run: echo "${{steps.find-tweet.outputs.result}}"
@@ -33,7 +30,8 @@ jobs:
 #      - name: Tweet
 #        uses: ethomson/send-tweet-action@v1
 #        with:
-#          status: "Hi, this is a test!"
+#          if: ${{steps.find-tweet.outputs.result}}
+#          status: "${{steps.find-tweet.outputs.result}}"
 #          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
 #          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
 #          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
