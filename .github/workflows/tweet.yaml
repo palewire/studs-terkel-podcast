@@ -39,7 +39,7 @@ jobs:
 #          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
 #          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
 
-#      - name: Commit
-#        uses: ./.github/actions/commit
-#        with:
-#            message: Tweeted episode
+      - name: Commit
+        uses: ./.github/actions/commit
+        with:
+            message: Tweeted episode
