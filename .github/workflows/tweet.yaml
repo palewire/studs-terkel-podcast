@@ -23,7 +23,7 @@ jobs:
       - name: Find tweet
         id: find-tweet
         run: |
-          $output=make tweet
+          $output=$(make tweet)
           echo "::set-output name=tweet::$output"
 
       - name: Get tweet
