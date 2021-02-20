@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 19 Feb 2021 00:02:16 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Feb 2021 00:01:58 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Presenting music and discussing the tuba with tubists Arnold Jacobs, Harvey Phillips, Fritz Kaenzig, and Richard Frazier</title>
+      <description>First broadcast on February 20, 1987. Presenting music and discussing the tuba with tubists Arnold Jacobs, Harvey Phillips, Fritz Kaenzig, and Richard Frazier. This mixdown includes recorded and live music in the last three minutes.</description>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/14128.mp3" type="audio/mpeg" length="67826611" />
+      <itunes:duration>00:28:15</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/presenting-music-and-discussing-tuba-tubists-arnold-jacobs-harvey-phillips-fritz-kaenzig</guid>
+    </item>
     <item>
       <title>Alger Hiss talks with Studs Terkel</title>
       <description>First broadcast on February 17, 1973. </description>
