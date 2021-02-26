@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build 
+  tweet:
+    name: Tweet 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,9 +30,9 @@ jobs:
         run: echo "${{steps.find-tweet.outputs.tweet}}"
 
       - name: Tweet
+        if: ${{steps.find-tweet.outputs.tweet}}
         uses: ethomson/send-tweet-action@v1
         with:
-          if: ${{steps.find-tweet.outputs.tweet}}
           status: "${{steps.find-tweet.outputs.tweet}}"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
