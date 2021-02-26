@@ -22,7 +22,7 @@ jobs:
 
       - name: Find tweet
         id: find-tweet
-        run: echo "::set-output name=tweet::$(echo `make tweet`)"
+        run: echo "::set-output name=tweet::$(echo `pipenv run python notebooks/tweet.py`)"
         shell: bash
 
       - name: Get tweet
