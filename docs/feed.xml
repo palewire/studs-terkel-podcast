@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 28 Feb 2021 00:02:33 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:02:33 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Edward Keating discusses the magazine Ramparts</title>
+      <description>First broadcast on March 01, 1967. Discussing the philosophy of &#34;Ramparts&#34; and interviewing Edward Keating.</description>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9924.mp3" type="audio/mpeg" length="121574118" />
+      <itunes:duration>00:50:39</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/edward-keating-discusses-magazine-ramparts</guid>
+    </item>
     <item>
       <title>Licia Albanese discusses her opera performances</title>
       <description>First broadcast on February 27, 1960. Licia Albanese discusses her performance preparations, advice to young new opera singers, the conductor techniques from Fausto Cleva, and the late Arturo Toscanini. </description>
