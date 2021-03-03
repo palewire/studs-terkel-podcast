@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 02 Mar 2021 00:02:11 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Mar 2021 00:02:21 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Senator Eugene McCarthy talks about his presidential campaign</title>
+      <description>First broadcast on March 03, 1975. Former Minnesota Senator Eugene McCarthy talks about his presidential campaign.  Includes an excerpt of a 1968 program in which Studs and James Cameron visit Lincoln Park after the Chicago Democratic Convention riots.</description>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10916.mp3" type="audio/mpeg" length="124203082" />
+      <itunes:duration>00:51:45</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/senator-eugene-mccarthy-talks-about-his-presidential-campaign</guid>
+    </item>
     <item>
       <title>Edward Keating discusses the magazine Ramparts</title>
       <description>First broadcast on March 01, 1967. Discussing the philosophy of &#34;Ramparts&#34; and interviewing Edward Keating.</description>
