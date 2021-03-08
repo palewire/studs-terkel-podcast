@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 07 Mar 2021 00:02:26 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Mar 2021 00:02:19 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Studs talks with versatile actor, singer, performer Danny Kaye</title>
+      <description>First broadcast on March 08, 1963. Studs talks with versatile actor, singer, performer Danny Kaye who opens up about his worldwide appeal to children and adults alike, relating to children on their terms, his father&#39;s influence, the skills and work that go into his crafts, and much more. Kaye reveals his lack of musical training yet details his comic conducting talents ala Victor Borge via his charity work. The conversation continues with talk of his variety show performances, his fondness for Señor Wences, the medium of television, and his knack for dialects. Original broadcast includes recordings of &#34;The Inch Worm&#34; from the film &#34;Hans Christian Andersen,&#34; &#34;Mommy, Gimme a Drinka Water,&#34; &#34;Tschaikowsky (and Other Russians)&#34; from &#34;Lady in the Dark,&#34; &#34;Molly Malone,&#34; &#34;The Babbitt and the Bromide,&#34; and &#34;Dinah&#34;.</description>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21782.mp3" type="audio/mpeg" length="102696851" />
+      <itunes:duration>00:42:47</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-talks-versatile-actor-singer-performer-danny-kaye</guid>
+    </item>
     <item>
       <title>Senator Eugene McCarthy talks about his presidential campaign</title>
       <description>First broadcast on March 03, 1975. Former Minnesota Senator Eugene McCarthy talks about his presidential campaign.  Includes an excerpt of a 1968 program in which Studs and James Cameron visit Lincoln Park after the Chicago Democratic Convention riots.</description>
