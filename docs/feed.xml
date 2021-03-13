@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 12 Mar 2021 00:02:04 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Mar 2021 00:02:12 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Maya Angelou discusses her book &#34;I Know Why the Caged Bird Sings&#34;</title>
+      <description>First broadcast on March 13, 1970. Angelou discusses her book &#34;I Know Why the Caged Bird Sings&#34; and recites &#34;When I Think About Myself.&#34; She talks about growing up in Stamps, Arkansas, and her family. Copyrighted material has been removed.</description>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/34339.mp3" type="audio/mpeg" length="114247147" />
+      <itunes:duration>00:47:36</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/maya-angelou-discusses-her-book-i-know-why-caged-bird-sings</guid>
+    </item>
     <item>
       <title>Allen Ginsberg and William S. Burroughs talk about their writing</title>
       <description>First broadcast on March 11, 1975. Writers Allen Ginsberg and William S. Burroughs discuss life and their writing; passages from their writing are read by the authors and clip is played of interview with Allen Ginsberg, Gregory Corso, and Peter Orlovsky.</description>
