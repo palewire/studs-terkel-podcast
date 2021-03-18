@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 17 Mar 2021 00:01:55 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Mar 2021 00:02:06 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Ray Bradbury discusses his books</title>
+      <description>First broadcast on March 18, 1992. </description>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/29625.mp3" type="audio/mpeg" length="104482905" />
+      <itunes:duration>00:43:32</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/ray-bradbury-discusses-his-books</guid>
+    </item>
     <item>
       <title>Discussing the book, &#34;Fear and Loathing: On the Campaign Trail &#39;72.&#34; with Hunter S. Thompson</title>
       <description>First broadcast on March 14, 1973. Discussing the book, &#34;Fear and Loathing: On the Campaign Trail &#39;72.&#34;  Includes a clip of Ron Kovic speaking at the Nixon campaign headquarters, courtesy of KPFA/Pacifica Archives.</description>
