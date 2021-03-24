@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 23 Mar 2021 00:02:16 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Mar 2021 00:02:22 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing former CIA agent David MacMichael</title>
+      <description>First broadcast on March 24, 1995. MacMichael testified in front of the World Court at the Hague in 1985 about the United States government&#39;s activities with anti-Sandinista contra forces in Nicaragua and President Reagan&#39;s knowledge of such events.</description>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38426.mp3" type="audio/mpeg" length="128716279" />
+      <itunes:duration>00:53:38</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-former-cia-agent-david-macmichael</guid>
+    </item>
     <item>
       <title>Ray Bradbury discusses his books</title>
       <description>First broadcast on March 18, 1992. </description>
