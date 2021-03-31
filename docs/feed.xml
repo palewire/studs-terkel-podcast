@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 30 Mar 2021 00:25:03 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:20:50 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Dizzy Gillespie discusses the art of jazz ; part 2</title>
+      <description>First broadcast on March 30, 1961. Part 2 of the program continues with Dizzy Gillespie discovering the following: his jazz style; his interactions with other musicians; and his latin musical influences. The following Gillespie musical excerpts are played: &#34;Tin Tin Deo&#34;; &#34;La Lorraine&#34;; and an musical piece (with an undisclosed title) is played to end the program.</description>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21807.mp3" type="audio/mpeg" length="55699424" />
+      <itunes:duration>00:23:12</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dizzy-gillespie-discusses-art-jazz-part-2</guid>
+    </item>
     <item>
       <title>Dizzy Gillespie discusses the art of jazz ; part 1</title>
       <description>First broadcast on March 30, 1961. Part 1 of this program begins with Studs Terkel reading an excerpt from the book &#34;Giants of Jazz&#34; , which describes Dizzy Gillespie&#39;s early life. Gillespie discusses the following: the state of jazz; his fellow musicians; jazz contributors; jazz fundamentals; and his tours abroad. Gillespie&#39;s &#34;Groovin&#39; High&#34; is played towards the end of this part of the program.</description>
