@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 06 Apr 2021 00:27:00 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 00:26:15 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Joan Didion in conversation with Studs Terkel</title>
+      <description>First broadcast on April 07, 1977. </description>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44253.mp3" type="audio/mpeg" length="128012194" />
+      <itunes:duration>00:53:20</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/joan-didion-conversation-studs-terkel</guid>
+    </item>
     <item>
       <title>Interviewing poet Lawrence Ferlinghetti and about his book &#34;Over All the Obscene Boundaries: European Poems &amp; Transitions&#34;</title>
       <description>First broadcast on April 03, 1986. </description>
