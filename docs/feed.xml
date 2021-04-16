@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 15 Apr 2021 00:26:39 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Apr 2021 00:24:58 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Dolores Huerta discusses workers&#39; rights</title>
+      <description>First broadcast on April 16, 1975. Activist Dolores Huerta of United Farm Workers discusses farm laborers and immigrant rights; includes excerpt of Cesar Chavez, excerpt from Viva La Causa, and interview with Roberto Acuna.</description>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33236.mp3" type="audio/mpeg" length="123802763" />
+      <itunes:duration>00:51:35</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dolores-huerta-discusses-workers-rights</guid>
+    </item>
     <item>
       <title>Jonathon Kozol discusses his book &#34;Free schools&#34; and education</title>
       <description>First broadcast on April 11, 1972. Discussing the book, &#34;Free schools,&#34; and interviewing the author Jonathan Kozol. Jonathon Kozol also discusses education. Includes interview clip of Kermit Eby.</description>
