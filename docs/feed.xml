@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sat, 24 Apr 2021 00:27:31 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Apr 2021 00:28:04 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing film with Harold Hayden, Pauline Kael, Arthur Knight, Jerry Teminer and Parker Tyler</title>
+      <description>First broadcast on April 25, 1963. </description>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/40501.mp3" type="audio/mpeg" length="168672897" />
+      <itunes:duration>01:10:17</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-film-harold-hayden-pauline-kael-arthur-knight-jerry-teminer-and-parker-tyler</guid>
+    </item>
     <item>
       <title>Discussing South Africa with South African expatriates, Reverend Theodore and Helen Koetze</title>
       <description>First broadcast on April 21, 1980. </description>
