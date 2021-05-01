@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 30 Apr 2021 00:13:42 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:15:29 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interview with Tennessee Williams</title>
+      <description>First broadcast on May 01, 1981. Terkel interviews famous playwright Tennessee Williams. Williams gives his own reflections on his 70th birthday.</description>
+      <pubDate>Sat, 01 May 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21369.mp3" type="audio/mpeg" length="91414467" />
+      <itunes:duration>00:38:05</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interview-tennessee-williams</guid>
+    </item>
     <item>
       <title>Interviewing Sun-Times editorial cartoonist Jacob Burck</title>
       <description>First broadcast on April 27, 1959. </description>
