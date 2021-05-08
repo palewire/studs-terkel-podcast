@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 07 May 2021 00:02:17 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 May 2021 00:02:09 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing Marcel Marceau in Paris while Studs was in France ; part 2</title>
+      <description>First broadcast on May 07, 1960. </description>
+      <pubDate>Sat, 08 May 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/41799.mp3" type="audio/mpeg" length="65356518" />
+      <itunes:duration>00:27:14</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-marcel-marceau-paris-while-studs-was-france-part-2</guid>
+    </item>
     <item>
       <title>Interviewing Marcel Marceau in Paris while Studs was in France ; part 1</title>
       <description>First broadcast on May 07, 1960. </description>
