@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 09 May 2021 00:02:29 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 May 2021 00:02:01 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Terkel comments, reads from Charles Dickens and interviews British Actor George Harland</title>
+      <description>First broadcast on May 10, 1982. Readings (3) from Charles Dickens and interviewing with British Actor George Harland.</description>
+      <pubDate>Mon, 10 May 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21231.mp3" type="audio/mpeg" length="94155234" />
+      <itunes:duration>00:39:14</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/terkel-comments-reads-charles-dickens-and-interviews-british-actor-george-harland</guid>
+    </item>
     <item>
       <title>Interviewing Marcel Marceau in Paris while Studs was in France ; part 2</title>
       <description>First broadcast on May 07, 1960. </description>
