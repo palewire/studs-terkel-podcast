@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 21 May 2021 00:14:56 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2021 00:15:12 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,15 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Jimmy Breslin, journalist and author discusses his book about the Watergate Affair</title>
+      <description>First broadcast on May 22, 1975. Discussing &#34;How the Good Guys Finally Won : Notes from an Impeachment Summer&#34; and interviewing Jimmy Breslin.
+</description>
+      <pubDate>Sat, 22 May 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/23230.mp3" type="audio/mpeg" length="126355854" />
+      <itunes:duration>00:52:39</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jimmy-breslin-journalist-and-author-discusses-his-book-about-watergate-affair</guid>
+    </item>
     <item>
       <title>Mahalia Jackson discusses the civil rights movement and the upcoming freedom rally</title>
       <description>First broadcast on May 17, 1963. Studs Terkel interviews gospel vocalist Mahalia Jackson. Jackson discusses the freedom rally that will be taking place at McCormick&#39;s Place in Chicago, IL. The following musical excerpts were removed from the program: &#34;Keep A-Movin&#39;&#34;; &#34;Hold On&#34;; and &#34;I&#39;m On My Way&#34;.</description>
