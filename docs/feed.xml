@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 04 Jun 2021 00:51:41 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jun 2021 00:35:28 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Edmund White talks about his book &#34;States of Desire&#34;</title>
+      <description>First broadcast on June 05, 1980. Edmund White talks about his book &#34;States of Desire: Travels in Gay America,&#34; published in 1980. </description>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/22949.mp3" type="audio/mpeg" length="129758042" />
+      <itunes:duration>00:54:04</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/edmund-white-talks-about-his-book-states-desire</guid>
+    </item>
     <item>
       <title>Survivors of the Hiroshima atomic bomb discuss the event and nuclear nonproliferation</title>
       <description>First broadcast on May 31, 1982. Discussing Hiroshima and nuclear nonproliferation with survivors of the Hiroshima bomb of August 6, 1945 and activists organizing against nuclear proliferation.</description>
