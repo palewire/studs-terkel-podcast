@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Mon, 07 Jun 2021 00:24:53 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jun 2021 00:31:35 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Rosa Parks and Myles Horton discuss the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement</title>
+      <description>First broadcast on June 08, 1973. Rosa Parks and Myles Horton discuss the importance of the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement. The story of these two prominent figures of the Civil Rights Movement have intervened in their fight for social equality. Includes a fragment of an interview with E. D. Nixon well known civil rights leader.</description>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44123.mp3" type="audio/mpeg" length="133097492" />
+      <itunes:duration>00:55:27</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/rosa-parks-and-myles-horton-discuss-highlander-folk-school-montgomery-bus-boycott-and</guid>
+    </item>
     <item>
       <title>Edmund White talks about his book &#34;States of Desire&#34;</title>
       <description>First broadcast on June 05, 1980. Edmund White talks about his book &#34;States of Desire: Travels in Gay America,&#34; published in 1980. </description>
