@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 13 Jun 2021 00:12:38 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jun 2021 00:11:49 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the book &#34;Fates Worse Than Death: An Autobiographical Collage of the 1980s&#34; with the author Kurt Vonnegut</title>
+      <description>First broadcast on June 14, 1991. </description>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/32027.mp3" type="audio/mpeg" length="123618240" />
+      <itunes:duration>00:51:32</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-fates-worse-death-autobiographical-collage-1980s-author-kurt-vonnegut</guid>
+    </item>
     <item>
       <title>Rosa Parks and Myles Horton discuss the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement</title>
       <description>First broadcast on June 08, 1973. Rosa Parks and Myles Horton discuss the importance of the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement. The story of these two prominent figures of the Civil Rights Movement have intervened in their fight for social equality. Includes a fragment of an interview with E. D. Nixon well known civil rights leader.</description>
