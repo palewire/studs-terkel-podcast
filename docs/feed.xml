@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Mon, 14 Jun 2021 00:11:49 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jun 2021 00:11:53 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the Samuel Beckett play &#34;Waiting For Godot; Tragicomedy in 2 Acts,&#34; with Irish actors Barry McGovern and Johnny Murphy. McGovern portrays Vladimir and Murphy portrays Estragon in a production staged by the Dublin Gate Theatre</title>
+      <description>First broadcast on June 15, 1992. </description>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38319.mp3" type="audio/mpeg" length="123712466" />
+      <itunes:duration>00:51:33</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-samuel-beckett-play-waiting-godot-tragicomedy-2-acts-irish-actors-barry</guid>
+    </item>
     <item>
       <title>Discussing the book &#34;Fates Worse Than Death: An Autobiographical Collage of the 1980s&#34; with the author Kurt Vonnegut</title>
       <description>First broadcast on June 14, 1991. </description>
