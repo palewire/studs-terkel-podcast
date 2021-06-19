@@ -24,7 +24,11 @@ def main():
     to_tweet = untweeted_df.iloc[0]
 
     # Format a tweet and write it out to the console
-    txt = f"First broadcast on {to_tweet.broadcast_date}. {to_tweet.title}. Subscribe at https://studs.show to listen."
+    if len(to_tweet.title) > 200:
+        title = to_tweet.title[:200] + '...'
+    else:
+        title = to_tweet.title
+    txt = f"First broadcast on {to_tweet.broadcast_date}. {title}. Subscribe at https://studs.show to listen."
     sys.stdout.write(txt)
 
     # Mark the tweet as tweeted and write back to the source file
