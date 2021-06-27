@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 
-def main():
+def main(max_title_length=150):
     """
     Get the latest post to tweet.
     """
@@ -24,8 +24,8 @@ def main():
     to_tweet = untweeted_df.iloc[0]
 
     # Format a tweet and write it out to the console
-    if len(to_tweet.title) > 200:
-        title = to_tweet.title[:200] + '...'
+    if len(to_tweet.title) > max_title_length:
+        title = to_tweet.title[0:max_title_length] + '...'
     else:
         title = to_tweet.title
     txt = f"First broadcast on {to_tweet.broadcast_date}. {title}. Subscribe at https://studs.show to listen."
