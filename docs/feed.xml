@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 30 Jun 2021 00:11:46 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 00:11:49 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the book, &#34;The Electronic Nightmare: The New Communications and Freedom,&#34; and interviewing the author John Wicklein</title>
+      <description>First broadcast on July 01, 1981. Terkel interviews author John Wicklein. They discuss his latest book &#34;The Electronic Nightmare: The New Communications and Freedom.&#34;</description>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13047.mp3" type="audio/mpeg" length="131189267" />
+      <itunes:duration>00:54:39</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-electronic-nightmare-new-communications-and-freedom-and-interviewing</guid>
+    </item>
     <item>
       <title>Discussing the book &#34;The Creation of Patriarchy&#34; with the author, historian Gerda Lerner</title>
       <description>First broadcast on June 27, 1986. </description>
