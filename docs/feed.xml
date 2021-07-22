@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 21 Jul 2021 00:11:30 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jul 2021 00:11:02 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Big Bill Broonzy discusses the blues ; part 2</title>
+      <description>First broadcast on July 22, 1953. Big Bill Broonzy discusses the blues and growing up in Arkansas with parents who were former slaves.  He talks about the family dynamic and sings: &#34;Willie Mae&#34;, &#34;Crawdad song&#34;, &#34;Going down this road feeling bad&#34; and &#34;John Henry&#34;.</description>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21772.mp3" type="audio/mpeg" length="21925188" />
+      <itunes:duration>00:09:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/big-bill-broonzy-discusses-blues-part-2</guid>
+    </item>
     <item>
       <title>Big Bill Broonzy discusses the blues ; part 1</title>
       <description>First broadcast on July 22, 1953. Big Bill Broonzy discusses the blues and growing up in Arkansas with parents who were former slaves.  He talks about the family dynamic and sings: &#34;Crying Joe Turner&#34;, &#34;C.C. Rider&#34;, &#34;Make my get away&#34;, and &#34; You&#39;ve got to stand your test in judgement&#34; .  Part 1</description>
