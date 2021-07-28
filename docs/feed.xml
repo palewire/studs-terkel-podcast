@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 27 Jul 2021 00:11:13 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jul 2021 00:11:31 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,15 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Nora Ephron discusses feminism and her book &#34;Crazy Salad&#34;</title>
+      <description>First broadcast on July 28, 1975. Nora Ephron discusses the women’s movement and her book, “Crazy Salad: Some Things About Women.” Ephron discusses the influence of writer Dorothy Parker on her work, as well as topics including women’s rights; the exploitation of women in politics, war, and advertising; the many conflicts she faces in her role as a journalist; and traditional and non-traditional gender roles. Includes an excerpt from a previous interview with Dorothy Parker.  
+</description>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7795.mp3" type="audio/mpeg" length="131283312" />
+      <itunes:duration>00:54:42</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/nora-ephron-discusses-feminism-and-her-book-crazy-salad</guid>
+    </item>
     <item>
       <title>Big Bill Broonzy discusses the blues ; part 2</title>
       <description>First broadcast on July 22, 1953. Big Bill Broonzy discusses the blues and growing up in Arkansas with parents who were former slaves.  He talks about the family dynamic and sings: &#34;Willie Mae&#34;, &#34;Crawdad song&#34;, &#34;Going down this road feeling bad&#34; and &#34;John Henry&#34;.</description>
