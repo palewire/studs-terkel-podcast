@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 29 Jul 2021 00:11:55 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jul 2021 00:11:38 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing five TWA flight attendants ; part 1</title>
+      <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35191.mp3" type="audio/mpeg" length="127860723" />
+      <itunes:duration>00:53:16</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-five-twa-flight-attendants-part-1</guid>
+    </item>
     <item>
       <title>Nora Ephron discusses feminism and her book &#34;Crazy Salad&#34;</title>
       <description>First broadcast on July 28, 1975. Nora Ephron discusses the women’s movement and her book, “Crazy Salad: Some Things About Women.” Ephron discusses the influence of writer Dorothy Parker on her work, as well as topics including women’s rights; the exploitation of women in politics, war, and advertising; the many conflicts she faces in her role as a journalist; and traditional and non-traditional gender roles. Includes an excerpt from a previous interview with Dorothy Parker.  
