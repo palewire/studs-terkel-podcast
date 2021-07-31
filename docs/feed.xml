@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Fri, 30 Jul 2021 00:11:38 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jul 2021 00:11:03 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing five TWA flight attendants ; part 2</title>
+      <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35187.mp3" type="audio/mpeg" length="128875319" />
+      <itunes:duration>00:53:42</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-five-twa-flight-attendants-part-2</guid>
+    </item>
     <item>
       <title>Interviewing five TWA flight attendants ; part 1</title>
       <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
