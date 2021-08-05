@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 04 Aug 2021 00:11:22 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Aug 2021 00:12:33 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>David McCullough discusses his book &#34;Mornings on Horseback&#34;</title>
+      <description>First broadcast on August 05, 1981. Discussing the book &#34;Mornings on Horseback&#34; with author David McCullough.</description>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10957.mp3" type="audio/mpeg" length="141456435" />
+      <itunes:duration>00:58:56</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-mccullough-discusses-his-book-mornings-horseback</guid>
+    </item>
     <item>
       <title>Interviewing five TWA flight attendants ; part 2</title>
       <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
