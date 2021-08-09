@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 08 Aug 2021 00:12:56 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Aug 2021 00:14:35 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Marian McPartland and Jimmy McPartland discuss their careers in Jazz</title>
+      <description>First broadcast on August 09, 1978. Studs interviews Marian and Jimmy McPartland.  The McPartlands reflect on those in Jazz who have influenced them.  Studs talks to Marian about women in Jazz.  They discuss the Jazz audience.  The musical numbers are removed from this edited version of the original recording.</description>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19880.mp3" type="audio/mpeg" length="54042317" />
+      <itunes:duration>00:22:31</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marian-mcpartland-and-jimmy-mcpartland-discuss-their-careers-jazz</guid>
+    </item>
     <item>
       <title>David McCullough discusses his book &#34;Mornings on Horseback&#34;</title>
       <description>First broadcast on August 05, 1981. Discussing the book &#34;Mornings on Horseback&#34; with author David McCullough.</description>
