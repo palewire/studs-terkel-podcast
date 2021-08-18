@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 17 Aug 2021 00:13:26 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 00:12:06 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Erik Bye discusses the history of Norwegian immigration to America in the 19th century and his work as a television journalist and singer</title>
+      <description>First broadcast on August 18, 1975. Studs interviews Erik Bye about Norwegian immigration to America and his music.  They discuss the reasons why people left Norway in the 19th century and the conditions they suffered when they settled in New York.  Bye explains Norwegian history and why the Norwegians moved from the American east coast to the west.  Studs notes that Bye is in Chicago to gather information to produce a Norwegian television documentary about early Norwegian immigrants.  Bye shares his interpretations of some of his songs and explains Norwegian music.  He elaborates on the Hardanga fiddle instrument and the artists who played it.  Bye discusses the upcoming Norwegian celebration in Chicago for which their King will visit.  The musical numbers are removed from this edited version of the original recording.</description>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19572.mp3" type="audio/mpeg" length="80265076" />
+      <itunes:duration>00:33:27</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/erik-bye-discusses-history-norwegian-immigration-america-19th-century-and-his-work</guid>
+    </item>
     <item>
       <title>Studs Terkel comments and presents Picasso unveiling ceremony</title>
       <description>First broadcast on August 15, 1967. Presenting at the Picasso unveiling: dedication ceremony and comments.</description>
