@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 25 Aug 2021 00:13:05 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Aug 2021 00:12:09 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Oceanographer Jacques Cousteau talks with Studs Terkel</title>
+      <description>First broadcast on August 26, 1976. Oceanographer Jacques Cousteau discusses man&#39;s effect on the planet.  Includes a clip with whale sounds and statements by Joan McIntyre.</description>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7099.mp3" type="audio/mpeg" length="129947927" />
+      <itunes:duration>00:54:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/oceanographer-jacques-cousteau-talks-studs-terkel</guid>
+    </item>
     <item>
       <title>Interviewing author, screenwriter and director John Sayles</title>
       <description>First broadcast on August 23, 1988. </description>
