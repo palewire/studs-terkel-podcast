@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sat, 04 Sep 2021 00:11:27 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Sep 2021 00:12:49 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Buster Keaton discusses the release of &#34;When Comedy Was King&#34;</title>
+      <description>First broadcast on September 05, 1960. Silent film pioneer Buster Keaton discusses his career following the release of &#34;When Comedy Was King,&#34; a compilation of some classic shorts by Keaton, Charlie Chaplin, Harold Lloyd, and others. Keaton reveals how they shot the early silent films, generated material and gags, how they planned big chase scenes, the resurging European interest in silent classics, and more. Studs asks Keaton about the stylistic differences between him and Chaplin, whether he would recreate silent films, and how they compare to today&#39;s film-making. Keaton reveals how little was scripted but rather improvised in between a start and finish. Keaton describes some classic gags in films like &#34;The Frozen North,&#34; &#34;Sherlock Jr.,&#34; and &#34;The Navigator.&#34; The discussion concludes with Keaton&#39;s thoughts on performing on television in front of a live audience.</description>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9932.mp3" type="audio/mpeg" length="91124750" />
+      <itunes:duration>00:37:58</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/buster-keaton-discusses-release-when-comedy-was-king</guid>
+    </item>
     <item>
       <title>Studs Terkel  interviews writer Tom Wolfe ; part 2</title>
       <description>First broadcast on September 01, 1968. Studs Terkel and Tom Wolfe discuss Wolfe&#39;s recent work.
