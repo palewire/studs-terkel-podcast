@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 16 Sep 2021 00:12:42 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Sep 2021 00:12:50 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</title>
+      <description>First broadcast on September 17, 1985. Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</description>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44735.mp3" type="audio/mpeg" length="124592040" />
+      <itunes:duration>00:51:55</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-film-stonewall-making-gay-and-lesbian-community-author-reverend-grant-gallup</guid>
+    </item>
     <item>
       <title>Brian Dennehy and Steven Robman discuss their play &#34;Rat in the Skull&#34;</title>
       <description>First broadcast on September 11, 1985. </description>
