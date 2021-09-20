@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 19 Sep 2021 00:12:57 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 00:12:32 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Blind John Davis discusses Chicago blues</title>
+      <description>First broadcast on September 20, 1977. Blind John Davis, Chicago blues pianist, discusses his time playing in Germany and at the Blue Note jazz club, chitlin&#39; parties, growing up on the West side of Chicago. He also recalls meeting and working with musicians like Tampa Red and Big Bill Broonzy. Music by John Davis (unless noted as another artist) is played throughout : &#34;Jim Town Blues&#34;, &#34;Every Day I Got the Blues&#34;, &#34;Pine Top&#39;s Boogie Woogie&#34;, &#34;Summertime&#34;, &#34;Looking Up at Down&#34;- Big Bill Broonzy, &#34;Killer Diller Blues&#34;- Memphis Minnie, &#34;Moanin&#39; the Blues&#34;, &#34;When I Lost My Baby&#34;, and &#34;Magic Carpet&#34;. Music has been removed from this recording for copyright reasons.</description>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19640.mp3" type="audio/mpeg" length="64656391" />
+      <itunes:duration>00:26:56</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/blind-john-davis-discusses-chicago-blues</guid>
+    </item>
     <item>
       <title>Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</title>
       <description>First broadcast on September 17, 1985. Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</description>
