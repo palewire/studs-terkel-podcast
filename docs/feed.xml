@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 28 Sep 2021 00:12:47 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Sep 2021 00:12:18 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>James Baldwin discusses his book &#34;Another Country&#34; and his travels through Africa</title>
+      <description>First broadcast on September 29, 1962. James Baldwin discusses his book  &#34;Another Country&#34;  and his trip to Africa.  Mr.Baldwin and Studs speak about  his place in social reform and his fight for civil rights for all.</description>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/5816.mp3" type="audio/mpeg" length="113148064" />
+      <itunes:duration>00:47:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/james-baldwin-discusses-his-book-another-country-and-his-travels-through-africa</guid>
+    </item>
     <item>
       <title>Dr. E.F. Schumacher talks with Studs Terkel</title>
       <description>First broadcast on September 26, 1974. </description>
