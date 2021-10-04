@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 03 Oct 2021 00:14:30 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Oct 2021 00:13:07 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Carl Sagan discusses the book &#34;Contact&#34;</title>
+      <description>First broadcast on October 04, 1985. Discussing the book &#34;Contact&#34; (published by Simon &amp; Schuster) with the author, astronomer and science writer Carl Sagan.  Starts with clip from Arthur C. Clarke (1856688-3-1).</description>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12249.mp3" type="audio/mpeg" length="93282640" />
+      <itunes:duration>00:38:51</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/carl-sagan-discusses-book-contact</guid>
+    </item>
     <item>
       <title>Sidney Poitier talks with Studs Terkel about his most recent film &#34;The Defiant Ones&#34;</title>
       <description>First broadcast on October 01, 1959. Bahamian actor Sidney Poitier talks with Studs Terkel about his most recent film &#34;The Defiant Ones&#34; and how racial type-casting for typically white roles works in Hollywood films. Besides being an actor, he is also a film director, author, and diplomat.</description>
