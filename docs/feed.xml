@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sat, 16 Oct 2021 00:13:51 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Oct 2021 00:13:45 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>John Kenneth Galbraith in conversation with Studs Terkel</title>
+      <description>First broadcast on October 17, 1983. Discussing the book &#34;The Anatomy of Power&#34; (published by Houghton Mifflin) with the author, economist John Kenneth Galbraith.</description>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33308.mp3" type="audio/mpeg" length="115513993" />
+      <itunes:duration>00:48:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/john-kenneth-galbraith-conversation-studs-terkel-1</guid>
+    </item>
     <item>
       <title>Studs Terkel discusses busing for school integration with psychologist Thomas J. Cottle</title>
       <description>First broadcast on October 11, 1976. Studs Terkel discusses the transportation of students for school integration with psychologist Thomas J. Cottle.
