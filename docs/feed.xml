@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 20 Oct 2021 00:14:05 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Oct 2021 00:14:27 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Quentin Crisp discusses homosexuality</title>
+      <description>First broadcast on October 21, 1992. Quentin Crisp, author of many works about gays in Britain and the United States and, notably, about &#34;coming out&#34; as gay in England in the 1930s, discusses homosexuality and his experiences.</description>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7142.mp3" type="audio/mpeg" length="145640212" />
+      <itunes:duration>00:00:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/quentin-crisp-discusses-homosexuality</guid>
+    </item>
     <item>
       <title>John Kenneth Galbraith in conversation with Studs Terkel</title>
       <description>First broadcast on October 17, 1983. Discussing the book &#34;The Anatomy of Power&#34; (published by Houghton Mifflin) with the author, economist John Kenneth Galbraith.</description>
