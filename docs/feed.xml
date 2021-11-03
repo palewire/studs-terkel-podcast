@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 02 Nov 2021 00:13:29 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Nov 2021 00:13:14 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Studs Terkel moderates and comments on a round-table debate about the Montessori educational theory</title>
+      <description>First broadcast on November 03, 1964. A round-table debate about the Montessori educational theory.  Four early childhood development professionals speak of the pros and the cons of the program. Speakers include: Fay Bauling advisor at Wilson Jr. College, Dr. Urban Fleege of DePaul University, Dr. Ner Littner from the Institute of Psychoanalysis, and Hannah MacLaren, head teacher from Ancona School.</description>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/5882.mp3" type="audio/mpeg" length="200280019" />
+      <itunes:duration>00:00:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-moderates-and-comments-round-table-debate-about-montessori-educational-theory</guid>
+    </item>
     <item>
       <title>Arlo Guthrie discusses his career</title>
       <description>First broadcast on October 31, 1980. Arlo Guthrie discusses his approach to songwriting and how storytelling in song writing has changed. He also talks about what it&#39;s like to become known for performing works written by others. Arlo Guthrie&#39;s music is played and discussed throughout the interview: &#34;Manzanillo Bay&#34;, &#34;Week on the Rag&#34;, &#34;Buffalo Skinners&#34;, &#34;City of New Orleans&#34;, &#34;Darkest Hour&#34;, &#34;Massachusetts&#34;, and &#34;Last Train to Glory&#34;.
