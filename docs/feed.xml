@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Sun, 07 Nov 2021 00:14:13 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Nov 2021 00:14:13 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Professor Ali Irani [pseudonym name to protect his identity] talks about the regime of the Shah [Mohammad Reza Pahlavi]</title>
+      <description>First broadcast on November 08, 1978. Professor Ali Irani (pseudonym name) is a Humanities professor at a recognized midwest university that discusses the regime of the Shah, Mohammad Reza Pahlavi. Includes a fiften minute interview with an American couple, Luis and Joan Smiley, that talks about their experience with students protesting the regime in Kentucky, Louisiana.</description>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9517.mp3" type="audio/mpeg" length="131372129" />
+      <itunes:duration>00:54:44</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/professor-ali-irani-pseudonym-name-protect-his-identity-talks-about-regime-shah-mohammad</guid>
+    </item>
     <item>
       <title>Studs Terkel moderates and comments on a round-table debate about the Montessori educational theory</title>
       <description>First broadcast on November 03, 1964. A round-table debate about the Montessori educational theory.  Four early childhood development professionals speak of the pros and the cons of the program. Speakers include: Fay Bauling advisor at Wilson Jr. College, Dr. Urban Fleege of DePaul University, Dr. Ner Littner from the Institute of Psychoanalysis, and Hannah MacLaren, head teacher from Ancona School.</description>
