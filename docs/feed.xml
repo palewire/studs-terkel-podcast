@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 16 Nov 2021 00:13:57 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Nov 2021 00:13:58 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Geoffrey Wolff discusses his book about Harry Crosby</title>
+      <description>First broadcast on November 17, 1976. Terkel interview author Geoffrey Wolff about his latest book. Entitled &#34;Black Sun,&#34; it is a biography of Harry Crosby.</description>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/22956.mp3" type="audio/mpeg" length="125658038" />
+      <itunes:duration>00:52:21</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/geoffrey-wolff-discusses-his-book-about-harry-crosby</guid>
+    </item>
     <item>
       <title>Three Vietman War veterans, Robert Black, Robert Johnson and Dr. Gordon Livingston, discuss the war, part 1</title>
       <description>First broadcast on November 12, 1970. Robert Black, Robert Johnson, and Dr. Gordon Livingston talk about the Vietnam War.  All three are officers in the military and veterans of the Vietnam War.  They talk about the Tet offensive and the Battle of Hue in 1968, and the deplorable treatment of the Vietnamese people by the United States military .  Upon returning they have chosen to become anti-Vietnam War because it is not a struggle to stop Communism so much as being a force of destruction.</description>
