@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 25 Nov 2021 00:14:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Nov 2021 00:14:16 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Muhammad Ali discusses his book &#34;The Greatest: My Own Story&#34;</title>
+      <description>First broadcast on November 26, 1975. Muhammad Ali discusses his book &#34;The Greatest: My Own Story,&#34; touching on topics including his childhood and family, conversion to Islam, stance on the Vietnam War, and experiences in jail. After the conversation with Ali ends, the second half of the program consists of music by Billie Holiday (&#34;God Bless the Child&#34;), Jimmy Rushing (&#34;Going to Chicago&#34;), Nina Simone (&#34;Children Go Where I Send You&#34;), Count Basie, Alan Lomax (&#34;Little John Henry&#34;), Dinah Washington (&#34;Willow Weep For Me&#34;), and Duke Ellington (&#34;East St. Louis Toodle-Oo&#34;).</description>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/17009.mp3" type="audio/mpeg" length="81520943" />
+      <itunes:duration>00:33:57</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/muhammad-ali-discusses-his-book-greatest-my-own-story</guid>
+    </item>
     <item>
       <title>Oriana Fallaci in conversation with Studs Terkel</title>
       <description>First broadcast on November 21, 1980. </description>
