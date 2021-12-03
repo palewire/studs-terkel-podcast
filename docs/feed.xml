@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 02 Dec 2021 00:14:30 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Dec 2021 00:14:25 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Roger Ebert discusses old movies with Studs Terkel</title>
+      <description>First broadcast on December 03, 1996. Chicago Sun-Times film critic and author Roger Ebert discusses his book &#34;Roger Ebert&#39;s Book of Film: From Tolstoy to Tarantino, The Finest Writing From A Century of Film&#34; (published by Norton); reads passages from his book; interview with Buster Keaton is played at 35:18.</description>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7674.mp3" type="audio/mpeg" length="125753716" />
+      <itunes:duration>00:52:23</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/roger-ebert-discusses-old-movies-studs-terkel</guid>
+    </item>
     <item>
       <title>Federico Fellini and actors discuss their film &#34;La Dolce Vita&#34; and the character Steiner</title>
       <description>First broadcast on December 01, 1962. Studs Terkel plays interview clips of actors [Marcello Mastroianni and Alain Cuny] and the director Federico Fellini discussing their film &#34;La Dolce Vita&#34; and the character Steiner. At the beginning of the program Studs Terkel interviews Nelson Algren, a writer, and Mario Devecki (a person who made the film &#34;La Dolce Vita&#34; happen) about La Dolce Vita and Steiner.</description>
