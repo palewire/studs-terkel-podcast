@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 08 Dec 2021 00:15:21 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Dec 2021 00:14:42 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Pete Hamill in conversation with Studs Terkel</title>
+      <description>First broadcast on December 09, 1977. </description>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44385.mp3" type="audio/mpeg" length="129828226" />
+      <itunes:duration>00:54:05</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/pete-hamill-conversation-studs-terkel</guid>
+    </item>
     <item>
       <title>Roger Ebert discusses old movies with Studs Terkel</title>
       <description>First broadcast on December 03, 1996. Chicago Sun-Times film critic and author Roger Ebert discusses his book &#34;Roger Ebert&#39;s Book of Film: From Tolstoy to Tarantino, The Finest Writing From A Century of Film&#34; (published by Norton); reads passages from his book; interview with Buster Keaton is played at 35:18.</description>
