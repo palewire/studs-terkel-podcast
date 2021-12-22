@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Tue, 21 Dec 2021 00:16:57 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Dec 2021 00:16:57 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Howard Vincent discusses foreign languages and Herman Melville</title>
+      <description>First broadcast on December 22, 1959. Foreign language expert Howard Vincent talks with Studs Terkel about foreign languages, Herman Melville, “Moby Dick,” and other literary works.</description>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12938.mp3" type="audio/mpeg" length="64997049" />
+      <itunes:duration>00:27:04</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/howard-vincent-discusses-foreign-languages-and-herman-melville</guid>
+    </item>
     <item>
       <title>E. L. Doctorow in conversation with Studs Terkel</title>
       <description>First broadcast on December 19, 1984. Discussing the book &#34;Lives of the Poets: Six Stories and a Novella&#34; (published by Random House) with the author E.L. Doctorow.</description>
