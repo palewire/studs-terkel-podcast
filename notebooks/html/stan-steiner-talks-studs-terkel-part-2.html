@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"3b679f16bc",applicationID:"132225408"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-2385016-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "displayfeatures");ga("require", "linker");ga("linker:autoLink", ["studsterkel.org, studsterkel.wfmt.com"]);ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<link rel="canonical" href="https://studsterkel.wfmt.com/programs/stan-steiner-talks-studs-terkel-part-2" />
+<meta name="description" content="Discussing the book &quot;The New Indians&quot; and interviewing the author Stan Steiner." />
+<link rel="shortcut icon" href="/themes/custom/stra/images/favicons/favicon32x32.png" />
+<link rel="icon" sizes="16x16" href="/themes/custom/stra/images/favicons/favicon16x16.png" />
+<link rel="icon" sizes="32x32" href="/themes/custom/stra/images/favicons/favicon32x32.png" />
+<link rel="icon" sizes="96x96" href="/themes/custom/stra/images/favicons/favicon96x96.png" />
+<link rel="icon" sizes="192x192" href="/themes/custom/stra/images/favicons/favicon192x192.png" />
+<link rel="apple-touch-icon" href="/themes/custom/stra/images/favicons/favicon60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/themes/custom/stra/images/favicons/favicon72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/themes/custom/stra/images/favicons/favicon76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/custom/stra/images/favicons/favicon114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/custom/stra/images/favicons/favicon120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/stra/images/favicons/favicon144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/custom/stra/images/favicons/favicon152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/stra/images/favicons/favicon180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/themes/custom/stra/images/favicons/favicon57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/themes/custom/stra/images/favicons/favicon72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/themes/custom/stra/images/favicons/favicon76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/themes/custom/stra/images/favicons/favicon114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/themes/custom/stra/images/favicons/favicon120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/themes/custom/stra/images/favicons/favicon144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/themes/custom/stra/images/favicons/favicon152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/themes/custom/stra/images/favicons/favicon180x180.png" />
+<meta property="og:site_name" content="The WFMT Studs Terkel Radio Archive" />
+<meta property="og:title" content="Stan Steiner talks with Studs Terkel ; part 2" />
+<meta property="og:description" content="Discussing the book &quot;The New Indians&quot; and interviewing the author Stan Steiner." />
+<meta property="og:image" content="https://studsterkel.wfmt.com/sites/default/files/program-thumbnails/2018-04/00070_GettyImages-576823822_500x355_0.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Discussing the book &quot;The New Indians&quot; and interviewing the author Stan Steiner." />
+<meta name="twitter:title" content="Stan Steiner talks with Studs Terkel ; part 2 | The WFMT Studs Terkel Radio Archive" />
+<meta name="twitter:site:id" content="2468334146" />
+<meta name="twitter:creator" content="@studsarchive" />
+<meta name="twitter:creator:id" content="2468334146" />
+<meta name="twitter:image" content="https://studsterkel.wfmt.com/sites/default/files/program-thumbnails/2018-04/00070_GettyImages-576823822_500x355_0.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="revision" href="https://studsterkel.wfmt.com/programs/stan-steiner-talks-studs-terkel-part-2" />
+
+    <title>Stan Steiner talks with Studs Terkel ; part 2 | The WFMT Studs Terkel Radio Archive | A Living Celebration</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_umoHuYwiZXej_6mu3isX48Lh6P86nRnRfi3vzgUO8W4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_mt1bojd1nZyjWOaR61Y7JMS_q9dXm9xecMEr4pLWPOo.css" />
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5ZzvUiuylVHVdPvfLvfNvMWT7RUluBvW0V9iDiROzks.css" />
+<![endif]-->
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_-gXX_O8FWACkObeBpiV-6SqgCHGCRj8lmTXvCglebOo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Y6qkEdVcC0gEWjv7iYj2yYtjLyKHJVxVeWbJEvZeUG8.css" />
+
+    
+  </head>
+  <body class="path-node page-node-type-program">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="stra_theme">
+              <div class="region region-pre-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div class="news_alert news_alert--loading">
+    <div class="width_holder">
+                    <p>Listen to New Voices on Studs Terkel-our partnership with YouMedia Chicago-here!  <a href="https://studsterkel.wfmt.com/digital-bughouse/new-voices-studs-terkel-spring-2022">Read the Story <span class="icon-outbound"></span></a></p>
+
+                <a href="#" class="icon-close-sml"></a>
+    </div>
+</div>
+
+  </div>
+
+    
+    <div class="outer_wrap">
+        <header class="site-header">
+            <div class="width_holder">
+                <a href="/" class="header__logo">
+                    <img class="header__logo--positive" src="/themes/custom/stra/images/STRA-logo-positive.svg">
+                    <img class="header__logo--negative" src="/themes/custom/stra/images/STRA-logo-negative.svg">
+                </a>
+                                      <div class="region region-header">
+    <nav role="navigation" aria-labelledby="block-stra-main-menu-menu" id="block-stra-main-menu" class="nav">
+            
+  <h2 class="visually-hidden" id="block-stra-main-menu-menu">Main navigation</h2>
+  
+
+  <a href="#" class="nav__icon-menu open icon-navicon"></a>
+  <a href="#" class="nav__icon-close close icon-close-sml"></a>
+  <div class="nav__search input_placeholder ">
+    <form role="search" method="get" class="search_form" action="/search">
+      <label for="nav_search_input">Search</label>
+      <input type="search" id="nav_search_input" class="nav__search--field" value="" name="query">
+    </form>
+    <a href="#" class="nav__searchicon-close close icon-close-sml"></a>
+  </div>
+  <div class="nav__wrapper">
+    <a href="#" class="nav__searchicon icon-search-sml"></a>
+              
+                  <ul class="nav__container">
+                            <li class="first">
+                      <a href="/" data-drupal-link-system-path="node/2054">Home</a>
+                              </li>
+                      <li>
+                      <a href="/explore" data-drupal-link-system-path="node/1821">Explore</a>
+                              </li>
+                      <li class="nav__has-subnav">
+                      <a href="/feeling-tone" data-drupal-link-system-path="node/4872">Interact</a>
+                                            <ul class="nav__container--dropdownholder">
+          <li class="nav__dropdown">
+            <svg height="15" width="512" class="nav__dropdown--top">
+              <polygon points="0,10 243,10 256,0 269,10 512,10 512,15 0,15 " style="fill:#f1f1f1;stroke:#a6a9aa;stroke-width:1" />
+            </svg>
+            <ul>
+                            <li icon="clips" class="first">
+                      <a href="/feeling-tone">
+                              <span class="nav__dropdown--pageicon clips"></span>
+                            <span class="nav__dropdown--pagename">Clips</span>
+                              <span class="nav__dropdown--pagesnippet">Explore themed playlists of audio clips from the Archive.</span>
+                          </a>
+                  </li>
+                      <li icon="reuse">
+                      <a href="/digital-bughouse">
+                              <span class="nav__dropdown--pageicon reuse"></span>
+                            <span class="nav__dropdown--pagename">Reuse</span>
+                              <span class="nav__dropdown--pagesnippet">Listen to creative reuses of Studs’ interviews.</span>
+                          </a>
+                  </li>
+                      <li icon="remix">
+                      <a href="/remixer">
+                              <span class="nav__dropdown--pageicon remix"></span>
+                            <span class="nav__dropdown--pagename">Remix</span>
+                              <span class="nav__dropdown--pagesnippet">Combine audio from the Archive to create entirely new works.</span>
+                          </a>
+                  </li>
+                        </ul>
+          </li>
+        </ul>
+        
+                              </li>
+                      <li>
+                      <a href="/bughouse-square" data-drupal-link-system-path="node/4967">Podcast</a>
+                              </li>
+                      <li>
+                      <a href="/classroom" data-drupal-link-system-path="node/2156">Classroom</a>
+                              </li>
+                      <li class="nav--donate">
+                      <a href="https://secure.wfmt.com/?s=stra" target="_blank">Donate</a>
+                              </li>
+                    </ul>
+        
+
+
+      </div>
+</nav>
+
+  </div>
+
+                            </div>
+        </header>
+        <div class="inner_wrap">
+                                          <div class="region region-content">
+    <div id="block-stra-content" class="block block-system block-system-main-block">
+  
+    
+          
+                                                                                                                                                                                                                                                    <article data-history-node-id="1284" role="article" about="/programs/stan-steiner-talks-studs-terkel-part-2" class="node node--type-program node--view-mode-full">
+
+  <div class="node__content">
+
+            	<div class="slim_audio_cntrl">
+	    <div class="width_holder">
+	        <div class="slim_audio_cntrl__tbl">
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__toggle">
+	            <a href="#" class="icon-play-btn"></a>
+	            </div>
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__progress">
+	                <div class="slim_audio_cntrl__timescrub"></div>
+	                <div class="slim_audio_cntrl__progress_bar"><span></span></div>
+	            </div>
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__time">
+	                <p><span class="slim_audio_cntrl__elapsed">00</span>
+	                <span class="slim_audio_cntrl__duration"> / 00</span></p>
+	            </div>
+	            	                <div class="slim_audio_cntrl__cell slim_audio_cntrl__remix">
+	                    <a href="/remixer?id=4930" class="slim_audio_cntrl__remix_btn"><span class="icon-remix-small-icon"></span>Create Remix</a>
+	                </div>
+	            	        </div>
+	    </div>
+	</div>
+
+    
+                <section class="black banner_area banner_area--has_image program_detail_banner" style="background-image:url(//studsterkel.wfmt.com/sites/default/files/styles/program_banner_image/public/program-banners/2018-04/00070_GettyImages-576823822_1400x500_0.jpg?itok=sYBiZInt); ">
+                    <div class="credit_info">
+                <div class="credit_info__trigger"></div>
+                <span class="credit_info__info">    © Wally McNamee/Corbis/Getty Images
+</span>
+            </div>
+            </section>
+
+    
+                                <section class="black program_title">
+        <div class="width_holder">
+            <div class="col-10 single-col-cntr">
+                <h1>Stan Steiner talks with Studs Terkel ; part 2</h1>
+                <p class="program_date_duration">BROADCAST: 1967             <span>|</span>
+        DURATION: 00:04:57</p>
+                <div class="program_social">
+                    <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstudsterkel.wfmt.com%2Fprograms%2Fstan-steiner-talks-studs-terkel-part-2" class="icon-facebook std-hov-transition"></a>
+                    <a href="https://twitter.com/intent/tweet/?text=Stan+Steiner+talks+with+Studs+Terkel+%3B+part+2%3A+&amp;amp;url=https%3A%2F%2Fstudsterkel.wfmt.com%2Fprograms%2Fstan-steiner-talks-studs-terkel-part-2" class="icon-twitter std-hov-transition"></a>
+                </div>
+            </div>
+        </div>
+                    <a class="button audio_trigger program_button" data-track-url="https://s3.amazonaws.com/wfmt-studs-terkel/published/12634.mp3" data-active-text="Stop the Introduction">
+            <span class="audio_trigger__icon icon-play-btn"></span>
+            </a>
+            </section>
+
+    
+                <section class="white">
+        <div class="width_holder">
+            <div class="col-10 single-col-cntr">
+                <h5>Synopsis</h5>
+                    <div class="program_synopsis__body">
+        <h2>Discussing the book "The New Indians" and interviewing the author Stan Steiner.</h2>
+    </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+            <section class="gray transcript_area">
+            <div class="width_holder">
+                <div class="col-10 single-col-cntr">
+                    
+                    <h5>Transcript</h5>
+                                            <div class="transcript_tip">
+                            <div class="transcript_tip--cell">
+                                <p class="transcript_tip__msg">Tap within the transcript to jump to that part of the audio.</p>
+                            </div>
+                            <div class="transcript_tip--cell">
+                                <a href="#" class="transcript_tip__btn std-hov-transition">OK</a>
+                            </div>  
+                            <span class="transcript_tip__arrow"></span>  
+                        </div>
+                                            
+<div class="hypertranscript" style="" data-media="https://s3.amazonaws.com/wfmt-studs-terkel/published/12634.mp3" data-selection="0,0">
+<article><section><p data-tc="00:00:03"><span class="speaker">Studs Terkel</span> <a data-m="3410" data-d="180">No </a><a data-m="3590" data-d="270">longer </a><a data-m="3860" data-d="60">a </a><a data-m="3920" data-d="300">safe </a><a data-m="4220" data-d="390">subject. </a><a data-m="4610" data-d="80">Perhaps </a><a data-m="4700" data-d="90">you </a><a data-m="4820" data-d="240">heard </a><a data-m="5060" data-d="450">this? </a><a data-m="6600" data-d="300">Stan </a><a data-m="6920" data-d="360">Steiner </a><a data-m="7280" data-d="50">is </a><a data-m="7340" data-d="300">saying </a><a data-m="7640" data-d="210">the </a><a data-m="7850" data-d="330">reviews </a><a data-m="8180" data-d="90">have </a><a data-m="8270" data-d="90">been </a><a data-m="8360" data-d="150">so </a><a data-m="8510" data-d="150">good </a><a data-m="8660" data-d="90">because </a><a data-m="8750" data-d="90">perhaps </a><a data-m="9280" data-d="70">the </a><a data-m="9350" data-d="290">reviewers </a><a data-m="9630" data-d="140">feel </a><a data-m="9780" data-d="205">it's </a><a data-m="9985" data-d="102">a </a><a data-m="10087" data-d="102">safe </a><a data-m="10190" data-d="420">subject. </a><a data-m="10640" data-d="180">Well, </a><a data-m="11300" data-d="120">I </a><a data-m="11420" data-d="270">guess </a><a data-m="11690" data-d="330">with </a><a data-m="12020" data-d="330">Indian </a><a data-m="12350" data-d="310">power </a><a data-m="12660" data-d="190">now </a><a data-m="12860" data-d="220">being </a><a data-m="13120" data-d="430">expressed </a><a data-m="13820" data-d="70">no </a><a data-m="13890" data-d="35">longer </a><a data-m="13925" data-d="35">quite </a><a data-m="14130" data-d="210">that </a><a data-m="14360" data-d="195">safe. </a><a data-m="14555" data-d="825">The </a><a data-m="15380" data-d="390">question </a><a data-m="15770" data-d="150">of </a><a data-m="16370" data-d="600">respect </a><a data-m="16970" data-d="150">for </a><a data-m="17120" data-d="140">the </a><a data-m="17270" data-d="250">old </a><a data-m="17540" data-d="450">family </a><a data-m="17990" data-d="165">life. </a><a data-m="18155" data-d="325">This </a><a data-m="18480" data-d="110">is </a><a data-m="18590" data-d="330">also </a><a data-m="18920" data-d="59.999999999999">an </a><a data-m="18980" data-d="600">aspect </a><a data-m="19580" data-d="60.000000000002">of </a><a data-m="21150" data-d="90">Indian </a><a data-m="21240" data-d="45.000000000002">life, </a><a data-m="21285" data-d="21.999999999998">isn't </a><a data-m="21307" data-d="22.000000000002">it? </a></p><p data-tc="00:00:24"><span class="speaker">Stan Steiner</span> <a data-m="24670" data-d="210">It </a><a data-m="24880" data-d="330">is </a><a data-m="25360" data-d="210">very </a><a data-m="25570" data-d="240">much </a><a data-m="25810" data-d="330">part </a><a data-m="26140" data-d="120">of </a><a data-m="26310" data-d="260">Indian </a><a data-m="26590" data-d="330">life </a><a data-m="26920" data-d="270">to </a><a data-m="27910" data-d="480">respect </a><a data-m="28390" data-d="210">old </a><a data-m="28600" data-d="570">traditions </a><a data-m="29170" data-d="90">and </a><a data-m="29260" data-d="270">old </a><a data-m="29530" data-d="420">ways, </a><a data-m="29950" data-d="450">and </a><a data-m="31030" data-d="120">to </a><a data-m="31150" data-d="360">change </a><a data-m="31510" data-d="90">them </a><a data-m="31630" data-d="120">when </a><a data-m="31750" data-d="59.999999999999">you </a><a data-m="31840" data-d="240">have </a><a data-m="32080" data-d="150">to, </a><a data-m="32259" data-d="120">but </a><a data-m="32380" data-d="210">not </a><a data-m="32590" data-d="459.99999999999">destroy </a><a data-m="33050" data-d="140">them </a><a data-m="33190" data-d="60.000000000002">or </a><a data-m="33250" data-d="150">get </a><a data-m="33400" data-d="150">rid </a><a data-m="33550" data-d="90.000000000003">of </a><a data-m="33640" data-d="180">them. </a><a data-m="34480" data-d="180">But </a><a data-m="34660" data-d="90.000000000003">of </a><a data-m="34750" data-d="270">course, </a><a data-m="35260" data-d="90.000000000003">the </a><a data-m="35350" data-d="540">main </a><a data-m="36040" data-d="540">push </a><a data-m="36820" data-d="390">in </a><a data-m="37210" data-d="360">modern </a><a data-m="37570" data-d="600">education </a><a data-m="38170" data-d="89.999999999996">in </a><a data-m="38260" data-d="60.000000000002">the </a><a data-m="38320" data-d="540">schools </a><a data-m="38890" data-d="180">and </a><a data-m="39070" data-d="89.999999999996">the </a><a data-m="39160" data-d="240">main </a><a data-m="39400" data-d="390">push </a><a data-m="39790" data-d="180">which </a><a data-m="39970" data-d="390">Indians </a><a data-m="40360" data-d="210">feel </a><a data-m="40570" data-d="60.000000000002">as </a><a data-m="40630" data-d="150">soon </a><a data-m="40780" data-d="60.000000000002">as </a><a data-m="40840" data-d="110">they </a><a data-m="40960" data-d="89.999999999996">get </a><a data-m="41050" data-d="210">into </a><a data-m="41260" data-d="60.000000000002">a </a><a data-m="41320" data-d="210">city </a><a data-m="41530" data-d="180">like </a><a data-m="41710" data-d="520">Chicago </a><a data-m="42250" data-d="90.000000000003">on </a><a data-m="42340" data-d="150">all </a><a data-m="42490" data-d="570">sides </a><a data-m="43060" data-d="89.999999999996">at </a><a data-m="43150" data-d="150">their </a><a data-m="43300" data-d="420">elbows </a><a data-m="43720" data-d="150">is </a><a data-m="43870" data-d="90.000000000003">to </a><a data-m="43960" data-d="420">change </a><a data-m="44380" data-d="419.99999999999">everything. </a><a data-m="45430" data-d="240">So </a><a data-m="45680" data-d="235">In- </a><a data-m="45915" data-d="235">Indian </a><a data-m="46150" data-d="210">kids </a><a data-m="46360" data-d="210">are </a><a data-m="46570" data-d="270">thrown </a><a data-m="46840" data-d="180">into </a><a data-m="47020" data-d="59.999999999995">a </a><a data-m="47080" data-d="210">great </a><a data-m="47290" data-d="540">conflict </a><a data-m="47830" data-d="180">on </a><a data-m="48010" data-d="270">this. </a><a data-m="48550" data-d="90.000000000003">I </a><a data-m="48640" data-d="170">think </a><a data-m="48880" data-d="135">it's </a><a data-m="49015" data-d="135">probably </a><a data-m="49150" data-d="90.000000000003">one </a><a data-m="49240" data-d="59.999999999995">of </a><a data-m="49300" data-d="60.000000000002">the </a><a data-m="49360" data-d="150">things </a><a data-m="49510" data-d="90.000000000003">that </a><a data-m="49600" data-d="210">rips </a><a data-m="49810" data-d="150">their </a><a data-m="49960" data-d="330">hearts </a><a data-m="50290" data-d="270">apart </a><a data-m="50560" data-d="210">more </a><a data-m="50770" data-d="89.999999999996">than </a><a data-m="50860" data-d="330">anything </a><a data-m="51190" data-d="210">else, </a><a data-m="51430" data-d="330">because </a><a data-m="52300" data-d="150.00000000001">they </a><a data-m="52450" data-d="110">go </a><a data-m="52570" data-d="170">into </a><a data-m="52750" data-d="390">school </a><a data-m="53170" data-d="89.999999999996">and </a><a data-m="53260" data-d="90.000000000003">they </a><a data-m="53350" data-d="270">say </a><a data-m="53620" data-d="270">something. </a><a data-m="53890" data-d="450">If </a><a data-m="54370" data-d="90.000000000003">they </a><a data-m="54460" data-d="210">say </a><a data-m="54670" data-d="59.999999999995">it </a><a data-m="54730" data-d="120">in </a><a data-m="54850" data-d="120">their </a><a data-m="54970" data-d="150">own </a><a data-m="55120" data-d="460">language, </a><a data-m="55580" data-d="39.999999999999">of </a><a data-m="55620" data-d="210">course, </a><a data-m="55840" data-d="139.99999999999">they're </a><a data-m="55980" data-d="280">immediately </a><a data-m="56260" data-d="330.00000000001">jumped </a><a data-m="56590" data-d="180">on </a><a data-m="56770" data-d="120">by </a><a data-m="56890" data-d="89.999999999996">the </a><a data-m="56980" data-d="500">teacher, </a><a data-m="57740" data-d="150">because </a><a data-m="57900" data-d="90.000000000003">you're </a><a data-m="58000" data-d="90.000000000003">not </a><a data-m="58090" data-d="209.99999999999">allowed </a><a data-m="58300" data-d="60.000000000002">to </a><a data-m="58360" data-d="330">speak </a><a data-m="58690" data-d="270">Indian </a><a data-m="58960" data-d="450">languages </a><a data-m="59410" data-d="90.000000000003">in </a><a data-m="59500" data-d="360">practically </a><a data-m="59860" data-d="330">all </a><a data-m="60190" data-d="420">schools </a><a data-m="60610" data-d="240">where </a><a data-m="60970" data-d="240">young </a><a data-m="61210" data-d="360">Indians </a><a data-m="61570" data-d="165">go. </a><a data-m="61735" data-d="475">Or </a><a data-m="62380" data-d="89.999999999996">if </a><a data-m="62470" data-d="150">they </a><a data-m="62620" data-d="210">say </a><a data-m="62830" data-d="300">something </a><a data-m="63130" data-d="150">which </a><a data-m="63280" data-d="120">is </a><a data-m="63400" data-d="570">traditional </a><a data-m="63970" data-d="120">that </a><a data-m="64090" data-d="149.99999999999">their </a><a data-m="64239" data-d="690">grandfather </a><a data-m="64930" data-d="149.99999999999">or </a><a data-m="65170" data-d="569.99999999999">grandmother </a><a data-m="65740" data-d="60.000000000002">or </a><a data-m="65800" data-d="270">mother </a><a data-m="66070" data-d="30.000000000001">or </a><a data-m="66100" data-d="330.00000000001">father </a><a data-m="66430" data-d="279.99999999999">told </a><a data-m="66710" data-d="140">them, </a><a data-m="66850" data-d="60.000000000002">the </a><a data-m="66910" data-d="270.00000000001">teacher </a><a data-m="67180" data-d="209.99999999999">says, </a><a data-m="67390" data-d="130">"Oh, </a><a data-m="67550" data-d="230">that's </a><a data-m="67780" data-d="510.00000000001">nonsense", </a><a data-m="68290" data-d="119.99999999999">you </a><a data-m="68410" data-d="140">know, </a><a data-m="68560" data-d="280">"that's </a><a data-m="68840" data-d="280">that's </a><a data-m="69370" data-d="560">barbarian" </a><a data-m="69950" data-d="230">or </a><a data-m="70210" data-d="360">"that's </a><a data-m="70660" data-d="285">foolish" </a><a data-m="70945" data-d="285.00000000001">or </a><a data-m="71260" data-d="209.99999999999">"that's </a><a data-m="71470" data-d="660">outmoded" </a><a data-m="72160" data-d="140">or </a><a data-m="72310" data-d="170">"that's </a><a data-m="72490" data-d="150.00000000001">old </a><a data-m="72640" data-d="1310">fashioned". </a><a data-m="73950" data-d="49.999999999997">Th- </a><a data-m="74000" data-d="49.999999999997">then </a><a data-m="74050" data-d="120">they </a><a data-m="74170" data-d="149.99999999999">go </a><a data-m="74320" data-d="300.00000000001">home </a><a data-m="74620" data-d="89.999999999989">and </a><a data-m="74950" data-d="119.99999999999">they </a><a data-m="75070" data-d="120">don't </a><a data-m="75190" data-d="90.000000000003">know </a><a data-m="75280" data-d="90.000000000003">what </a><a data-m="75370" data-d="89.999999999989">to </a><a data-m="75460" data-d="180.00000000001">do </a><a data-m="75640" data-d="179.99999999999">about </a><a data-m="75820" data-d="180.00000000001">their </a><a data-m="76000" data-d="300">mother </a><a data-m="76300" data-d="90.000000000003">and </a><a data-m="76390" data-d="330">father </a><a data-m="76720" data-d="90.000000000003">and </a><a data-m="76810" data-d="360">grandma </a><a data-m="77170" data-d="90.000000000003">and </a><a data-m="77260" data-d="479.99999999999">grandfather, </a><a data-m="77770" data-d="300">because </a><a data-m="78070" data-d="90.000000000003">they </a><a data-m="78160" data-d="420">respect </a><a data-m="78580" data-d="150.00000000001">them, </a><a data-m="78730" data-d="60.000000000002">on </a><a data-m="78790" data-d="59.999999999988">the </a><a data-m="78850" data-d="150.00000000001">other </a><a data-m="79000" data-d="180.00000000001">hand </a><a data-m="79180" data-d="59.999999999988">the </a><a data-m="79240" data-d="300.00000000001">teacher </a><a data-m="79540" data-d="209.99999999999">says </a><a data-m="79750" data-d="110">they're </a><a data-m="79870" data-d="2180">foolish. </a></p><p data-tc="00:01:22"><span class="speaker">Studs Terkel</span> <a data-m="82170" data-d="34.999999999997">Perhaps </a><a data-m="82205" data-d="34.999999999997">the </a><a data-m="82240" data-d="700">last </a><a data-m="83120" data-d="250">comment </a><a data-m="83370" data-d="220">before </a><a data-m="83610" data-d="99.999999999994">I </a><a data-m="84130" data-d="240.00000000001">read </a><a data-m="84370" data-d="449.99999999999">something </a><a data-m="84820" data-d="180.00000000001">of </a><a data-m="85220" data-d="180.00000000001">Miss </a><a data-m="85460" data-d="830.00000000001">Indian-American, </a><a data-m="87000" data-d="575">Wahleah </a><a data-m="87575" data-d="286.99999999999">Lujan. </a><a data-m="87862" data-d="404.00000000001">This </a><a data-m="88266" data-d="404">matter </a><a data-m="88660" data-d="60.000000000002">of </a><a data-m="88720" data-d="420">eloquence, </a><a data-m="89140" data-d="90.000000000003">of </a><a data-m="89230" data-d="319.99999999999">course, </a><a data-m="89550" data-d="70.000000000007">and </a><a data-m="89650" data-d="209.99999999999">poetry. </a><a data-m="89860" data-d="660">Throughout, </a><a data-m="90520" data-d="90.000000000003">the </a><a data-m="90610" data-d="209.99999999999">book </a><a data-m="90820" data-d="120">is </a><a data-m="90940" data-d="330">dotted </a><a data-m="91270" data-d="180.00000000001">with </a><a data-m="91870" data-d="780">quotations </a><a data-m="92650" data-d="270">from </a><a data-m="93010" data-d="300">Indian </a><a data-m="93310" data-d="420">writings </a><a data-m="93730" data-d="89.999999999989">and </a><a data-m="93820" data-d="480">songs, </a><a data-m="94300" data-d="90.000000000003">as </a><a data-m="94390" data-d="150.00000000001">well </a><a data-m="94540" data-d="119.99999999999">as </a><a data-m="94660" data-d="60.000000000002">the </a><a data-m="94720" data-d="360">various </a><a data-m="95080" data-d="620">appendices </a><a data-m="95750" data-d="94.999999999999">you </a><a data-m="95845" data-d="46.999999999997">have </a><a data-m="95892" data-d="23.00000000001">here </a><a data-m="95915" data-d="22.999999999996">-- </a><a data-m="96580" data-d="70.000000000007">to </a><a data-m="96700" data-d="179.99999999999">make </a><a data-m="96880" data-d="90.000000000003">it </a><a data-m="96970" data-d="510.00000000001">accepted </a><a data-m="97480" data-d="60.000000000002">in </a><a data-m="97540" data-d="509.99999999999">academic </a><a data-m="98050" data-d="450">circles. </a><a data-m="99580" data-d="90.000000000003">You </a><a data-m="99670" data-d="239.99999999999">speak </a><a data-m="99910" data-d="60.000000000002">of </a><a data-m="99970" data-d="90.000000000003">the </a><a data-m="100060" data-d="660">Cherokee. </a><a data-m="101370" data-d="119.99999999999">The </a><a data-m="101860" data-d="345">the </a><a data-m="102205" data-d="345">Cherokee </a><a data-m="102790" data-d="360">group </a><a data-m="103150" data-d="149.99999999999">as </a><a data-m="103300" data-d="270">being </a><a data-m="103570" data-d="30.000000000001">a </a><a data-m="103600" data-d="180.00000000001">very </a><a data-m="103780" data-d="510.00000000001">influential </a><a data-m="104290" data-d="89.999999999989">one. </a><a data-m="104380" data-d="240.00000000001">Has </a><a data-m="105190" data-d="90.000000000003">that </a><a data-m="105280" data-d="90.000000000003">always </a><a data-m="105370" data-d="149.99999999999">been </a><a data-m="105520" data-d="90.000000000003">the </a><a data-m="105610" data-d="360">case </a><a data-m="105970" data-d="210.00000000001">that </a><a data-m="107170" data-d="209.99999999999">more </a><a data-m="107380" data-d="30.000000000001">or </a><a data-m="107410" data-d="210.00000000001">less </a><a data-m="107620" data-d="149.99999999999">is </a><a data-m="107770" data-d="90.000000000003">the </a><a data-m="107860" data-d="690">vanguard </a><a data-m="109510" data-d="239.99999999999">tribe </a><a data-m="109750" data-d="239.99999999999">or </a><a data-m="110020" data-d="210.00000000001">group </a><a data-m="110230" data-d="89.999999999989">of </a><a data-m="110320" data-d="510.00000000001">tribes? </a></p><p data-tc="00:01:52"><span class="speaker">Stan Steiner</span> <a data-m="112570" data-d="105">Oh, </a><a data-m="112675" data-d="105">I </a><a data-m="112780" data-d="190">don't </a><a data-m="112970" data-d="200">say </a><a data-m="113170" data-d="170">that. </a><a data-m="113390" data-d="99.999999999994">The </a><a data-m="113500" data-d="420">Cherokee </a><a data-m="113920" data-d="209.99999999999">say </a><a data-m="114130" data-d="135.00000000001">that. </a><a data-m="114265" data-d="135.00000000001">[Laughter] </a></p><p data-tc="00:01:54"><span class="speaker">Studs Terkel</span> <a data-m="114710" data-d="85.000000000008">The </a><a data-m="114795" data-d="42.000000000002">Cherokee </a><a data-m="114837" data-d="21.000000000001">say </a><a data-m="114858" data-d="19.999999999996">that. </a><a data-m="116920" data-d="149.99999999999">There </a><a data-m="117070" data-d="150.00000000001">is </a><a data-m="117220" data-d="210.00000000001">no </a><a data-m="117430" data-d="336.99999999999">one. </a><a data-m="117767" data-d="112.00000000001">It, </a><a data-m="118470" data-d="239.99999999999">because </a><a data-m="118710" data-d="295">it </a><a data-m="119005" data-d="277">is </a><a data-m="119282" data-d="277">is </a><a data-m="119560" data-d="110">this </a><a data-m="119670" data-d="110">movement, </a><a data-m="119860" data-d="150.00000000001">by </a><a data-m="120010" data-d="89.999999999989">the </a><a data-m="120100" data-d="120">way, </a><a data-m="120220" data-d="420">east </a><a data-m="120730" data-d="149.99999999999">as </a><a data-m="120880" data-d="210.00000000001">far </a><a data-m="121090" data-d="119.99999999999">as </a><a data-m="121210" data-d="150.00000000001">the </a><a data-m="122320" data-d="150.00000000001">New </a><a data-m="122470" data-d="180.00000000001">York </a><a data-m="122650" data-d="119.99999999999">State </a><a data-m="122770" data-d="120">Indians </a><a data-m="123100" data-d="150.00000000001">as </a><a data-m="123250" data-d="150.00000000001">well </a><a data-m="123400" data-d="209.99999999999">as </a><a data-m="123610" data-d="480">Washington </a><a data-m="124090" data-d="360">State </a><a data-m="124450" data-d="90.000000000003">and </a><a data-m="124540" data-d="229.99999999999">southwest? </a><a data-m="124770" data-d="460.00000000001">The </a><a data-m="125230" data-d="114.99999999999">Indian </a><a data-m="125345" data-d="114.99999999999">movement? </a></p><p data-tc="00:02:07"><span class="speaker">Stan Steiner</span> <a data-m="127810" data-d="300.00000000001">There </a><a data-m="128110" data-d="509.99999999999">are </a><a data-m="128680" data-d="599.99999999999">perhaps </a><a data-m="129280" data-d="305.00000000001">200, </a><a data-m="129585" data-d="374">if </a><a data-m="130479" data-d="750">250, </a><a data-m="131230" data-d="330.00000000001">Indian </a><a data-m="131560" data-d="419.99999999999">peoples </a><a data-m="131980" data-d="90.000000000003">in </a><a data-m="132070" data-d="60.000000000002">the </a><a data-m="132130" data-d="330.00000000001">United </a><a data-m="132460" data-d="194.99999999999">States </a><a data-m="132655" data-d="194.99999999999">in </a><a data-m="133300" data-d="359.99999999999">large </a><a data-m="133660" data-d="80.000000000013">and </a><a data-m="133750" data-d="389.99999999999">small </a><a data-m="134140" data-d="220.00000000003">groups. </a><a data-m="134360" data-d="319.99999999999">There </a><a data-m="134700" data-d="350.00000000002">probably </a><a data-m="135050" data-d="169.99999999999">were </a><a data-m="135460" data-d="179.99999999998">as </a><a data-m="135640" data-d="300.00000000001">many, </a><a data-m="135940" data-d="180.00000000001">if </a><a data-m="136120" data-d="180.00000000001">not </a><a data-m="136300" data-d="599.99999999999">more. </a><a data-m="137830" data-d="419.99999999999">These </a><a data-m="138250" data-d="90.000000000003">were </a><a data-m="138340" data-d="240.00000000001">never </a><a data-m="138580" data-d="119.99999999998">an </a><a data-m="138700" data-d="360.00000000001">Indian </a><a data-m="139060" data-d="175.00000000001">people. </a><a data-m="139235" data-d="274.99999999998">They </a><a data-m="139510" data-d="120">were </a><a data-m="139630" data-d="390.00000000001">tribes </a><a data-m="140020" data-d="60.000000000002">of </a><a data-m="140080" data-d="329.99999999998">people </a><a data-m="140410" data-d="120">with </a><a data-m="140530" data-d="150.00000000001">their </a><a data-m="140680" data-d="150.00000000001">own </a><a data-m="140830" data-d="539.99999999999">cultures. </a><a data-m="141940" data-d="180.00000000001">One </a><a data-m="142120" data-d="299.99999999998">thing </a><a data-m="142420" data-d="300.00000000001">which </a><a data-m="143620" data-d="660">conquering </a><a data-m="144280" data-d="180.00000000001">these </a><a data-m="144460" data-d="359.99999999999">people </a><a data-m="144820" data-d="180.00000000001">has </a><a data-m="145000" data-d="150.00000000001">done </a><a data-m="145180" data-d="209.99999999998">for </a><a data-m="145390" data-d="150.00000000001">them </a><a data-m="145540" data-d="180.00000000001">is </a><a data-m="145870" data-d="90.000000000003">it </a><a data-m="145960" data-d="150.00000000001">has </a><a data-m="146110" data-d="389.99999999999">united </a><a data-m="146500" data-d="164.99999999999">them. </a><a data-m="146665" data-d="545.00000000002">It's </a><a data-m="147280" data-d="210.00000000001">like </a><a data-m="147490" data-d="299.99999999998">people </a><a data-m="147790" data-d="150.00000000001">from </a><a data-m="147940" data-d="240.00000000001">different </a><a data-m="148180" data-d="479.99999999999">villages </a><a data-m="148660" data-d="60.000000000002">in </a><a data-m="148720" data-d="300.00000000001">different </a><a data-m="149020" data-d="579.99999999998">provinces </a><a data-m="149600" data-d="140.00000000001">in </a><a data-m="149740" data-d="419.99999999999">France </a><a data-m="150160" data-d="210.00000000001">being </a><a data-m="150370" data-d="449.99999999999">united </a><a data-m="150820" data-d="120">by </a><a data-m="150940" data-d="300.00000000001">people </a><a data-m="151240" data-d="90.000000000003">who </a><a data-m="151330" data-d="419.99999999999">conquered </a><a data-m="151750" data-d="539.99999999999">France </a><a data-m="152410" data-d="90.000000000003">and </a><a data-m="152500" data-d="169.99999999999">made </a><a data-m="152690" data-d="50.000000000011">a </a><a data-m="152740" data-d="359.99999999999">nation </a><a data-m="153100" data-d="90.000000000003">of </a><a data-m="153190" data-d="90.000000000003">it </a><a data-m="153310" data-d="419.99999999999">inadvertently. </a><a data-m="153730" data-d="1620">And </a><a data-m="155830" data-d="155">you </a><a data-m="155985" data-d="76.999999999998">ask </a><a data-m="156062" data-d="37.999999999982">are </a><a data-m="156100" data-d="38.000000000011">they </a><a data-m="156280" data-d="300.00000000001">east </a><a data-m="156580" data-d="119.99999999998">and </a><a data-m="156700" data-d="480.00000000002">west? </a><a data-m="157330" data-d="149.99999999998">They </a><a data-m="157480" data-d="120">are </a><a data-m="157600" data-d="240.00000000001">east </a><a data-m="157840" data-d="120">and </a><a data-m="157960" data-d="269.99999999998">west </a><a data-m="158230" data-d="70.000000000022">and </a><a data-m="158340" data-d="250">north </a><a data-m="158590" data-d="90.000000000003">and </a><a data-m="158680" data-d="380">south </a><a data-m="159070" data-d="360.00000000001">and </a><a data-m="159880" data-d="60.000000000002">the </a><a data-m="159940" data-d="270.00000000001">leader </a><a data-m="160210" data-d="134.99999999999">-- </a><a data-m="160345" data-d="67.000000000007">well, </a><a data-m="160412" data-d="727.99999999998">one </a><a data-m="161140" data-d="60.000000000002">of </a><a data-m="161200" data-d="60.000000000002">the </a><a data-m="161260" data-d="330.00000000001">leaders </a><a data-m="161590" data-d="60.000000000002">of </a><a data-m="161650" data-d="120">the </a><a data-m="161770" data-d="315">Iroquois, </a><a data-m="162085" data-d="156.99999999998">Wallace </a><a data-m="162242" data-d="78.000000000003">Mad </a><a data-m="162320" data-d="1180">Bear </a><a data-m="163510" data-d="540.00000000002">Anderson, </a><a data-m="164500" data-d="150.00000000001">had </a><a data-m="164650" data-d="60.000000000002">a </a><a data-m="164710" data-d="329.99999999998">meeting </a><a data-m="165040" data-d="90.000000000003">in </a><a data-m="165130" data-d="569.99999999999">Washington </a><a data-m="165700" data-d="240.00000000001">with </a><a data-m="166000" data-d="720">Indians </a><a data-m="167080" data-d="209.99999999998">from </a><a data-m="167320" data-d="390.00000000001">18 </a><a data-m="167710" data-d="269.99999999998">nations </a><a data-m="167980" data-d="270.00000000001">-- </a><a data-m="168250" data-d="180.00000000001">not </a><a data-m="168430" data-d="329.99999999998">18 </a><a data-m="168760" data-d="540.00000000002">tribes, </a><a data-m="169330" data-d="119.99999999998">but </a><a data-m="169450" data-d="290.00000000002">18 </a><a data-m="169740" data-d="489.99999999998">nations. </a><a data-m="170420" data-d="40.00000000002">I </a><a data-m="170600" data-d="170.00000000002">mean </a><a data-m="170770" data-d="419.99999999999">Ecuador </a><a data-m="171190" data-d="120">and </a><a data-m="171310" data-d="419.99999999999">Colombia </a><a data-m="171730" data-d="90.000000000003">and </a><a data-m="171820" data-d="420.00000000002">Brazil </a><a data-m="172240" data-d="239.99999999998">and </a><a data-m="172600" data-d="539.99999999999">Guatemala </a><a data-m="173170" data-d="240.00000000001">and </a><a data-m="173410" data-d="270.00000000001">so </a><a data-m="173680" data-d="79.999999999984">on. </a><a data-m="173760" data-d="1150">Because </a><a data-m="174910" data-d="479.99999999999">Indians, </a><a data-m="176020" data-d="179.99999999998">not </a><a data-m="176200" data-d="210.00000000001">only </a><a data-m="176410" data-d="130">have </a><a data-m="176540" data-d="590">united </a><a data-m="177450" data-d="150.00000000001">to </a><a data-m="177610" data-d="59.999999999974">a </a><a data-m="177730" data-d="300.00000000001">greater </a><a data-m="178030" data-d="210.00000000001">degree </a><a data-m="178240" data-d="90.000000000003">than </a><a data-m="178330" data-d="59.999999999974">they </a><a data-m="178390" data-d="150.00000000001">ever </a><a data-m="178540" data-d="180.00000000001">have </a><a data-m="178720" data-d="60.000000000002">in </a><a data-m="178780" data-d="120">their </a><a data-m="178900" data-d="419.99999999999">history </a><a data-m="179320" data-d="690">nationally, </a><a data-m="180460" data-d="120">but </a><a data-m="180580" data-d="194.99999999999">they </a><a data-m="180775" data-d="194.99999999999">have </a><a data-m="181090" data-d="419.99999999999">united </a><a data-m="181510" data-d="750">internationally. </a><a data-m="182990" data-d="79.999999999984">And </a><a data-m="183100" data-d="190">this, </a><a data-m="183290" data-d="50.000000000011">of </a><a data-m="183340" data-d="319.99999999999">course, </a><a data-m="183660" data-d="220">is </a><a data-m="183880" data-d="330.00000000001">something </a><a data-m="184210" data-d="209.99999999998">very </a><a data-m="184420" data-d="180.00000000001">new </a><a data-m="184600" data-d="240.00000000001">in </a><a data-m="184930" data-d="194.99999999999">Indian </a><a data-m="185125" data-d="194.99999999999">affairs. </a><a data-m="185650" data-d="120">The </a><a data-m="185770" data-d="660">anthropologists </a><a data-m="186430" data-d="120">have </a><a data-m="186550" data-d="119.99999999998">all </a><a data-m="186670" data-d="240.00000000001">sorts </a><a data-m="186910" data-d="60.000000000002">of </a><a data-m="186970" data-d="419.99999999999">terms </a><a data-m="187390" data-d="210.00000000001">for </a><a data-m="187600" data-d="180.00000000001">it. </a><a data-m="188500" data-d="60.000000000002">I </a><a data-m="188560" data-d="120">don't </a><a data-m="188680" data-d="150.00000000001">think </a><a data-m="188830" data-d="59.999999999974">you </a><a data-m="188890" data-d="210.00000000001">need </a><a data-m="189100" data-d="180.00000000001">any </a><a data-m="189280" data-d="319.99999999999">terms </a><a data-m="189690" data-d="250">to </a><a data-m="189970" data-d="539.99999999999">describe </a><a data-m="190510" data-d="90.000000000003">it </a><a data-m="190600" data-d="90.000000000003">at </a><a data-m="190690" data-d="390.00000000001">all. </a><a data-m="191720" data-d="300.00000000001">It's </a><a data-m="193090" data-d="210.00000000001">what </a><a data-m="193300" data-d="239.99999999998">has </a><a data-m="193540" data-d="480.00000000002">defeated </a><a data-m="194020" data-d="149.99999999998">the </a><a data-m="194170" data-d="420.00000000002">Indian </a><a data-m="194590" data-d="479.99999999999">always </a><a data-m="195070" data-d="90.000000000003">in </a><a data-m="195160" data-d="90.000000000003">the </a><a data-m="195250" data-d="419.99999999999">past </a><a data-m="195670" data-d="120">is </a><a data-m="195790" data-d="120">that </a><a data-m="195910" data-d="120">he's </a><a data-m="196030" data-d="180.00000000001">been </a><a data-m="196210" data-d="60.000000000002">a </a><a data-m="196270" data-d="389.99999999999">village </a><a data-m="196660" data-d="150.00000000001">and </a><a data-m="196810" data-d="449.99999999999">tribal </a><a data-m="197260" data-d="360.00000000001">man </a><a data-m="197650" data-d="419.99999999999">who </a><a data-m="198520" data-d="239.99999999998">didn't </a><a data-m="198760" data-d="270.00000000001">fight </a><a data-m="199030" data-d="359.99999999999">beyond </a><a data-m="199390" data-d="150.00000000001">his </a><a data-m="199540" data-d="450.00000000002">family </a><a data-m="199990" data-d="120">or </a><a data-m="200200" data-d="330.00000000001">beyond </a><a data-m="200530" data-d="120">his </a><a data-m="200650" data-d="210.00000000001">own </a><a data-m="200860" data-d="299.99999999998">woods </a><a data-m="201160" data-d="120">or </a><a data-m="201280" data-d="330.00000000001">beyond </a><a data-m="201610" data-d="149.99999999998">his </a><a data-m="201760" data-d="330.00000000001">own </a><a data-m="202170" data-d="140.00000000001">niche </a><a data-m="202310" data-d="69.999999999993">of </a><a data-m="202380" data-d="34.999999999997">the </a><a data-m="202415" data-d="34.999999999997">desert. </a><a data-m="202510" data-d="1350">What </a><a data-m="203860" data-d="119.99999999998">the </a><a data-m="203980" data-d="210.00000000001">white </a><a data-m="204190" data-d="210.00000000001">man </a><a data-m="204400" data-d="150.00000000001">has </a><a data-m="204550" data-d="239.99999999998">done </a><a data-m="204790" data-d="240.00000000001">by </a><a data-m="205360" data-d="509.99999999999">partially </a><a data-m="205870" data-d="630">destroying </a><a data-m="206500" data-d="270.00000000001">him </a><a data-m="207400" data-d="180.00000000001">has </a><a data-m="207580" data-d="239.99999999998">given </a><a data-m="207820" data-d="90.000000000003">the </a><a data-m="207910" data-d="319.99999999999">Indian </a><a data-m="208230" data-d="40.00000000002">a </a><a data-m="208270" data-d="209.99999999998">much </a><a data-m="208480" data-d="390.00000000001">larger </a><a data-m="208870" data-d="449.99999999999">vision, </a><a data-m="209510" data-d="140.00000000001">and </a><a data-m="209650" data-d="90.000000000003">the </a><a data-m="209740" data-d="239.99999999998">Indian </a><a data-m="209980" data-d="150.00000000001">has </a><a data-m="210130" data-d="240.00000000001">come </a><a data-m="210370" data-d="359.99999999999">back </a><a data-m="210730" data-d="120">to </a><a data-m="210850" data-d="590">reunite </a><a data-m="211720" data-d="180.00000000001">to </a><a data-m="211900" data-d="60.000000000002">a </a><a data-m="211960" data-d="269.99999999998">degree </a><a data-m="212230" data-d="150.00000000001">that </a><a data-m="212380" data-d="90.000000000003">he </a><a data-m="212470" data-d="240.00000000001">never </a><a data-m="212710" data-d="179.99999999998">could </a><a data-m="212890" data-d="120">when </a><a data-m="213010" data-d="60.000000000002">he </a><a data-m="213070" data-d="150.00000000001">was </a><a data-m="213220" data-d="180.00000000001">fighting </a><a data-m="213400" data-d="180.00000000001">the </a><a data-m="213580" data-d="209.99999999998">white </a><a data-m="213790" data-d="180.00000000001">man </a><a data-m="213970" data-d="60.000000000002">in </a><a data-m="214030" data-d="60.000000000002">the </a><a data-m="214090" data-d="210.00000000001">first </a><a data-m="214300" data-d="269.99999999998">place. </a><a data-m="214590" data-d="340">And </a><a data-m="214960" data-d="209.99999999998">there </a><a data-m="215170" data-d="60.000000000002">are </a><a data-m="215230" data-d="420.00000000002">African </a><a data-m="215650" data-d="539.99999999999">nationalist </a><a data-m="216190" data-d="449.99999999999">leaders </a><a data-m="216640" data-d="300.00000000001">like </a><a data-m="217210" data-d="440">Nkrumah, </a><a data-m="217660" data-d="150.00000000001">who </a><a data-m="217810" data-d="90.000000000003">will </a><a data-m="217900" data-d="419.99999999999">describe </a><a data-m="218320" data-d="90.000000000003">the </a><a data-m="218410" data-d="240.00000000001">same </a><a data-m="218650" data-d="389.99999999999">process </a><a data-m="219040" data-d="90.000000000003">that </a><a data-m="219130" data-d="180.00000000001">took </a><a data-m="219310" data-d="270.00000000001">place </a><a data-m="219580" data-d="89.999999999975">in </a><a data-m="219670" data-d="390.00000000001">Africa. </a><a data-m="221020" data-d="220">That, </a><a data-m="222310" data-d="389.99999999999">perhaps </a><a data-m="222700" data-d="150.00000000001">there </a><a data-m="222850" data-d="160">is </a><a data-m="223010" data-d="180.00000000001">a </a><a data-m="223510" data-d="255">a </a><a data-m="223765" data-d="255.00000000002">justice </a><a data-m="224020" data-d="329.99999999998">woven </a><a data-m="224350" data-d="240.00000000001">into </a><a data-m="224590" data-d="419.99999999999">history, </a><a data-m="225010" data-d="420.00000000002">inadvertently. </a><a data-m="225430" data-d="930.00000000001">Perhaps </a><a data-m="226360" data-d="89.999999999975">the </a><a data-m="226450" data-d="450.00000000002">conquerors </a><a data-m="226900" data-d="150.00000000001">do </a><a data-m="227050" data-d="89.999999999975">in </a><a data-m="227140" data-d="90.000000000003">the </a><a data-m="227230" data-d="180.00000000001">end </a><a data-m="227420" data-d="350.00000000002">conquer </a><a data-m="227770" data-d="569.99999999999">themselves. </a></p><p data-tc="00:03:49"><span class="speaker">Studs Terkel</span> <a data-m="229210" data-d="130">This </a><a data-m="229340" data-d="130">perhaps </a><a data-m="229470" data-d="130">this </a><a data-m="229600" data-d="130">is </a><a data-m="229760" data-d="110.00000000001">the </a><a data-m="229870" data-d="210.00000000001">way </a><a data-m="230080" data-d="109.99999999999">to </a><a data-m="230440" data-d="180.00000000001">say </a><a data-m="230620" data-d="329.99999999998">goodbye </a><a data-m="230950" data-d="90.000000000003">to </a><a data-m="231040" data-d="380">Stan </a><a data-m="231420" data-d="190.00000000003">Steiner. </a><a data-m="231610" data-d="134.99999999999">As </a><a data-m="231745" data-d="134.99999999999">you </a><a data-m="231880" data-d="300.00000000001">mentioned, </a><a data-m="232190" data-d="289.99999999999">Wallace </a><a data-m="232540" data-d="260.00000000002">Mad </a><a data-m="232800" data-d="250">Bear </a><a data-m="233100" data-d="490.00000000001">Anderson </a><a data-m="234040" data-d="360.00000000001">renounced </a><a data-m="234400" data-d="120">his </a><a data-m="234520" data-d="359.99999999999">American </a><a data-m="234880" data-d="509.99999999999">citizenship. </a><a data-m="235580" data-d="144.99999999998">He </a><a data-m="235725" data-d="72.000000000003">says, </a><a data-m="235797" data-d="72.000000000003">"Okay. </a><a data-m="235960" data-d="419.99999999999">Deport </a><a data-m="236380" data-d="150.00000000001">me. </a><a data-m="236560" data-d="90.000000000003">Where </a><a data-m="236650" data-d="30.000000000001">are </a><a data-m="236680" data-d="90.000000000003">you </a><a data-m="236770" data-d="119.99999999998">going </a><a data-m="236890" data-d="60.000000000002">to </a><a data-m="236950" data-d="300.00000000001">deport </a><a data-m="237250" data-d="180.00000000001">me?" </a><a data-m="238470" data-d="60.000000000002">[laughter] </a><a data-m="238530" data-d="60.000000000002">And </a><a data-m="238610" data-d="130">just </a><a data-m="238740" data-d="64.999999999998">-- </a><a data-m="238805" data-d="64.999999999998">if </a><a data-m="239250" data-d="60.000000000002">I </a><a data-m="239350" data-d="90.000000000003">could </a><a data-m="239440" data-d="90.000000000003">just </a><a data-m="239530" data-d="210.00000000001">read </a><a data-m="239740" data-d="179.99999999998">this </a><a data-m="239920" data-d="340">quote </a><a data-m="240340" data-d="240.00000000001">toward </a><a data-m="240580" data-d="119.99999999998">the </a><a data-m="240700" data-d="120">end </a><a data-m="240820" data-d="60.000000000002">of </a><a data-m="240880" data-d="390.00000000001">this </a><a data-m="241760" data-d="160">quite </a><a data-m="242140" data-d="540.00000000002">remarkable </a><a data-m="242680" data-d="239.99999999998">book </a><a data-m="242920" data-d="90.000000000003">and </a><a data-m="243010" data-d="420.00000000002">revealing </a><a data-m="243430" data-d="79.999999999984">one, </a><a data-m="243510" data-d="280">"The </a><a data-m="243790" data-d="120">New </a><a data-m="243910" data-d="390.00000000001">Indians," </a><a data-m="244330" data-d="149.99999999998">by </a><a data-m="244490" data-d="319.99999999999">Stan </a><a data-m="244810" data-d="490.00000000001">Steiner, </a><a data-m="245560" data-d="300.00000000001">published </a><a data-m="245860" data-d="179.99999999998">by </a><a data-m="246040" data-d="410">Harper </a><a data-m="246480" data-d="175.00000000001">and </a><a data-m="246655" data-d="175.00000000001">Row. </a><a data-m="247180" data-d="69.999999999993">The </a><a data-m="247270" data-d="269.99999999998">quote </a><a data-m="247540" data-d="90.000000000003">of </a><a data-m="247640" data-d="210.00000000001">Miss </a><a data-m="247880" data-d="800.00000000001">Indian-American, </a><a data-m="248960" data-d="581.99999999999">Wahila[sic] </a><a data-m="249542" data-d="291">-- </a><a data-m="249833" data-d="291">Wahleah </a><a data-m="250125" data-d="581.99999999999">Lujan. </a><a data-m="250707" data-d="581.99999999999">She </a><a data-m="251290" data-d="240.00000000001">says, </a><a data-m="251530" data-d="130">the </a><a data-m="251660" data-d="110.00000000001">end's, </a><a data-m="251770" data-d="239.99999999998">"If </a><a data-m="252010" data-d="150.00000000001">I </a><a data-m="252160" data-d="240.00000000001">were </a><a data-m="253030" data-d="359.99999999999">living </a><a data-m="253690" data-d="120">in </a><a data-m="253810" data-d="60.000000000002">a </a><a data-m="253870" data-d="299.99999999998">dream </a><a data-m="254170" data-d="270.00000000001">world, </a><a data-m="254440" data-d="134.99999999999">what </a><a data-m="254575" data-d="135.00000000002">would </a><a data-m="254710" data-d="120">I </a><a data-m="254830" data-d="329.99999999998">want? </a><a data-m="255190" data-d="90.000000000003">I'd </a><a data-m="255280" data-d="300.00000000001">want </a><a data-m="255580" data-d="179.99999999998">my </a><a data-m="255760" data-d="240.00000000001">people </a><a data-m="256000" data-d="60.000000000002">to </a><a data-m="256060" data-d="89.999999999975">be </a><a data-m="256149" data-d="180.00000000001">able </a><a data-m="256329" data-d="89.999999999975">to </a><a data-m="256420" data-d="329.99999999998">hold </a><a data-m="256750" data-d="180.00000000001">on </a><a data-m="256930" data-d="120">to </a><a data-m="257050" data-d="120">our </a><a data-m="257170" data-d="359.99999999996">beautiful </a><a data-m="257529" data-d="209.99999999998">way </a><a data-m="257740" data-d="89.999999999975">of </a><a data-m="257829" data-d="329.99999999998">life. </a><a data-m="259029" data-d="30.00000000003">I'd </a><a data-m="259060" data-d="180.00000000001">want </a><a data-m="259240" data-d="89.999999999975">my </a><a data-m="259329" data-d="240.00000000001">people </a><a data-m="259570" data-d="120">to </a><a data-m="259690" data-d="209.99999999998">hold </a><a data-m="259899" data-d="180.00000000001">on </a><a data-m="260079" data-d="120">to </a><a data-m="260200" data-d="300.00000000001">their </a><a data-m="260500" data-d="319.99999999999">ways </a><a data-m="260820" data-d="490.00000000001">somehow, </a><a data-m="261310" data-d="89.999999999975">and </a><a data-m="261399" data-d="120">yet </a><a data-m="261519" data-d="149.99999999998">be </a><a data-m="261670" data-d="269.99999999998">able </a><a data-m="261940" data-d="60.000000000002">to </a><a data-m="262000" data-d="120">be </a><a data-m="262120" data-d="60.000000000002">in </a><a data-m="262180" data-d="89.999999999975">the </a><a data-m="262270" data-d="300.00000000001">same </a><a data-m="262570" data-d="389.99999999999">shelf </a><a data-m="263170" data-d="149.99999999998">or </a><a data-m="263320" data-d="329.99999999998">level </a><a data-m="263650" data-d="120">as </a><a data-m="263770" data-d="90.000000000032">the </a><a data-m="263860" data-d="240.00000000001">white </a><a data-m="264100" data-d="359.99999999996">man. </a><a data-m="265040" data-d="60.000000000002">I'd </a><a data-m="265100" data-d="259.99999999999">want </a><a data-m="265360" data-d="180.00000000001">my </a><a data-m="265540" data-d="239.99999999995">people </a><a data-m="265780" data-d="105.00000000002">to </a><a data-m="265885" data-d="52.000000000021">be </a><a data-m="265937" data-d="51.999999999964">able </a><a data-m="265990" data-d="89.999999999975">to </a><a data-m="266080" data-d="540.00000000002">compete </a><a data-m="266620" data-d="149.99999999998">with </a><a data-m="266770" data-d="140.00000000004">this </a><a data-m="266920" data-d="240.00000000001">white </a><a data-m="267160" data-d="329.99999999998">man </a><a data-m="267580" data-d="240.00000000001">and </a><a data-m="267820" data-d="240.00000000001">yet </a><a data-m="268060" data-d="149.99999999998">be </a><a data-m="268210" data-d="150.00000000003">able </a><a data-m="268360" data-d="89.999999999975">to </a><a data-m="268450" data-d="180.00000000001">come </a><a data-m="268630" data-d="240.00000000001">back </a><a data-m="268870" data-d="69.999999999993">to </a><a data-m="268940" data-d="110.00000000001">the </a><a data-m="269050" data-d="509.99999999999">pueblo </a><a data-m="269560" data-d="120">to </a><a data-m="269680" data-d="240.00000000001">live </a><a data-m="269950" data-d="389.99999999999">our </a><a data-m="270340" data-d="195.00000000005">way. </a><a data-m="270535" data-d="944.99999999999">If </a><a data-m="271470" data-d="89.999999999975">I </a><a data-m="271560" data-d="45.000000000016">were </a><a data-m="271605" data-d="44.999999999959">living </a><a data-m="271660" data-d="149.99999999998">in </a><a data-m="271810" data-d="60.000000000002">a </a><a data-m="271870" data-d="74.999999999989">dream </a><a data-m="271945" data-d="74.999999999989">world, </a><a data-m="272020" data-d="245">that </a><a data-m="272265" data-d="245">is </a><a data-m="272570" data-d="90.000000000032">what </a><a data-m="272680" data-d="300.00000000001">I'd </a><a data-m="272980" data-d="229.99999999996">want, </a><a data-m="273210" data-d="230.00000000002">but </a><a data-m="273490" data-d="240.00000000001">why </a><a data-m="273730" data-d="120">is </a><a data-m="273850" data-d="89.999999999975">it </a><a data-m="273940" data-d="389.99999999999">almost </a><a data-m="274330" data-d="630">impossible?" </a><a data-m="276210" data-d="100.00000000002">And </a><a data-m="276310" data-d="149.99999999998">then </a><a data-m="276460" data-d="115.00000000001">she </a><a data-m="276575" data-d="115.00000000001">goes </a><a data-m="276690" data-d="89.999999999975">on, </a><a data-m="276780" data-d="190.00000000005">"And </a><a data-m="276970" data-d="119.99999999995">let </a><a data-m="277090" data-d="150.00000000003">us </a><a data-m="277240" data-d="149.99999999998">be </a><a data-m="277390" data-d="360.00000000001">walking </a><a data-m="277750" data-d="360.00000000001">images </a><a data-m="278110" data-d="120">of </a><a data-m="278230" data-d="60.000000000002">our </a><a data-m="278290" data-d="389.99999999999">beautiful </a><a data-m="278680" data-d="180.00000000001">way </a><a data-m="278860" data-d="120">of </a><a data-m="278980" data-d="359.99999999996">life. </a><a data-m="279760" data-d="240.00000000001">Hold </a><a data-m="280000" data-d="370">fast </a><a data-m="280370" data-d="69.999999999993">to </a><a data-m="280440" data-d="160.00000000003">your </a><a data-m="280600" data-d="389.99999999999">lands, </a><a data-m="280990" data-d="60.000000000002">to </a><a data-m="281050" data-d="139.99999999999">your </a><a data-m="281200" data-d="389.99999999999">sacred </a><a data-m="281590" data-d="300.00000000001">ways, </a><a data-m="281890" data-d="90.000000000032">to </a><a data-m="281980" data-d="120">your </a><a data-m="282130" data-d="420.00000000002">Indian </a><a data-m="282550" data-d="149.99999999998">way </a><a data-m="282700" data-d="120">of </a><a data-m="282820" data-d="165.00000000002">life." </a><a data-m="282985" data-d="1495">And </a><a data-m="284630" data-d="259.99999999999">ends </a><a data-m="284890" data-d="150.00000000003">with </a><a data-m="285040" data-d="229.99999999996">a </a><a data-m="285420" data-d="209.99999999998">Sioux </a><a data-m="285760" data-d="420.00000000002">song </a><a data-m="286180" data-d="89.999999999975">on </a><a data-m="286270" data-d="120">the </a><a data-m="286390" data-d="480.00000000002">eloquence </a><a data-m="286870" data-d="120">of </a><a data-m="287440" data-d="120">the </a><a data-m="287560" data-d="240.00000000001">Indians. </a><a data-m="287800" data-d="810">The </a><a data-m="288610" data-d="360.00000000001">eloquence </a><a data-m="288970" data-d="59.999999999945">of </a><a data-m="289030" data-d="90.000000000032">the </a><a data-m="289120" data-d="209.99999999998">book, </a><a data-m="289330" data-d="270.00000000004">too, </a><a data-m="289770" data-d="130">by </a><a data-m="289900" data-d="64.999999999998">Stan </a><a data-m="289965" data-d="64.999999999998">Steiner. </a><a data-m="291100" data-d="209.99999999998">Thank </a><a data-m="291310" data-d="60.000000000002">you </a><a data-m="291370" data-d="180.00000000001">very </a><a data-m="291550" data-d="209.99999999998">much </a><a data-m="291760" data-d="134.99999999999">indeed. </a></p><p data-tc="00:04:51"><span class="speaker">Stan Steiner</span> <a data-m="291895" data-d="67.000000000007">Thank </a><a data-m="291962" data-d="67.000000000007">you. </a></p></section></article>
+</div>
+
+
+<script>
+window.onload = function() {
+    Drupal.behaviors.hyperaudiolite.init(".hypertranscript", "https://s3.amazonaws.com/wfmt-studs-terkel/published/12634.mp3", true);
+
+    if (ShareThis) {
+        ShareThis({
+            sharers: [ ShareThisViaTwitter, ShareThisViaFacebook ],
+            selector: ".hypertranscript"
+        }).init();
+    }
+}
+</script>
+
+
+                </div>
+            </div>        
+        </section>
+    
+    <section class="white meta_data">
+        <div class="width_holder">
+                            <div class='meta_data__section'>
+                                                                                                                                                                                                                                                                                                                                                                                        <div class="col-12">
+        <h3>Details</h3>
+    </div>
+            <div class="col-4">
+                            <p><strong>Broadcast Date</strong><br>
+                                    1967
+                                </p>
+                            <p><strong>Physical Format</strong><br>
+                                    1 sound tape reel (ca. 60 min.) : 5 in.
+                                </p>
+                    </div>
+            <div class="col-4">
+                            <p><strong>Duration</strong><br>
+                                    4 minutes, 57 seconds
+                                </p>
+                            <p><strong>Digital Format</strong><br>
+                                    WAV
+                                </p>
+                    </div>
+            <div class="col-4">
+                            <p><strong>Ownership</strong><br>
+                                    The Chicago History Museum
+                                </p>
+                            <p><strong>Language</strong><br>
+                                    English
+                                </p>
+                    </div>
+    
+                </div>
+                                        <div class='meta_data__section'>
+                                    <div class="col-4">
+                        <h3>Topics</h3>
+                        <p>                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_topic%3A672">American History &amp; Politics</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A751">Anthropology &amp; Sociology</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A803">Community Activism &amp; Social Reform</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A1962">Native American History &amp; Culture</a>
+                                    </p>
+                    </div>
+                                                    <div class="col-4">
+                        <h3>People</h3>
+                        <p>                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_people%3A11445">Authors, Writers</a>
+                                <a  href="/program-search?f%5B0%5D=program_people%3A10081">Historians</a>
+                                    </p>
+                    </div>
+                                </div>
+                                        <div class='meta_data__section'>
+                    <div class="col-12">
+                        <h3>Tags</h3>
+                        <p class="meta_data__tags">                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_tag%3A576">WFMT (Radio station : Chicago, Ill.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6516">Steiner, Stan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6517">New Indians.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A574">Audiotapes</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A575">Radio programs</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A1341">American history</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A4150">American Indians</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6518">Dakota People</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6519">Cultural conflict</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6520">Indian reservations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A1195">Authors</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A1080">Sociology</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6521">Native American civil rights</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A5184">Stereotypes</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6522">War veterans</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6523">Adams, Hank</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6524">Anderson, Wallace &quot;Mad Bear&quot;</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A1242">Bearskin, Benny</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6525">Belindo, John</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6526">Bennett, Robert L.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6527">Cherokee nation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6528">Collier, John</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6529">Custer, George A. (George Armstrong), 1839-1876</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6530">General Custer</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6531">Iroquois nation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6532">Chewie, John</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6534">Deloria, Vine</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3548">Gregory, Dick</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6535">Hopi nation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3164">Jefferson, Thomas, 1743-1826</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3165">Johnson, Lyndon B. (Lyndon Baines), 1908-1973</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3451">Kennedy, John F. (John Fitzgerald), 1917-1963</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6536">Korea</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6537">The Lone Ranger (Fictitious character)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6538">Lujan, Wahleah</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6539">McCloud, Janet</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6540">Navajo nation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6541">Raincloud, Dan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6542">Sioux nation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6543">Tax, Sol, 1907-1995</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6544">Tonto (Fictitious character)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6545">Uncle Tomahawk</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3463">Vietnam</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6546">Warrior, Clyde, 1939-1968</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6547">Wayne, John, 1907-1979</a>
+                                    </p>
+                    </div>
+                </div>
+                    </div>
+    </section>
+
+                <section class="section_border">
+	
+<div class="width_holder">
+  <div class="col-10 single-col-cntr">
+    <h5>Related Programs</h5>
+  </div>
+  <div class="col-12">
+          <div class="tileslider tileslider--no-margin"> 
+            <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="5000" role="article" about="/programs/nicholas-von-hoffman-conversation-studs-terkel">
+    <div class="tileslide__holder">
+        <a href="/programs/nicholas-von-hoffman-conversation-studs-terkel" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/nicholas-von-hoffman-conversation-studs-terkel" class="tileslider__link">
+        <h3>    Nicholas Von Hoffman in conversation with Studs Terkel
+</h3>
+                    <p>Sep. 14, 1992</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="1442" role="article" about="/programs/peter-paul-and-mary-discuss-folk-music-and-forming-their-singing-group-part-2">
+    <div class="tileslide__holder">
+        <a href="/programs/peter-paul-and-mary-discuss-folk-music-and-forming-their-singing-group-part-2" class="tileslider__link">
+            <div class="tileslider_image"><img src="/sites/default/files/styles/program_thumbnail/public/program-thumbnails/2018-04/00296_GettyImages-73909194_500x355_1.jpg?itok=BOHDOvN2"></div>
+        </a>
+    </div>
+    <a href="/programs/peter-paul-and-mary-discuss-folk-music-and-forming-their-singing-group-part-2" class="tileslider__link">
+        <h3>    Peter, Paul and Mary discuss Folk music and the forming of their singing group ; part 2
+</h3>
+                    <p>Apr. 12, 1961</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="4192" role="article" about="/programs/discussing-book-rise-american-air-power-creation-armageddon-author-historian-michael">
+    <div class="tileslide__holder">
+        <a href="/programs/discussing-book-rise-american-air-power-creation-armageddon-author-historian-michael" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/discussing-book-rise-american-air-power-creation-armageddon-author-historian-michael" class="tileslider__link">
+        <h3>    Discussing the book &quot;The Rise of American Air Power: The Creation of Armageddon&quot; with the author, historian Michael Sherry
+</h3>
+                    <p>May. 3, 1988</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="4828" role="article" about="/programs/author-ronald-steel-discusses-his-book-walter-lippmann-and-american-century">
+    <div class="tileslide__holder">
+        <a href="/programs/author-ronald-steel-discusses-his-book-walter-lippmann-and-american-century" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/author-ronald-steel-discusses-his-book-walter-lippmann-and-american-century" class="tileslider__link">
+        <h3>            <span class="results_tiles__icon icon-audio"></span>
+            Author Ronald Steel discusses his book &quot;Walter Lippmann and the American Century.&quot;
+</h3>
+                    <p>Nov. 1981</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="402" role="article" about="/programs/st-clair-drake-and-paul-mundy-discuss-prejudice-part-3">
+    <div class="tileslide__holder">
+        <a href="/programs/st-clair-drake-and-paul-mundy-discuss-prejudice-part-3" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/st-clair-drake-and-paul-mundy-discuss-prejudice-part-3" class="tileslider__link">
+        <h3>            <span class="results_tiles__icon icon-audio"></span>
+            St. Clair Drake and Paul Mundy discuss prejudice ; part 3
+</h3>
+                    <p>1965</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="2813" role="article" about="/programs/interviewing-members-sanefreeze-president-william-sloane-coffin-jr-executive-director">
+    <div class="tileslide__holder">
+        <a href="/programs/interviewing-members-sanefreeze-president-william-sloane-coffin-jr-executive-director" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/interviewing-members-sanefreeze-president-william-sloane-coffin-jr-executive-director" class="tileslider__link">
+        <h3>    Interviewing members of SANE/FREEZE; President William Sloane Coffin, Jr., Executive Director Monica Green and SANE&#039;s former Executive Director David Cortright.
+</h3>
+                    <p>Aug. 9, 1991</p>
+            </a>
+</div>
+
+  </div>
+
+      </div>
+      </div>
+</div>
+
+</section>
+
+
+    
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+                                          <div class="region region-sponsors">
+    <div id="block-globalsponsorssection" class="block block-block-content block-block-content6cae2b51-cd8b-4673-be52-e18d1fa4c879">
+  
+    
+          <section class="gray--alt sponsor-section-block">
+        <div class="width_holder">
+                                    <div class="col-10 single-col-cntr">
+                    <h5>Major Support Provided By</h5>
+
+                
+            </div>
+                <div class="col-12 ">
+            <div class="sponsors">
+                                            <a href="https://studsterkel.wfmt.com/becca-kopf-memorial-education-fund" class="sponsor__box sponsor__box--large" target="_blank" rel="noopener noreferrer"><span><span>    The Becca Kopf Memorial Circle of Friends
+</span></span></a>
+            
+
+            </div>
+        </div>
+    
+
+        </div>
+    </section>
+
+  </div>
+
+  </div>
+
+                    </div>
+        <footer>
+                            <div class="footer__top">
+                    <div class="width_holder">
+                          <div class="region region-pre-footer">
+    <div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo-wfmt-chicago-history-museum-2.png"  class="footer_partner-logo" alt="WFMT Radio Network &amp; Chicago History Museum">
+    <p>This site is being managed by <a href="https://wfmt.com/" target="_blank">WFMT</a> in partnership with the <a href="https://www.chicagohistory.org/">Chicago History Museum</a>.</p>
+
+
+    </div>
+<div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo_reverse_library-of-congress.svg"  class="footer_partner-logo" alt="Library of Congress">
+    <p>In-kind digitization services of the Studs Terkel Radio Archive are provided by the <a href="https://www.loc.gov/avconservation/ " target="_blank">Library of Congress</a>.</p>
+
+
+    </div>
+<div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo_reverse_national-endowment-humanities.svg"  class="footer_partner-logo" alt="National Endowment for the Humanities">
+    <p>The Studs Terkel Radio Archive has been made possible in part by a major grant from the <a href="https://www.neh.gov/">National Endowment for the Humanities</a>: Exploring the human endeavor.</p>
+
+
+    </div>
+
+  </div>
+
+                    </div>
+                </div>
+                                        <div class="footer__bottom">
+                    <div class="width_holder">
+                        <div class="col-12">
+                              <div class="region region-footer">
+            <img  class="footer__logo" alt="Studs Terkel Radio Archive" src="https://studsterkel.wfmt.com/sites/default/files/footer_logo/STRA-horizontal-logo.svg">
+
+<p class="footer__nav">
+        
+              <a href="/all-programs" data-drupal-link-system-path="node/4735">All Programs</a>
+          <a href="/about-the-archive" data-drupal-link-system-path="node/2144">About The Archive</a>
+          <a href="/about-studs-terkel" data-drupal-link-system-path="node/2041">About Studs</a>
+          <a href="/sponsors" data-drupal-link-system-path="node/2200">Supporters</a>
+          <a href="/contact" data-drupal-link-system-path="node/2079">Contact</a>
+      
+
+
+  </p>
+
+    <p >©2022 WFMT Radio Network
+      |  Site by <a href="https://jellcreative.com" target="_blank">Jell Creative</a>
+</p>
+
+    <p>Any views, findings, conclusions, or recommendations expressed in this web resource do not necessarily represent those of the National Endowment for the Humanities.</p>
+
+
+
+  </div>
+
+                        </div>
+                    </div>
+                </div>
+                    </footer>
+    </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1284","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":2,"trackCrossDomains":["studsterkel.org, studsterkel.wfmt.com"]},"user":{"uid":0,"permissionsHash":"c9f3a3018c2ec8c53b70707ccbe88ef5e879bfdb64ff33d511641f339f3aea10"}}</script>
+<script src="/sites/default/files/js/js_6SnGLtRvsXBJpbGXnzA33Px5CpdxeSDSoRPsoEwg-ZI.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="/sites/default/files/js/js_qVEzmV_KKpIZncAWgY4L79j5jz9r1MauApGWG2d9HzE.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3b679f16bc","applicationID":"132225408","transactionName":"NFxRYBFSDRVZWxJbCw0WclcXWgwIF3wURxQCVW9aDFcGOntXCEYWDFVfURFvLQlcXTBbARR6XFoXQQwKVF0UH1oVUFZD","queueTime":0,"applicationTime":2219,"atts":"GBtSFllIHhs=","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){var js = "window['__CF$cv$params']={r:'758ffd7c2a7c7c49',m:'U7fJKrentyiX1cmn317JCNRh_CLSsp.6YV6WN8tc0uU-1665579332-0-AWSQWBDB9TjYe+WqxJireXsyIQ8C7nR+3fXW40cfpmQU3drbYHo33/T9bSTwqRzzynmZi5YASo7dSxS4IopNm1YplySNrjEY6e4ZloOdFDQr5s/SdabHelqJAD3eUTf6LkEYOF8XPklkv7vW/KuFZjjeq19VxYp0ahX9w3UwYboVokTqqeCGoSdcwdrIM+BP2w==',s:[0xb4bbc1f022,0x200b1fe68c],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"758ffd7c2a7c7c49","token":"503d05c5b6124359b6428ddf9861dd42","version":"2022.8.1","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

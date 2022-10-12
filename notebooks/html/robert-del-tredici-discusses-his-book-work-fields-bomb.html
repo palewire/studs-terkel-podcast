@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"3b679f16bc",applicationID:"132225408"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-2385016-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "displayfeatures");ga("require", "linker");ga("linker:autoLink", ["studsterkel.org, studsterkel.wfmt.com"]);ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<link rel="canonical" href="https://studsterkel.wfmt.com/programs/robert-del-tredici-discusses-his-book-work-fields-bomb" />
+<meta name="description" content="Robert del Tredici photographer, artist, and author discusses the history of nuclear weapon production plants around the United States and the effects of nuclear radiation." />
+<link rel="shortcut icon" href="/themes/custom/stra/images/favicons/favicon32x32.png" />
+<link rel="icon" sizes="16x16" href="/themes/custom/stra/images/favicons/favicon16x16.png" />
+<link rel="icon" sizes="32x32" href="/themes/custom/stra/images/favicons/favicon32x32.png" />
+<link rel="icon" sizes="96x96" href="/themes/custom/stra/images/favicons/favicon96x96.png" />
+<link rel="icon" sizes="192x192" href="/themes/custom/stra/images/favicons/favicon192x192.png" />
+<link rel="apple-touch-icon" href="/themes/custom/stra/images/favicons/favicon60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/themes/custom/stra/images/favicons/favicon72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/themes/custom/stra/images/favicons/favicon76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/custom/stra/images/favicons/favicon114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/custom/stra/images/favicons/favicon120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/stra/images/favicons/favicon144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/custom/stra/images/favicons/favicon152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/stra/images/favicons/favicon180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/themes/custom/stra/images/favicons/favicon57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/themes/custom/stra/images/favicons/favicon72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/themes/custom/stra/images/favicons/favicon76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/themes/custom/stra/images/favicons/favicon114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/themes/custom/stra/images/favicons/favicon120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/themes/custom/stra/images/favicons/favicon144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/themes/custom/stra/images/favicons/favicon152x152.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/themes/custom/stra/images/favicons/favicon180x180.png" />
+<meta property="og:site_name" content="The WFMT Studs Terkel Radio Archive" />
+<meta property="og:title" content="Robert Del Tredici discusses his book &quot;At Work in the Fields of the Bomb&quot;" />
+<meta property="og:description" content="Robert del Tredici photographer, artist, and author discusses the history of nuclear weapon production plants around the United States and the effects of nuclear radiation." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Robert del Tredici photographer, artist, and author discusses the history of nuclear weapon production plants around the United States and the effects of nuclear radiation." />
+<meta name="twitter:title" content="Robert Del Tredici discusses his book &quot;At Work in the Fields of the Bomb&quot; | The WFMT Studs Terkel Radio Archive" />
+<meta name="twitter:site:id" content="2468334146" />
+<meta name="twitter:creator" content="@studsarchive" />
+<meta name="twitter:creator:id" content="2468334146" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="revision" href="https://studsterkel.wfmt.com/programs/robert-del-tredici-discusses-his-book-work-fields-bomb" />
+
+    <title>Robert Del Tredici discusses his book &quot;At Work in the Fields of the Bomb&quot; | The WFMT Studs Terkel Radio Archive | A Living Celebration</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ASgTOzSZG91jJJwaEzpL14XyMYGFBxpUyahL3kICUVE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_mt1bojd1nZyjWOaR61Y7JMS_q9dXm9xecMEr4pLWPOo.css" />
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5ZzvUiuylVHVdPvfLvfNvMWT7RUluBvW0V9iDiROzks.css" />
+<![endif]-->
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_-gXX_O8FWACkObeBpiV-6SqgCHGCRj8lmTXvCglebOo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Y6qkEdVcC0gEWjv7iYj2yYtjLyKHJVxVeWbJEvZeUG8.css" />
+
+    
+  </head>
+  <body class="path-node page-node-type-program">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="stra_theme">
+              <div class="region region-pre-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div class="news_alert news_alert--loading">
+    <div class="width_holder">
+                    <p>Listen to New Voices on Studs Terkel-our partnership with YouMedia Chicago-here!  <a href="https://studsterkel.wfmt.com/digital-bughouse/new-voices-studs-terkel-spring-2022">Read the Story <span class="icon-outbound"></span></a></p>
+
+                <a href="#" class="icon-close-sml"></a>
+    </div>
+</div>
+
+  </div>
+
+    
+    <div class="outer_wrap">
+        <header class="site-header">
+            <div class="width_holder">
+                <a href="/" class="header__logo">
+                    <img class="header__logo--positive" src="/themes/custom/stra/images/STRA-logo-positive.svg">
+                    <img class="header__logo--negative" src="/themes/custom/stra/images/STRA-logo-negative.svg">
+                </a>
+                                      <div class="region region-header">
+    <nav role="navigation" aria-labelledby="block-stra-main-menu-menu" id="block-stra-main-menu" class="nav">
+            
+  <h2 class="visually-hidden" id="block-stra-main-menu-menu">Main navigation</h2>
+  
+
+  <a href="#" class="nav__icon-menu open icon-navicon"></a>
+  <a href="#" class="nav__icon-close close icon-close-sml"></a>
+  <div class="nav__search input_placeholder ">
+    <form role="search" method="get" class="search_form" action="/search">
+      <label for="nav_search_input">Search</label>
+      <input type="search" id="nav_search_input" class="nav__search--field" value="" name="query">
+    </form>
+    <a href="#" class="nav__searchicon-close close icon-close-sml"></a>
+  </div>
+  <div class="nav__wrapper">
+    <a href="#" class="nav__searchicon icon-search-sml"></a>
+              
+                  <ul class="nav__container">
+                            <li class="first">
+                      <a href="/" data-drupal-link-system-path="node/2054">Home</a>
+                              </li>
+                      <li>
+                      <a href="/explore" data-drupal-link-system-path="node/1821">Explore</a>
+                              </li>
+                      <li class="nav__has-subnav">
+                      <a href="/feeling-tone" data-drupal-link-system-path="node/4872">Interact</a>
+                                            <ul class="nav__container--dropdownholder">
+          <li class="nav__dropdown">
+            <svg height="15" width="512" class="nav__dropdown--top">
+              <polygon points="0,10 243,10 256,0 269,10 512,10 512,15 0,15 " style="fill:#f1f1f1;stroke:#a6a9aa;stroke-width:1" />
+            </svg>
+            <ul>
+                            <li icon="clips" class="first">
+                      <a href="/feeling-tone">
+                              <span class="nav__dropdown--pageicon clips"></span>
+                            <span class="nav__dropdown--pagename">Clips</span>
+                              <span class="nav__dropdown--pagesnippet">Explore themed playlists of audio clips from the Archive.</span>
+                          </a>
+                  </li>
+                      <li icon="reuse">
+                      <a href="/digital-bughouse">
+                              <span class="nav__dropdown--pageicon reuse"></span>
+                            <span class="nav__dropdown--pagename">Reuse</span>
+                              <span class="nav__dropdown--pagesnippet">Listen to creative reuses of Studs’ interviews.</span>
+                          </a>
+                  </li>
+                      <li icon="remix">
+                      <a href="/remixer">
+                              <span class="nav__dropdown--pageicon remix"></span>
+                            <span class="nav__dropdown--pagename">Remix</span>
+                              <span class="nav__dropdown--pagesnippet">Combine audio from the Archive to create entirely new works.</span>
+                          </a>
+                  </li>
+                        </ul>
+          </li>
+        </ul>
+        
+                              </li>
+                      <li>
+                      <a href="/bughouse-square" data-drupal-link-system-path="node/4967">Podcast</a>
+                              </li>
+                      <li>
+                      <a href="/classroom" data-drupal-link-system-path="node/2156">Classroom</a>
+                              </li>
+                      <li class="nav--donate">
+                      <a href="https://secure.wfmt.com/?s=stra" target="_blank">Donate</a>
+                              </li>
+                    </ul>
+        
+
+
+      </div>
+</nav>
+
+  </div>
+
+                            </div>
+        </header>
+        <div class="inner_wrap">
+                                          <div class="region region-content">
+    <div id="block-stra-content" class="block block-system block-system-main-block">
+  
+    
+          
+                                                                                                                                                                                                                                                <article data-history-node-id="5845" role="article" about="/programs/robert-del-tredici-discusses-his-book-work-fields-bomb" class="node node--type-program node--view-mode-full">
+
+  <div class="node__content">
+
+            	<div class="slim_audio_cntrl">
+	    <div class="width_holder">
+	        <div class="slim_audio_cntrl__tbl">
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__toggle">
+	            <a href="#" class="icon-play-btn"></a>
+	            </div>
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__progress">
+	                <div class="slim_audio_cntrl__timescrub"></div>
+	                <div class="slim_audio_cntrl__progress_bar"><span></span></div>
+	            </div>
+	            <div class="slim_audio_cntrl__cell slim_audio_cntrl__time">
+	                <p><span class="slim_audio_cntrl__elapsed">00</span>
+	                <span class="slim_audio_cntrl__duration"> / 00</span></p>
+	            </div>
+	            	        </div>
+	    </div>
+	</div>
+
+    
+    
+                                <section class="black program_title">
+        <div class="width_holder">
+            <div class="col-10 single-col-cntr">
+                <h1>Robert Del Tredici discusses his book &quot;At Work in the Fields of the Bomb&quot;</h1>
+                <p class="program_date_duration">BROADCAST: Jun. 6, 1988             <span>|</span>
+        DURATION: 01:00:19</p>
+                <div class="program_social">
+                    <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstudsterkel.wfmt.com%2Fprograms%2Frobert-del-tredici-discusses-his-book-work-fields-bomb" class="icon-facebook std-hov-transition"></a>
+                    <a href="https://twitter.com/intent/tweet/?text=Robert+Del+Tredici+discusses+his+book+%22At+Work+in+the+Fields+of+the+Bomb%22%3A+&amp;amp;url=https%3A%2F%2Fstudsterkel.wfmt.com%2Fprograms%2Frobert-del-tredici-discusses-his-book-work-fields-bomb" class="icon-twitter std-hov-transition"></a>
+                </div>
+            </div>
+        </div>
+                    <a class="button audio_trigger program_button" data-track-url="https://wfmt-studs-terkel.s3.amazonaws.com/published%2F45697.mp3" data-active-text="Stop the Introduction">
+            <span class="audio_trigger__icon icon-play-btn"></span>
+            </a>
+            </section>
+
+    
+                <section class="white">
+        <div class="width_holder">
+            <div class="col-10 single-col-cntr">
+                <h5>Synopsis</h5>
+                    <div class="program_synopsis__body">
+        <h2>Robert del Tredici photographer, artist, and author discusses the history of nuclear weapon production plants around the United States and the effects of nuclear radiation.</h2>
+    </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <section class="white meta_data">
+        <div class="width_holder">
+                            <div class='meta_data__section'>
+                                                                                                                                                                                                                                                                                                                                                                                        <div class="col-12">
+        <h3>Details</h3>
+    </div>
+            <div class="col-4">
+                            <p><strong>Broadcast Date</strong><br>
+                                    Jun. 6, 1988
+                                </p>
+                            <p><strong>Physical Format</strong><br>
+                                    1 sound tape reel (ca. 55 min.) : 10 1/2 in.
+                                </p>
+                    </div>
+            <div class="col-4">
+                            <p><strong>Duration</strong><br>
+                                    1 hour, 19 seconds
+                                </p>
+                            <p><strong>Digital Format</strong><br>
+                                    WAV
+                                </p>
+                    </div>
+            <div class="col-4">
+                            <p><strong>Ownership</strong><br>
+                                    The Chicago History Museum
+                                </p>
+                            <p><strong>Language</strong><br>
+                                    English
+                                </p>
+                    </div>
+    
+                </div>
+                                        <div class='meta_data__section'>
+                                    <div class="col-4">
+                        <h3>Topics</h3>
+                        <p>                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_topic%3A8846">Working, Labor, Economy</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A1152">Visual Arts</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A790">Vietnam War</a>
+                                <a  href="/program-search?f%5B0%5D=program_topic%3A672">American History &amp; Politics</a>
+                                    </p>
+                    </div>
+                                                    <div class="col-4">
+                        <h3>People</h3>
+                        <p>                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_people%3A10077">Artists</a>
+                                <a  href="/program-search?f%5B0%5D=program_people%3A11445">Authors, Writers</a>
+                                    </p>
+                    </div>
+                                </div>
+                                        <div class='meta_data__section'>
+                    <div class="col-12">
+                        <h3>Tags</h3>
+                        <p class="meta_data__tags">                                                                                                                                                                                                            <a  href="/program-search?f%5B0%5D=program_tag%3A13725">Del Tredici, Robert--Interviews</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A13726">Del Tredici, Robert. At work in the fields of the bomb.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A13727">Nuclear weapons--Pictorial works.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A13728">Nuclear energy--Pictorial works.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A13729">Nuclear weapons industry--Employees--United States--Interviews</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A13730">Photographers--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A576">WFMT (Radio station : Chicago, Ill.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33695">Human race and views on nuclear weapons</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33696">Radiation--adverse effects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33697">Anti-nuclear views</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33698">Gleason, Jackie</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33699">Nuclear weapon addiction</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33700">Nuclear weapon destruction</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33701">Nuclear warhead factory</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33702">Nuclear analogy</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33703">Examination of conscious</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33704">Nuclear fission and humans</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33705">Nuclear fission</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33706">Fission</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33707">Japan--Hiroshima--Red-Cross Society Branch Hospital</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33708">Japan Red-Cross Society Hiroshima Branch Hospital</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A19459">Radiation poisoning</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33709">Radiation--Government policy</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33710">Nuclear weapons--treatment</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33711">Nuclear weapons testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33712">Counch, George</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33713">Weaponeers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33714">Nuclear arms race</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6277">Nuclear arms control</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33715">Presidential views on nuclear weapons</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33716">Micromini hydrogen bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33717">Hydrogen bomb--micromini</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33718">Nuclear facilities--warhead production</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33719">Gorbachev, Mikhail Sergeevich, 1931--Quotation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33720">Key turn exercise</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33721">Nuclear key turn</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33722">Christensen, A. Sherman (Judge)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33723">Christensen, A. Sherman (Albert Sherman), 1905-1996</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33724">Del Tredici, David</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33725">Neutron bomb--capitalist bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31692">Neutron bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33726">Nuclear facilities--white train</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33727">Colorado--Rocky Flats--Protests</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33728">Nuclear facilities--Department of Energy</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33729">Nuclear facilities--Department of Defense</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33730">Nuclear facilities--production--neutron generator</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33731">Nuclear facilties--production--metal press</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33732">Geiger counter</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33733">Douglas, James W.- 1937</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33734">Peacekeeper (Missile)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33735">Plutonium production</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33736">Big Man--Atomic bomb--Japan--Nagasaki</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33737">Little Boy--Atomic bomb--Japan--Hiroshima</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33738">Atomic bomb victims--Japan--Hiroshima</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33739">Hydrogen bomb--Design and construction--trigger</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33740">Hydrogen bomb--Design and construction</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33741">Boy, Little</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33742">Man, Fat</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33743">Radiation effects--Cancer</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33744">Common carrier</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33745">United States. Common Carrier Bureau</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33746">Leukemia, Radiation-induced</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33747">Uranium-235</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33748">Rhona Hoffman Gallery</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33749">Enola Gay (Bomber)--People--1940-1950</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33750">Enola Gay (Bomber)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33751">Shell, Johnathan--Quotation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33752">Bannister Federal Complex--Missouri--Kansas City</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33753">Bendix Plant--Missouri--Kansas City</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33754">Bishops of Texas</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33755">Nuclear fission products</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33756">Fission, Nuclear</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33757">Radiation workers--Health and hygiene</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33758">Radiation victims--Health and hygiene--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33759">Radiation victims--Health and hygiene--Japan--Fukushima</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33760">Radiation victims--Health and hygiene--Japan--Nagasaki</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33761">Radiation poisoning--health aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33762">Low-level radiation--Health aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33763">Atomic Bomb Disease</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33764">Richard J. Daley Center--Illinois--Chicago</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33765">Richard J. Daley Center</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33766">Nuclear Free Zone</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33767">Illinois--Chicago--Nuclear Free Zone</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33768">Nuclear facilities--derby pedigree</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33769">Nuclear facilities--igloo bunkers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33770">Nuclear facilities--plutonium production--plutonium pits</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33771">Nuclear facilities--storage igloos</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33772">Nuclear faciliteis--plutonium production--buttons</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33773">Nuclear facilities--plutonium production--reactor</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33774">Nuclear facilities--production--ingots</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33775">Nuclear facilities--production--uranium metal</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33776">Nuclear facilities--production--uranium gel</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33777">Nuclear facilities--production-heavier molecule</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33778">Nuclear facilities--production--light molecule</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33779">Navy missileers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33780">RSS Stalwart</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33781">RSS Stalwart missileers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33782">Missileers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33783">RSS Stalwart--Navy--Missileers</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33784">Tibbets, Paul W. (Paul Warfield), 1915-2007</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33785">Tibbets, Paul</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33786">Human chromosomes--Effect of radiation on</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31653">Background radiation</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33787">Background radiation--adverse effects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33788">Animal populations--Effect of radiation on</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33789">Nuclear submarines</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A10989">Hibakusha</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33790">Hanford Nuclear Site (Wash.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33791">Hanford Nuclear Reservation (Wash.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33792">Taylor, Ted, 1925-2004</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31717">Smitherman, John</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33793">Smitherman, John--Quotations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33794">Operation Crossroads, Marshall Islands, 1946--Nuclear--Abe--Bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33795">Operation Crossroads, Marshall Islands, 1946--Nuclear--Baker--Bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33796">Operation Crossroads, Marshall Islands, 1946--Testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33797">Operation Crossroads, Marshall Islands, 1946--Nuclear testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33798">Operation Crossroads, Marshall Islands, 1946--Health aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33799">Crossroads, Operation, Marshall Islands, 1946</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33800">Sasaki, Sadako, 1943-1955</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33801">United States, Navy--Nuclear weaponsmen</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33802">United States. Navy--Nuclear propulsion plant opeartors</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33803">Nuclear propulsion plant operators (United States Navy)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33804">Nuclear weaponsmen (United States Navy)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33805">Mancuso, Thomas F.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33806">Sadako and the thousand paper cranes</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33807">Matsushige, Yoshito, 1913-</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33808">Cohen, Samuel T.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33809">Cohen, Samuel T. 1921-2010</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33810">Teller, Edward 1908-2003</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33811">Radioactive Materials Incorporated</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33812">Pinellas Plant--Florida--Largo</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33813">Oppenheimer, J. Robert, 1904--1967--Quotations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33814">Oppenheimer, J. Robert, 1904-1967</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33815">Metal Uranium Extrusion Press--Ohio--Ashtabula</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33816">Hanford Thyroid Disease Study</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33817">Trident Missile Base--Washington--Bangor</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33818">Nuclear missile--Trident</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33819">Naval Submarine Base Bangor (Wash)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33820">Y-12 National Security Complex--Tennessee--Oak Ridge</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33821">Uranium Processing Plant--Tennessee--Oak Ridge</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33822">Oak Ridge Gaseous Diffusion Plant</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33823">Gaseous diffusion plants--Tennessee--Oak Ridge</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33824">Gaseous diffusion plants--Ohio--Piketon</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33825">Gaseous diffusion plants--Kentucky--Paducah</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33826">Gaseous diffusion plants</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33827">Gutierrez, Robert (Deacon)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33828">Guiterrez, Robert</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31685">Davy Crockett Battlefield Missile</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33829">Atomic bomb victims--Japan--Nagasaki</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33830">Atomic bomb--Japan--Hiroshima--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33831">Atomic bomb--Japan--Nagasaki--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33832">Atomic bomb--Japan--Hiroshima</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33833">Atomic bomb--Japan--Nagasaki</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33834">Antinuclear movement--Japan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3592">Antinuclear movement</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33835">Charleston Naval Shipyard--nuclear submarine</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33836">Matthiesen, Leroy T. (Bishop)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33837">Matthiesen, Leroy T. (Leroy Theodore), 1921- 2010</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33838">Armageddon--nuclear holocaust</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33839">Bible--prophecies--Armageddon</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33840">Armageddon</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33841">Mound Plant--Ohio--Miamisburg</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33842">U.S. Atomic Energy Commission. Mound Plant</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33843">Miamisburg (Ohio)--Mound Laboratory</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33844">Colorado--Rocky Flats National Wildlife Refuge</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33845">Rocky Flats Plant (U.S.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33846">Ramos, Eloy</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33847">Pantext Nuclear Weapons Assembly Plant--Texas--Amarillo</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33848">Nuclear weapons plants--Texas--Amarillo</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31646">Derby metal</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33849">Uranium industry--derby metal</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33850">Uranium industry--Kentucky--Paducah</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33851">Uranium industry--Ohio--Piketon</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33852">Uranium enrichment plant--Ohio--Piketon</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33853">Paducah Gaseous Diffusion Plant</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33854">Canada Council grant</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33855">Canada. Canada Council</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33856">Uranium refinery--Ontario--Port HOpe</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33857">Uranium industry--Ontario--Port Hope</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33858">OK liquor</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33859">OK liquor--uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33860">Uranium refineries</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33861">Yellow cake--uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33862">Uranium--yellow cake</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33863">Gaber, James</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33864">Nuclear facility--Ohio--Ashtabula</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33865">Uranium Processing Plant--Ohio--Ashtabula</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33866">Uranium oxide</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33867">Uranium ore processing plants--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33868">Uranium mines and mining</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33869">Uranium industry--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33870">Uranium mines</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33871">Uranium industry-Saskatchewan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33872">Uranium industry--Employees</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33873">Uranium industry--Canada--Saskatchewan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33874">Uranium industry--Canada</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33875">Uranium hexafluoride</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31641">Uranium hexafluoride gas</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33876">Uranium enrichment plant--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33877">Uranium enrichment--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33878">Uranium enrichment--Government policy--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33879">Uranium enrichment--Government policy</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33880">Uranium enrichment--Equipment and supplies</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33881">Uranium enrichment--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33882">Uranium enrichment plant--Kentucky--Paducah</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33883">Uranium enrichment--By-products--Kentucky--Paducah</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33884">Uranium enrichment--By-products</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33885">Uranium enrichment</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33886">Uranium--diseases--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33887">Uranium compounds</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33888">Uranium dioxide</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33889">Uranium cycle (Biogeochemistry)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33890">Uranium cycle</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33891">Uranium alloys</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33892">Uranium--adverse effects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A19089">Uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33893">Nuclear facility--production--liquid uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33894">Liquid uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33895">Nuclear facilties--production--highly enriched uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33896">Nuclear facilities--production--uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33897">Highly enriched uranium--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33898">Nuclear plant--production--highly enriched uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33899">Nuclear plant--production--uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33900">Highly enriched uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33901">Nuclear plant--depleted uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33902">Nuclear facilities--depleted uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33903">Depleted uranium--government policy--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33904">Depleted uranium</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33905">Hazardous waste sites--Location--Washington (State)--Hanford Site</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33906">Nuclear industry--Ohio--Fernald</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33907">Nuclear facility--Ohio--Fernald</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33908">Nuclear industry--Washington (State)--Hanford</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33909">Nuclear facilities--Washington (State)--Hanford</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33910">Nuclear facilities--Ohio--Fernald</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33911">Hazardous waste sites--Ohio--Fernald</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31630">Nuclear weapons databook</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31631">Natural Resources Defense Council</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33912">Gaber, James--Quotations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33913">Gaber, James--nuclear plant--public relations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31620">Savannah River Plutonium Production Facility</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33914">Savannah River Production Facility &quot;The Bomb Plant&quot;</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33915">The Bomb Plant</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33916">United States. Department of Eenrgy. Savannah River Plant National Environmental Research Park</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33917">Savannah River Plant Site (S.C.)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33918">Matthiessen, Peter. At Play in the Fields of teh Lord</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33919">McLanahan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33920">Morland, Howard. The H-Bomb Secret</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33921">United States v. Progressive, Inc.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31615">Atom Curtain</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A3723">Nuclear War</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31613">Morland, Howard</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33922">Harper &amp; Rowe</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33923">Harper &amp; Rowe Perennial Series</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33924">Schell, Jonathan, 1934-2014</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33925">Nuclear factory workers--interviews</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33926">Zoned air space</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33927">Air space</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33928">Nuclear weapon factory</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31629">Nuclear warheads</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33929">Factories--hydrogen bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33930">Hydrogen bomb factory</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33931">Nuclear weapons manufacturing--public relations</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A31698">Admiral Hyman G. Rickover</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33932">Rickover, Hyman G.</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33933">Rickover H.G. (Hyman George)</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33934">Bertell, Rosalie, 1929-2012</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33935">Nuclear weapons--United States--Testing--anecdotes</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33936">Nuclear ewapons testing victims--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33937">Nuclear weaposnt esting victims--Medical care--Marshall Islands</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33938">Nuclear weapons testing victims--Kapan</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33939">Nuclear weapons testing victims--Japan--Biography</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33940">Nuclear weapons testing victims--Health aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33941">Nuclear weapons testing victims</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33942">Nuclear weapons--Testing--Law and legislation--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33943">Nuclear weapons--Testing--Law and legislation--Cases</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33944">Nuclear weapons--Testing--Health aspects--United States--History--20th century</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33945">Nuclear weapons--Testing--health asepcts</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33946">Nuclear weapons--Testing--Detection--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33947">Nuclear weapons--Testing--Detection</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33948">Nuclear weapons--Soviet Union</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33949">Nuclear weapons--Religious aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33950">Nuclear weapons--Public opinion</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33951">Nuclear weapons--Political aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33952">Nuclear weapons plants--United States--Safety measures</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33953">Nuclear weapons plants--United States--Management</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33954">Nuclear weapons plants--United States--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33955">Nuclear weapons plants--United States--Employees</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33956">Nuclear weapons plants--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33957">Nuclear weapons plants--Social aspects--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33958">Nuclear weapons--Health aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33959">Nuclear weapons plants--Employees--Health and hygiene</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33960">Nuclear weapons plants</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A6278">Nuclear weapons--Moral and ethical aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33961">Nuclear weapons--Materials--Storage--Safety measures</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33962">Nuclear weapons--Materials--Management--Case studies</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33963">Nuclear weapons--Materials--Management</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33964">Nuclear weapons--Materials</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33965">Nuclear weapons information--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33966">Nuclear weapons information</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33967">Nuclear weapons industry</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33968">Nuclear weapons industry--United States--safety measures</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33969">Nuclear weapons industry--United States--personnel management</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33970">Nuclear weapons industry--history</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33971">Nuclear weapons industry--United States--employees</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33972">Nuclear weapons industry--Tennessee--Oak Ridge--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33973">Nuclear weapons industry--Tennessee--Employees</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33974">Nuclear weapons industry--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33975">Nuclear weapons--Government policy--United States--history</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33976">Nuclear weapons--Government policy--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33977">Nuclear weapons--environmental aspects--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33978">Nuclear weapons--case studies</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33979">Nuclear weapons--blast effect</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33980">Nuclear weapons--Bikini Island--Testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33981">Nuclear weapons--Bikini Atoll (Marshall Islands)-- Testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A4739">Nuclear weapons</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33982">Hydrogen bomb victims--Japan--biography</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33983">Hydrogen bomb victims--United States--History--20th century</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A19444">Hydrogen bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33984">Hydrogen bomb--United States--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33985">Hydrogen bomb--Safety measures</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33986">Hydrogen bomb--Government policy--United States</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33987">Hydrogen bomb--MOral and ethical aspects</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33988">Hydrogen bomb--Marshall Islands--Testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33989">Hydrogen bomb--Marshall Islands--Bikini Atoll--Testing</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33990">Hydrogen bomb--Design and construction--History</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33991">Del Tredici, Robert. At Work in the Fields of the Bomb</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33992">Tredici, Robert del</a>
+                                <a  href="/program-search?f%5B0%5D=program_tag%3A33993">Del Tredici, Robert</a>
+                                    </p>
+                    </div>
+                </div>
+                    </div>
+    </section>
+
+                <section class="section_border">
+	
+<div class="width_holder">
+  <div class="col-10 single-col-cntr">
+    <h5>Related Programs</h5>
+  </div>
+  <div class="col-12">
+          <div class="tileslider tileslider--no-margin"> 
+            <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="6378" role="article" about="/programs/discussing-atomic-diplomacy-hiroshima-and-potsdam-use-atomic-bomb-and-american">
+    <div class="tileslide__holder">
+        <a href="/programs/discussing-atomic-diplomacy-hiroshima-and-potsdam-use-atomic-bomb-and-american" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/discussing-atomic-diplomacy-hiroshima-and-potsdam-use-atomic-bomb-and-american" class="tileslider__link">
+        <h3>            <span class="results_tiles__icon icon-audio"></span>
+            Discussing Atomic diplomacy: Hiroshima and Potsdam; the use of the atomic bomb and the American confrontation with Soviet power with Gar Alperovitz
+</h3>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="4853" role="article" about="/programs/richard-reeves-discusses-his-book-american-journey">
+    <div class="tileslide__holder">
+        <a href="/programs/richard-reeves-discusses-his-book-american-journey" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/richard-reeves-discusses-his-book-american-journey" class="tileslider__link">
+        <h3>    Richard Reeves discusses his book &quot;American Journey&quot;
+</h3>
+                    <p>Jun. 14, 1982</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="432" role="article" about="/programs/ed-paulsen-discusses-great-depression-its-impact">
+    <div class="tileslide__holder">
+        <a href="/programs/ed-paulsen-discusses-great-depression-its-impact" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/ed-paulsen-discusses-great-depression-its-impact" class="tileslider__link">
+        <h3>            <span class="results_tiles__icon icon-audio"></span>
+            Ed Paulsen discusses the Great Depression its impact
+</h3>
+                    <p>Oct. 1, 1981</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="4988" role="article" about="/programs/bill-mauldin-reads-and-discusses-his-book-brass-ring">
+    <div class="tileslide__holder">
+        <a href="/programs/bill-mauldin-reads-and-discusses-his-book-brass-ring" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/bill-mauldin-reads-and-discusses-his-book-brass-ring" class="tileslider__link">
+        <h3>    Bill Mauldin reads from and discusses his book &quot;The Brass Ring&quot;
+</h3>
+                    <p>1970</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="4505" role="article" about="/programs/discussing-books-shielding-flame-intimate-conversation-dr-marek-edelman-last-surviving">
+    <div class="tileslide__holder">
+        <a href="/programs/discussing-books-shielding-flame-intimate-conversation-dr-marek-edelman-last-surviving" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/discussing-books-shielding-flame-intimate-conversation-dr-marek-edelman-last-surviving" class="tileslider__link">
+        <h3>    Discussing the books &quot;Shielding the Flame: An Intimate Conversation with Dr. Marek Edelman, the Last Surviving Leader of the Warsaw Ghetto Uprising,&quot; by Hanna Krall, and &quot;Letters From Prison and Other Essays,&quot; by Adam Michnik
+</h3>
+                    <p>Sep. 16, 1986</p>
+            </a>
+</div>
+
+  </div>
+    <div class="tileslider__slide">
+        
+    
+<div data-history-node-id="5358" role="article" about="/programs/c-northcote-parkinson-talks-studs-terkel-part-2">
+    <div class="tileslide__holder">
+        <a href="/programs/c-northcote-parkinson-talks-studs-terkel-part-2" class="tileslider__link">
+            <div class="tileslider_image"><img src="/themes/custom/stra/images/program-thumbnail-fallback.jpg"></div>
+        </a>
+    </div>
+    <a href="/programs/c-northcote-parkinson-talks-studs-terkel-part-2" class="tileslider__link">
+        <h3>            <span class="results_tiles__icon icon-audio"></span>
+            C. Northcote Parkinson talks with Studs Terkel ; part 2
+</h3>
+                    <p>Jan. 29, 1962</p>
+            </a>
+</div>
+
+  </div>
+
+      </div>
+      </div>
+</div>
+
+</section>
+
+
+    
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+                                          <div class="region region-sponsors">
+    <div id="block-globalsponsorssection" class="block block-block-content block-block-content6cae2b51-cd8b-4673-be52-e18d1fa4c879">
+  
+    
+          <section class="gray--alt sponsor-section-block">
+        <div class="width_holder">
+                                    <div class="col-10 single-col-cntr">
+                    <h5>Major Support Provided By</h5>
+
+                
+            </div>
+                <div class="col-12 ">
+            <div class="sponsors">
+                                            <a href="https://studsterkel.wfmt.com/becca-kopf-memorial-education-fund" class="sponsor__box sponsor__box--large" target="_blank" rel="noopener noreferrer"><span><span>    The Becca Kopf Memorial Circle of Friends
+</span></span></a>
+            
+
+            </div>
+        </div>
+    
+
+        </div>
+    </section>
+
+  </div>
+
+  </div>
+
+                    </div>
+        <footer>
+                            <div class="footer__top">
+                    <div class="width_holder">
+                          <div class="region region-pre-footer">
+    <div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo-wfmt-chicago-history-museum-2.png"  class="footer_partner-logo" alt="WFMT Radio Network &amp; Chicago History Museum">
+    <p>This site is being managed by <a href="https://wfmt.com/" target="_blank">WFMT</a> in partnership with the <a href="https://www.chicagohistory.org/">Chicago History Museum</a>.</p>
+
+
+    </div>
+<div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo_reverse_library-of-congress.svg"  class="footer_partner-logo" alt="Library of Congress">
+    <p>In-kind digitization services of the Studs Terkel Radio Archive are provided by the <a href="https://www.loc.gov/avconservation/ " target="_blank">Library of Congress</a>.</p>
+
+
+    </div>
+<div class="col-4">
+            <img src="https://studsterkel.wfmt.com/sites/default/files/footer_partner/logo_reverse_national-endowment-humanities.svg"  class="footer_partner-logo" alt="National Endowment for the Humanities">
+    <p>The Studs Terkel Radio Archive has been made possible in part by a major grant from the <a href="https://www.neh.gov/">National Endowment for the Humanities</a>: Exploring the human endeavor.</p>
+
+
+    </div>
+
+  </div>
+
+                    </div>
+                </div>
+                                        <div class="footer__bottom">
+                    <div class="width_holder">
+                        <div class="col-12">
+                              <div class="region region-footer">
+            <img  class="footer__logo" alt="Studs Terkel Radio Archive" src="https://studsterkel.wfmt.com/sites/default/files/footer_logo/STRA-horizontal-logo.svg">
+
+<p class="footer__nav">
+        
+              <a href="/all-programs" data-drupal-link-system-path="node/4735">All Programs</a>
+          <a href="/about-the-archive" data-drupal-link-system-path="node/2144">About The Archive</a>
+          <a href="/about-studs-terkel" data-drupal-link-system-path="node/2041">About Studs</a>
+          <a href="/sponsors" data-drupal-link-system-path="node/2200">Supporters</a>
+          <a href="/contact" data-drupal-link-system-path="node/2079">Contact</a>
+      
+
+
+  </p>
+
+    <p >©2022 WFMT Radio Network
+      |  Site by <a href="https://jellcreative.com" target="_blank">Jell Creative</a>
+</p>
+
+    <p>Any views, findings, conclusions, or recommendations expressed in this web resource do not necessarily represent those of the National Endowment for the Humanities.</p>
+
+
+
+  </div>
+
+                        </div>
+                    </div>
+                </div>
+                    </footer>
+    </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/5845","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":2,"trackCrossDomains":["studsterkel.org, studsterkel.wfmt.com"]},"user":{"uid":0,"permissionsHash":"c9f3a3018c2ec8c53b70707ccbe88ef5e879bfdb64ff33d511641f339f3aea10"}}</script>
+<script src="/sites/default/files/js/js_6SnGLtRvsXBJpbGXnzA33Px5CpdxeSDSoRPsoEwg-ZI.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="/sites/default/files/js/js_eJ3TUb4ci1nzle2mhz3Gu2wRESVh0jlcx1ABLuXJc00.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3b679f16bc","applicationID":"132225408","transactionName":"NFxRYBFSDRVZWxJbCw0WclcXWgwIF3wURxQCVW9aDFcGOntXCEYWDFVfURFvLQlcXTBbARR6XFoXQQwKVF0UH1oVUFZD","queueTime":0,"applicationTime":2608,"atts":"GBtSFllIHhs=","errorBeacon":"bam.nr-data.net","agent":""}</script><script>(function(){var js = "window['__CF$cv$params']={r:'75901e181c747b0e',m:'ex43QMvfpI.gwWoQ_YPs3HdSERPhaiYsxiQdFmzcYZo-1665580668-0-AREFFHDEebxZK2jonkrOlChWVSsE8nTCSWMJZuJHNyw921nQDBdivugAsM4/8UwR88z5+NSrKQLmoZSQjmvWK9RbEsCAyUeqwLl/2dguseQj5mF2+6Fp5OG7fEfwiS1Sgo5SYuTqFAwyb54AO6RvxpbNSqS4VV/uVpc3r8w7G2QiZTMtlLLwQoufZP450tkJwlMOZSpLYGi+8MCpiaSnMZ8=',s:[0x6234bd3b74,0x3ff94e4994],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"75901e181c747b0e","token":"503d05c5b6124359b6428ddf9861dd42","version":"2022.8.1","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
