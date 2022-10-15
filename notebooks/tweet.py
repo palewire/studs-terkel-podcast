@@ -17,7 +17,7 @@ def main(max_title_length=150):
 
     # Create filters to get the latest untweeted episodes
     past_filter = df.feed_date.dt.date <= today.date()
-    untweeted_filter = df.tweeted != True
+    untweeted_filter = df.tweeted != "x"
 
     # Get the earliest one that hasn't been tweeted yet
     untweeted_df = df[past_filter & untweeted_filter]
@@ -32,7 +32,7 @@ def main(max_title_length=150):
     sys.stdout.write(txt)
 
     # Mark the tweet as tweeted and write back to the source file
-    df.loc[df.archive_url == to_tweet.archive_url, 'tweeted'] = True
+    df.loc[df.archive_url == to_tweet.archive_url, 'tweeted'] = "x"
     df.to_csv("./data/feed.csv", index=False)
 
 
