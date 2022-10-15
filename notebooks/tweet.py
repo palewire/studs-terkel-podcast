@@ -28,7 +28,7 @@ def main(max_title_length=150):
         title = to_tweet.title[0:max_title_length] + '...'
     else:
         title = to_tweet.title
-    txt = f"First broadcast on {to_tweet.broadcast_date}. {title}. Subscribe at https://studs.show to listen."
+    txt = f"{title}. Subscribe at https://studs.show to listen."
     sys.stdout.write(txt)
 
     # Mark the tweet as tweeted and write back to the source file
