@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Wed, 12 Oct 2022 00:02:47 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Oct 2022 00:02:14 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -24,10 +24,34 @@
     <link>https://studs.show</link>
     
     <item>
+      <title>Gage Park residents discuss race relations and racial integration at Gage Park High School ; part 2</title>
+      <description>First broadcast on August 04, 1970. A diverse panel of Gage Park residents discuss racial integration at Gage Park High School, neighborhood change, and race relations in general.</description>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13571.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:26:18</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gage-park-residents-discuss-race-relations-and-racial-integration-gage-park-high-school-0</guid>
+    </item>
+    <item>
+      <title>Gage Park residents discuss race relations and racial integration at Gage Park High School ; part 1</title>
+      <description>First broadcast on August 04, 1970. A diverse panel of Gage Park residents discuss racial integration at Gage Park High School, neighborhood change, and race relations in general.</description>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13572.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:00:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gage-park-residents-discuss-race-relations-and-racial-integration-gage-park-high-school</guid>
+    </item>
+    <item>
+      <title>Dr. Martin Luther King Jr. discusses civil rights in regards to his &#34;I Have a Dream&#34; speech</title>
+      <description>First broadcast on October 22, 1964. Studs Terkel interviews Dr. Martin Luther King Jr. at the home of gospel singer Mahalia Jackson. They discuss King&#39;s &#34;I Have a Dream&#34; speech that he made in 1963, at the foot of the Lincoln Memorial. At the end of the program there are various gospel music selections featuring Jackson and others.</description>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/20152.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:12:16</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dr-martin-luther-king-jr-discusses-civil-rights-regards-his-i-have-dream-speech</guid>
+    </item>
+    <item>
       <title>Discussing the book &#34;The Haymarket Tragedy,&#34; with the author, historian Paul Avrich</title>
       <description>First broadcast on December 27, 1984. </description>
       <pubDate>Mon, 27 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35214.mp3" type="audio/mpeg" length="120901460" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/35214.mp3" type="audio/mpeg"  />
       <itunes:duration>00:50:23</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-haymarket-tragedy-author-historian-paul-avrich</guid>
     </item>
@@ -35,23 +59,15 @@
       <title>Howard Vincent discusses foreign languages and Herman Melville</title>
       <description>First broadcast on December 22, 1959. Foreign language expert Howard Vincent talks with Studs Terkel about foreign languages, Herman Melville, “Moby Dick,” and other literary works.</description>
       <pubDate>Wed, 22 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12938.mp3" type="audio/mpeg" length="64997049" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/12938.mp3" type="audio/mpeg"  />
       <itunes:duration>00:27:04</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/howard-vincent-discusses-foreign-languages-and-herman-melville</guid>
-    </item>
-    <item>
-      <title>E. L. Doctorow in conversation with Studs Terkel</title>
-      <description>First broadcast on December 19, 1984. Discussing the book &#34;Lives of the Poets: Six Stories and a Novella&#34; (published by Random House) with the author E.L. Doctorow.</description>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33736.mp3" type="audio/mpeg" length="123851234" />
-      <itunes:duration>00:51:36</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/e-l-doctorow-conversation-studs-terkel-0</guid>
     </item>
     <item>
       <title>Discussing the book &#34;The New Russians&#34; with the author, journalist Hedrick Smith</title>
       <description>First broadcast on December 13, 1990. Program includes an excerpt of a May 1990 interview with Russian journalist Vitaly Korotich.</description>
       <pubDate>Mon, 13 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35370.mp3" type="audio/mpeg" length="132574103" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/35370.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:16</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-new-russians-author-journalist-hedrick-smith</guid>
     </item>
@@ -59,39 +75,32 @@
       <title>Pete Hamill in conversation with Studs Terkel</title>
       <description>First broadcast on December 09, 1977. </description>
       <pubDate>Thu, 09 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44385.mp3" type="audio/mpeg" length="129828226" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/44385.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:05</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/pete-hamill-conversation-studs-terkel</guid>
-    </item>
-    <item>
-      <title>Roger Ebert discusses old movies with Studs Terkel</title>
-      <description>First broadcast on December 03, 1996. Chicago Sun-Times film critic and author Roger Ebert discusses his book &#34;Roger Ebert&#39;s Book of Film: From Tolstoy to Tarantino, The Finest Writing From A Century of Film&#34; (published by Norton); reads passages from his book; interview with Buster Keaton is played at 35:18.</description>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7674.mp3" type="audio/mpeg" length="125753716" />
-      <itunes:duration>00:52:23</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/roger-ebert-discusses-old-movies-studs-terkel</guid>
     </item>
     <item>
       <title>Federico Fellini and actors discuss their film &#34;La Dolce Vita&#34; and the character Steiner</title>
       <description>First broadcast on December 01, 1962. Studs Terkel plays interview clips of actors [Marcello Mastroianni and Alain Cuny] and the director Federico Fellini discussing their film &#34;La Dolce Vita&#34; and the character Steiner. At the beginning of the program Studs Terkel interviews Nelson Algren, a writer, and Mario Devecki (a person who made the film &#34;La Dolce Vita&#34; happen) about La Dolce Vita and Steiner.</description>
       <pubDate>Wed, 01 Dec 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7940.mp3" type="audio/mpeg" length="123073548" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7940.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:16</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/federico-fellini-and-actors-discuss-their-film-la-dolce-vita-and-character-steiner</guid>
     </item>
     <item>
       <title>Muhammad Ali discusses his book &#34;The Greatest: My Own Story&#34;</title>
-      <description>First broadcast on November 26, 1975. Muhammad Ali discusses his book &#34;The Greatest: My Own Story,&#34; touching on topics including his childhood and family, conversion to Islam, stance on the Vietnam War, and experiences in jail. After the conversation with Ali ends, the second half of the program consists of music by Billie Holiday (&#34;God Bless the Child&#34;), Jimmy Rushing (&#34;Going to Chicago&#34;), Nina Simone (&#34;Children Go Where I Send You&#34;), Count Basie, Alan Lomax (&#34;Little John Henry&#34;), Dinah Washington (&#34;Willow Weep For Me&#34;), and Duke Ellington (&#34;East St. Louis Toodle-Oo&#34;).</description>
+      <description>First broadcast on November 26, 1975. Content Warning:  This conversation includes racially and/or culturally derogatory language and/or negative depictions of Black and Indigenous people of color, women, and LGBTQI+ individuals. Rather than remove this content, we present it in the context of twentieth-century social history to acknowledge and learn from its impact and to inspire awareness and discussion.  
+Muhammad Ali discusses his book &#34;The Greatest: My Own Story,&#34; touching on topics including his childhood and family, conversion to Islam, stance on the Vietnam War, and experiences in jail.</description>
       <pubDate>Fri, 26 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/17009.mp3" type="audio/mpeg" length="81520943" />
-      <itunes:duration>00:33:57</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56236.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:33:58</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/muhammad-ali-discusses-his-book-greatest-my-own-story</guid>
     </item>
     <item>
       <title>Oriana Fallaci in conversation with Studs Terkel</title>
       <description>First broadcast on November 21, 1980. </description>
       <pubDate>Sun, 21 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44270.mp3" type="audio/mpeg" length="129680720" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/44270.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:01</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/oriana-fallaci-conversation-studs-terkel-1</guid>
     </item>
@@ -99,7 +108,7 @@
       <title>Geoffrey Wolff discusses his book about Harry Crosby</title>
       <description>First broadcast on November 17, 1976. Terkel interview author Geoffrey Wolff about his latest book. Entitled &#34;Black Sun,&#34; it is a biography of Harry Crosby.</description>
       <pubDate>Wed, 17 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/22956.mp3" type="audio/mpeg" length="125658038" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/55973.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:21</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/geoffrey-wolff-discusses-his-book-about-harry-crosby</guid>
     </item>
@@ -107,7 +116,7 @@
       <title>Three Vietman War veterans, Robert Black, Robert Johnson and Dr. Gordon Livingston, discuss the war, part 1</title>
       <description>First broadcast on November 12, 1970. Robert Black, Robert Johnson, and Dr. Gordon Livingston talk about the Vietnam War.  All three are officers in the military and veterans of the Vietnam War.  They talk about the Tet offensive and the Battle of Hue in 1968, and the deplorable treatment of the Vietnamese people by the United States military .  Upon returning they have chosen to become anti-Vietnam War because it is not a struggle to stop Communism so much as being a force of destruction.</description>
       <pubDate>Fri, 12 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/6116.mp3" type="audio/mpeg" length="144064505" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6116.mp3" type="audio/mpeg"  />
       <itunes:duration>00:00:01</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/three-vietman-war-veterans-robert-black-robert-johnson-and-dr-gordon-livingston-discuss</guid>
     </item>
@@ -115,7 +124,7 @@
       <title>Professor Ali Irani [pseudonym name to protect his identity] talks about the regime of the Shah [Mohammad Reza Pahlavi]</title>
       <description>First broadcast on November 08, 1978. Professor Ali Irani (pseudonym name) is a Humanities professor at a recognized midwest university that discusses the regime of the Shah, Mohammad Reza Pahlavi. Includes a fiften minute interview with an American couple, Luis and Joan Smiley, that talks about their experience with students protesting the regime in Kentucky, Louisiana.</description>
       <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9517.mp3" type="audio/mpeg" length="131372129" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9517.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:44</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/professor-ali-irani-pseudonym-name-protect-his-identity-talks-about-regime-shah-mohammad</guid>
     </item>
@@ -123,8 +132,8 @@
       <title>Studs Terkel moderates and comments on a round-table debate about the Montessori educational theory</title>
       <description>First broadcast on November 03, 1964. A round-table debate about the Montessori educational theory.  Four early childhood development professionals speak of the pros and the cons of the program. Speakers include: Fay Bauling advisor at Wilson Jr. College, Dr. Urban Fleege of DePaul University, Dr. Ner Littner from the Institute of Psychoanalysis, and Hannah MacLaren, head teacher from Ancona School.</description>
       <pubDate>Wed, 03 Nov 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/5882.mp3" type="audio/mpeg" length="200280019" />
-      <itunes:duration>00:00:01</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/60723.mp3" type="audio/mpeg"  />
+      <itunes:duration>01:23:27</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-moderates-and-comments-round-table-debate-about-montessori-educational-theory</guid>
     </item>
     <item>
@@ -132,7 +141,7 @@
       <description>First broadcast on October 31, 1980. Arlo Guthrie discusses his approach to songwriting and how storytelling in song writing has changed. He also talks about what it&#39;s like to become known for performing works written by others. Arlo Guthrie&#39;s music is played and discussed throughout the interview: &#34;Manzanillo Bay&#34;, &#34;Week on the Rag&#34;, &#34;Buffalo Skinners&#34;, &#34;City of New Orleans&#34;, &#34;Darkest Hour&#34;, &#34;Massachusetts&#34;, and &#34;Last Train to Glory&#34;.
 Music has been removed for copyright reasons.</description>
       <pubDate>Sun, 31 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19758.mp3" type="audio/mpeg" length="66967705" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19758.mp3" type="audio/mpeg"  />
       <itunes:duration>00:27:54</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/arlo-guthrie-discusses-his-career</guid>
     </item>
@@ -140,7 +149,7 @@ Music has been removed for copyright reasons.</description>
       <title>Discussing Ukrainian music with Oleh Saciuk</title>
       <description>First broadcast on October 25, 1979. Studs Terkel discussing Ukrainian music with Oleh Saciuk. Includes instrumental music excerpts.</description>
       <pubDate>Mon, 25 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/20008.mp3" type="audio/mpeg" length="81259819" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/20008.mp3" type="audio/mpeg"  />
       <itunes:duration>00:33:51</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-ukrainian-music-oleh-saciuk-0</guid>
     </item>
@@ -148,7 +157,7 @@ Music has been removed for copyright reasons.</description>
       <title>Quentin Crisp discusses homosexuality</title>
       <description>First broadcast on October 21, 1992. Quentin Crisp, author of many works about gays in Britain and the United States and, notably, about &#34;coming out&#34; as gay in England in the 1930s, discusses homosexuality and his experiences.</description>
       <pubDate>Thu, 21 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7142.mp3" type="audio/mpeg" length="145640212" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7142.mp3" type="audio/mpeg"  />
       <itunes:duration>00:00:01</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/quentin-crisp-discusses-homosexuality</guid>
     </item>
@@ -156,7 +165,7 @@ Music has been removed for copyright reasons.</description>
       <title>John Kenneth Galbraith in conversation with Studs Terkel</title>
       <description>First broadcast on October 17, 1983. Discussing the book &#34;The Anatomy of Power&#34; (published by Houghton Mifflin) with the author, economist John Kenneth Galbraith.</description>
       <pubDate>Sun, 17 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33308.mp3" type="audio/mpeg" length="115513993" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33308.mp3" type="audio/mpeg"  />
       <itunes:duration>00:48:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/john-kenneth-galbraith-conversation-studs-terkel-1</guid>
     </item>
@@ -168,7 +177,7 @@ The main topic of conversation is Cottle&#39;s book, &#34;Busing&#34; (1976, Bos
 
 Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, where Cottle did his research and writing.  They each read passages from the book, and discuss the relationship between busing and racism in America.</description>
       <pubDate>Mon, 11 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7088.mp3" type="audio/mpeg" length="131465138" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7088.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:46</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-discusses-busing-school-integration-psychologist-thomas-j-cottle</guid>
     </item>
@@ -176,7 +185,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Interview with Art Buchwald</title>
       <description>First broadcast on October 10, 1983. Discussing the book &#34;While Reagan Slept&#34; (published by Putnam) with the author, satirist Art Buchwald.</description>
       <pubDate>Sun, 10 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/30646.mp3" type="audio/mpeg" length="125130189" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/30646.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interview-art-buchwald</guid>
     </item>
@@ -184,7 +193,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Carl Sagan discusses the book &#34;Contact&#34;</title>
       <description>First broadcast on October 04, 1985. Discussing the book &#34;Contact&#34; (published by Simon &amp; Schuster) with the author, astronomer and science writer Carl Sagan.  Starts with clip from Arthur C. Clarke (1856688-3-1).</description>
       <pubDate>Mon, 04 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12249.mp3" type="audio/mpeg" length="93282640" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/12249.mp3" type="audio/mpeg"  />
       <itunes:duration>00:38:51</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/carl-sagan-discusses-book-contact</guid>
     </item>
@@ -192,7 +201,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Sidney Poitier talks with Studs Terkel about his most recent film &#34;The Defiant Ones&#34;</title>
       <description>First broadcast on October 01, 1959. Bahamian actor Sidney Poitier talks with Studs Terkel about his most recent film &#34;The Defiant Ones&#34; and how racial type-casting for typically white roles works in Hollywood films. Besides being an actor, he is also a film director, author, and diplomat.</description>
       <pubDate>Fri, 01 Oct 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/11861.mp3" type="audio/mpeg" length="84646379" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11861.mp3" type="audio/mpeg"  />
       <itunes:duration>00:35:16</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/sidney-poitier-talks-studs-terkel-about-his-most-recent-film-defiant-ones</guid>
     </item>
@@ -200,7 +209,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>James Baldwin discusses his book &#34;Another Country&#34; and his travels through Africa</title>
       <description>First broadcast on September 29, 1962. James Baldwin discusses his book  &#34;Another Country&#34;  and his trip to Africa.  Mr.Baldwin and Studs speak about  his place in social reform and his fight for civil rights for all.</description>
       <pubDate>Wed, 29 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/5816.mp3" type="audio/mpeg" length="113148064" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56131.mp3" type="audio/mpeg"  />
       <itunes:duration>00:47:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/james-baldwin-discusses-his-book-another-country-and-his-travels-through-africa</guid>
     </item>
@@ -208,15 +217,15 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Dr. E.F. Schumacher talks with Studs Terkel</title>
       <description>First broadcast on September 26, 1974. </description>
       <pubDate>Sun, 26 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12368.mp3" type="audio/mpeg" length="137572557" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/12368.mp3" type="audio/mpeg"  />
       <itunes:duration>00:57:19</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dr-ef-schumacher-talks-studs-terkel</guid>
     </item>
     <item>
       <title>Blind John Davis discusses Chicago blues</title>
-      <description>First broadcast on September 20, 1977. Blind John Davis, Chicago blues pianist, discusses his time playing in Germany and at the Blue Note jazz club, chitlin&#39; parties, growing up on the West side of Chicago. He also recalls meeting and working with musicians like Tampa Red and Big Bill Broonzy. Music by John Davis (unless noted as another artist) is played throughout : &#34;Jim Town Blues&#34;, &#34;Every Day I Got the Blues&#34;, &#34;Pine Top&#39;s Boogie Woogie&#34;, &#34;Summertime&#34;, &#34;Looking Up at Down&#34;- Big Bill Broonzy, &#34;Killer Diller Blues&#34;- Memphis Minnie, &#34;Moanin&#39; the Blues&#34;, &#34;When I Lost My Baby&#34;, and &#34;Magic Carpet&#34;. Music has been removed from this recording for copyright reasons.</description>
+      <description>First broadcast on September 20, 1977. Blind John Davis, Chicago blues pianist, discusses his time playing in Germany and at the Blue Note jazz club, chitlin&#39; parties, growing up on the West side of Chicago. He also recalls meeting and working with musicians like Tampa Red and Big Bill Broonzy. Music has been removed from this recording for copyright reasons.</description>
       <pubDate>Mon, 20 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19640.mp3" type="audio/mpeg" length="64656391" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56319.mp3" type="audio/mpeg"  />
       <itunes:duration>00:26:56</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/blind-john-davis-discusses-chicago-blues</guid>
     </item>
@@ -224,15 +233,17 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</title>
       <description>First broadcast on September 17, 1985. Discussing the film &#34;Before Stonewall the Making of a Gay and Lesbian Community&#34; with author Reverend Grant Gallup and Chicago gay-friendly bar owner, Marge Summit</description>
       <pubDate>Fri, 17 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44735.mp3" type="audio/mpeg" length="124592040" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/44735.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:55</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-film-stonewall-making-gay-and-lesbian-community-author-reverend-grant-gallup</guid>
     </item>
     <item>
       <title>Brian Dennehy and Steven Robman discuss their play &#34;Rat in the Skull&#34;</title>
-      <description>First broadcast on September 11, 1985. </description>
+      <description>First broadcast on September 11, 1985. Director Steven Robman and actor Brian Dennehy discuss their play &#34;Rat in the Skull&#34;.
+
+Brian Dennehy performs a passage from Rat in the Skull.</description>
       <pubDate>Sat, 11 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/45702.mp3" type="audio/mpeg" length="85989575" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/45702.mp3" type="audio/mpeg"  />
       <itunes:duration>00:35:50</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/brian-dennehy-and-steven-robman-discuss-their-play-rat-skull</guid>
     </item>
@@ -240,7 +251,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
       <title>Buster Keaton discusses the release of &#34;When Comedy Was King&#34;</title>
       <description>First broadcast on September 05, 1960. Silent film pioneer Buster Keaton discusses his career following the release of &#34;When Comedy Was King,&#34; a compilation of some classic shorts by Keaton, Charlie Chaplin, Harold Lloyd, and others. Keaton reveals how they shot the early silent films, generated material and gags, how they planned big chase scenes, the resurging European interest in silent classics, and more. Studs asks Keaton about the stylistic differences between him and Chaplin, whether he would recreate silent films, and how they compare to today&#39;s film-making. Keaton reveals how little was scripted but rather improvised in between a start and finish. Keaton describes some classic gags in films like &#34;The Frozen North,&#34; &#34;Sherlock Jr.,&#34; and &#34;The Navigator.&#34; The discussion concludes with Keaton&#39;s thoughts on performing on television in front of a live audience.</description>
       <pubDate>Sun, 05 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9932.mp3" type="audio/mpeg" length="91124750" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9932.mp3" type="audio/mpeg"  />
       <itunes:duration>00:37:58</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/buster-keaton-discusses-release-when-comedy-was-king</guid>
     </item>
@@ -250,7 +261,7 @@ Terkel and Cottle discuss busing in several cities, focusing on Boston, MA, wher
 
 At the time of the interview, Wolfe had recently released &#34;The Electric Kool-Aid Acid Test&#34;, his chronicle of Ken Kesey and his colleagues, and a collection of articles, &#34;The Pump House Gang&#34;.</description>
       <pubDate>Thu, 02 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13109.mp3" type="audio/mpeg" length="87472833" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13109.mp3" type="audio/mpeg"  />
       <itunes:duration>00:36:26</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-interviews-writer-tom-wolfe-part-2</guid>
     </item>
@@ -260,7 +271,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
 
 At the time of the interview, Wolfe had recently released &#34;The Electric Kool-Aid Acid Test&#34;, his chronicle of Ken Kesey and his colleagues, and a collection of articles, &#34;The Pump House Gang&#34;.</description>
       <pubDate>Wed, 01 Sep 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13110.mp3" type="audio/mpeg" length="182428977" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13110.mp3" type="audio/mpeg"  />
       <itunes:duration>00:00:01</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-interviews-writer-tom-wolfe-part-1</guid>
     </item>
@@ -268,7 +279,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Oceanographer Jacques Cousteau talks with Studs Terkel</title>
       <description>First broadcast on August 26, 1976. Oceanographer Jacques Cousteau discusses man&#39;s effect on the planet.  Includes a clip with whale sounds and statements by Joan McIntyre.</description>
       <pubDate>Thu, 26 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7099.mp3" type="audio/mpeg" length="129947927" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7099.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/oceanographer-jacques-cousteau-talks-studs-terkel</guid>
     </item>
@@ -276,7 +287,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Interviewing author, screenwriter and director John Sayles</title>
       <description>First broadcast on August 23, 1988. </description>
       <pubDate>Mon, 23 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35256.mp3" type="audio/mpeg" length="79923785" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/35256.mp3" type="audio/mpeg"  />
       <itunes:duration>00:33:19</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-author-screenwriter-and-director-john-sayles</guid>
     </item>
@@ -284,23 +295,23 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Erik Bye discusses the history of Norwegian immigration to America in the 19th century and his work as a television journalist and singer</title>
       <description>First broadcast on August 18, 1975. Studs interviews Erik Bye about Norwegian immigration to America and his music.  They discuss the reasons why people left Norway in the 19th century and the conditions they suffered when they settled in New York.  Bye explains Norwegian history and why the Norwegians moved from the American east coast to the west.  Studs notes that Bye is in Chicago to gather information to produce a Norwegian television documentary about early Norwegian immigrants.  Bye shares his interpretations of some of his songs and explains Norwegian music.  He elaborates on the Hardanga fiddle instrument and the artists who played it.  Bye discusses the upcoming Norwegian celebration in Chicago for which their King will visit.  The musical numbers are removed from this edited version of the original recording.</description>
       <pubDate>Wed, 18 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19572.mp3" type="audio/mpeg" length="80265076" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19572.mp3" type="audio/mpeg"  />
       <itunes:duration>00:33:27</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/erik-bye-discusses-history-norwegian-immigration-america-19th-century-and-his-work</guid>
     </item>
     <item>
       <title>Studs Terkel comments and presents Picasso unveiling ceremony</title>
-      <description>First broadcast on August 15, 1967. Presenting at the Picasso unveiling: dedication ceremony and comments.</description>
+      <description>First broadcast on August 15, 1967. Studs Terkel presents the unveiling of the Chicago Picasso on August 15th, 1967, asking bystanders for their opinion on the new sculpture.</description>
       <pubDate>Sun, 15 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13183.mp3" type="audio/mpeg" length="58830091" />
-      <itunes:duration>00:24:30</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/55898.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:24:31</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-comments-and-presents-picasso-unveiling-ceremony</guid>
     </item>
     <item>
       <title>Marian McPartland and Jimmy McPartland discuss their careers in Jazz</title>
       <description>First broadcast on August 09, 1978. Studs interviews Marian and Jimmy McPartland.  The McPartlands reflect on those in Jazz who have influenced them.  Studs talks to Marian about women in Jazz.  They discuss the Jazz audience.  The musical numbers are removed from this edited version of the original recording.</description>
       <pubDate>Mon, 09 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19880.mp3" type="audio/mpeg" length="54042317" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19880.mp3" type="audio/mpeg"  />
       <itunes:duration>00:22:31</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marian-mcpartland-and-jimmy-mcpartland-discuss-their-careers-jazz</guid>
     </item>
@@ -308,32 +319,16 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>David McCullough discusses his book &#34;Mornings on Horseback&#34;</title>
       <description>First broadcast on August 05, 1981. Discussing the book &#34;Mornings on Horseback&#34; with author David McCullough.</description>
       <pubDate>Thu, 05 Aug 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10957.mp3" type="audio/mpeg" length="141456435" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10957.mp3" type="audio/mpeg"  />
       <itunes:duration>00:58:56</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-mccullough-discusses-his-book-mornings-horseback</guid>
-    </item>
-    <item>
-      <title>Interviewing five TWA flight attendants ; part 2</title>
-      <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
-      <pubDate>Sat, 31 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35187.mp3" type="audio/mpeg" length="128875319" />
-      <itunes:duration>00:53:42</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-five-twa-flight-attendants-part-2</guid>
-    </item>
-    <item>
-      <title>Interviewing five TWA flight attendants ; part 1</title>
-      <description>First broadcast on July 30, 1986. five TWA flight attendants</description>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/35191.mp3" type="audio/mpeg" length="127860723" />
-      <itunes:duration>00:53:16</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-five-twa-flight-attendants-part-1</guid>
     </item>
     <item>
       <title>Nora Ephron discusses feminism and her book &#34;Crazy Salad&#34;</title>
       <description>First broadcast on July 28, 1975. Nora Ephron discusses the women’s movement and her book, “Crazy Salad: Some Things About Women.” Ephron discusses the influence of writer Dorothy Parker on her work, as well as topics including women’s rights; the exploitation of women in politics, war, and advertising; the many conflicts she faces in her role as a journalist; and traditional and non-traditional gender roles. Includes an excerpt from a previous interview with Dorothy Parker.  
 </description>
       <pubDate>Wed, 28 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/7795.mp3" type="audio/mpeg" length="131283312" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7795.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:42</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/nora-ephron-discusses-feminism-and-her-book-crazy-salad</guid>
     </item>
@@ -341,7 +336,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Big Bill Broonzy discusses the blues ; part 2</title>
       <description>First broadcast on July 22, 1953. Big Bill Broonzy discusses the blues and growing up in Arkansas with parents who were former slaves.  He talks about the family dynamic and sings: &#34;Willie Mae&#34;, &#34;Crawdad song&#34;, &#34;Going down this road feeling bad&#34; and &#34;John Henry&#34;.</description>
       <pubDate>Thu, 22 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21772.mp3" type="audio/mpeg" length="21925188" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56306.mp3" type="audio/mpeg"  />
       <itunes:duration>00:09:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/big-bill-broonzy-discusses-blues-part-2</guid>
     </item>
@@ -349,7 +344,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Big Bill Broonzy discusses the blues ; part 1</title>
       <description>First broadcast on July 22, 1953. Big Bill Broonzy discusses the blues and growing up in Arkansas with parents who were former slaves.  He talks about the family dynamic and sings: &#34;Crying Joe Turner&#34;, &#34;C.C. Rider&#34;, &#34;Make my get away&#34;, and &#34; You&#39;ve got to stand your test in judgement&#34; .  Part 1</description>
       <pubDate>Wed, 21 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21774.mp3" type="audio/mpeg" length="41166983" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56311.mp3" type="audio/mpeg"  />
       <itunes:duration>00:17:09</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/big-bill-broonzy-discusses-blues-part-1</guid>
     </item>
@@ -357,7 +352,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Elia Kazan discusses the book &#34;Acts of love&#34;</title>
       <description>First broadcast on July 14, 1978. </description>
       <pubDate>Wed, 14 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/23371.mp3" type="audio/mpeg" length="127156422" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/23371.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:59</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/elia-kazan-discusses-book-acts-love</guid>
     </item>
@@ -365,7 +360,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Reading poetry with actor Gary Merrill.</title>
       <description>First broadcast on July 09, 1985. Terkel comments and reads poetry with Gary Merrill</description>
       <pubDate>Fri, 09 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38828.mp3" type="audio/mpeg" length="107196837" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/38828.mp3" type="audio/mpeg"  />
       <itunes:duration>00:44:40</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/reading-poetry-actor-gary-merrill</guid>
     </item>
@@ -373,32 +368,16 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Mel Brooks discusses his new movie &#34;The Producers&#34;</title>
       <description>First broadcast on July 02, 1968. In this interview Mel Brooks discusses his new movie &#34;The Producers&#34;. The following is discussed: the plot; the other actors in the film; the satirical and campy nature of the film; . Brooks performs several different impersonations throughout the interview.</description>
       <pubDate>Fri, 02 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/6378.mp3" type="audio/mpeg" length="101928126" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6378.mp3" type="audio/mpeg"  />
       <itunes:duration>00:42:28</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/mel-brooks-discusses-his-new-movie-producers</guid>
-    </item>
-    <item>
-      <title>Discussing the book, &#34;The Electronic Nightmare: The New Communications and Freedom,&#34; and interviewing the author John Wicklein</title>
-      <description>First broadcast on July 01, 1981. Terkel interviews author John Wicklein. They discuss his latest book &#34;The Electronic Nightmare: The New Communications and Freedom.&#34;</description>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13047.mp3" type="audio/mpeg" length="131189267" />
-      <itunes:duration>00:54:39</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-electronic-nightmare-new-communications-and-freedom-and-interviewing</guid>
-    </item>
-    <item>
-      <title>Discussing the book &#34;The Creation of Patriarchy&#34; with the author, historian Gerda Lerner</title>
-      <description>First broadcast on June 27, 1986. </description>
-      <pubDate>Sun, 27 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/43749.mp3" type="audio/mpeg" length="128796958" />
-      <itunes:duration>00:53:40</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-creation-patriarchy-author-historian-gerda-lerner</guid>
     </item>
     <item>
       <title>Gore Vidal discusses his book “Lincoln”</title>
       <description>First broadcast on June 22, 1984. Discussing the book &#34;Lincoln&#34; with the author Gore Vidal.
 </description>
       <pubDate>Tue, 22 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/34366.mp3" type="audio/mpeg" length="122869259" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/34366.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:12</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gore-vidal-discusses-his-book-lincoln</guid>
     </item>
@@ -406,7 +385,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Richard Ford in conversation with Studs Terkel</title>
       <description>First broadcast on June 19, 1990. Discussing the novel &#34;Wildlife&#34; (published by Atlantic Monthly Press) with the author Richard Ford.</description>
       <pubDate>Sat, 19 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33154.mp3" type="audio/mpeg" length="125875386" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33154.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:27</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/richard-ford-conversation-studs-terkel-0</guid>
     </item>
@@ -414,7 +393,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Discussing the Samuel Beckett play &#34;Waiting For Godot; Tragicomedy in 2 Acts,&#34; with Irish actors Barry McGovern and Johnny Murphy. McGovern portrays Vladimir and Murphy portrays Estragon in a production staged by the Dublin Gate Theatre</title>
       <description>First broadcast on June 15, 1992. </description>
       <pubDate>Tue, 15 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38319.mp3" type="audio/mpeg" length="123712466" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/38319.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:33</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-samuel-beckett-play-waiting-godot-tragicomedy-2-acts-irish-actors-barry</guid>
     </item>
@@ -422,7 +401,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Discussing the book &#34;Fates Worse Than Death: An Autobiographical Collage of the 1980s&#34; with the author Kurt Vonnegut</title>
       <description>First broadcast on June 14, 1991. </description>
       <pubDate>Mon, 14 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/32027.mp3" type="audio/mpeg" length="123618240" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/32027.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:32</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-fates-worse-death-autobiographical-collage-1980s-author-kurt-vonnegut</guid>
     </item>
@@ -430,7 +409,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Rosa Parks and Myles Horton discuss the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement</title>
       <description>First broadcast on June 08, 1973. Rosa Parks and Myles Horton discuss the importance of the Highlander Folk School, the Montgomery Bus Boycott, and the American Civil Rights Movement. The story of these two prominent figures of the Civil Rights Movement have intervened in their fight for social equality. Includes a fragment of an interview with E. D. Nixon well known civil rights leader.</description>
       <pubDate>Tue, 08 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44123.mp3" type="audio/mpeg" length="133097492" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/44123.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:27</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/rosa-parks-and-myles-horton-discuss-highlander-folk-school-montgomery-bus-boycott-and</guid>
     </item>
@@ -438,7 +417,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Edmund White talks about his book &#34;States of Desire&#34;</title>
       <description>First broadcast on June 05, 1980. Edmund White talks about his book &#34;States of Desire: Travels in Gay America,&#34; published in 1980. </description>
       <pubDate>Sat, 05 Jun 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/22949.mp3" type="audio/mpeg" length="129758042" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/22949.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:04</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/edmund-white-talks-about-his-book-states-desire</guid>
     </item>
@@ -446,7 +425,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Survivors of the Hiroshima atomic bomb discuss the event and nuclear nonproliferation</title>
       <description>First broadcast on May 31, 1982. Discussing Hiroshima and nuclear nonproliferation with survivors of the Hiroshima bomb of August 6, 1945 and activists organizing against nuclear proliferation.</description>
       <pubDate>Mon, 31 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/43757.mp3" type="audio/mpeg" length="131877829" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56466.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:57</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/survivors-hiroshima-atomic-bomb-discuss-event-and-nuclear-nonproliferation</guid>
     </item>
@@ -454,7 +433,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Soviet intellectuals discuss Soviet arts and culture</title>
       <description>First broadcast on May 28, 1962. Soviet intellectuals Tamara Mamedova, Nicolai Pogodin, and Anatol Safronov talk with Studs Terkel about their work with the Institute for Soviet-American Relations (U.S.) and Soviet arts and culture.</description>
       <pubDate>Fri, 28 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10765.mp3" type="audio/mpeg" length="177687228" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10765.mp3" type="audio/mpeg"  />
       <itunes:duration>00:00:01</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/soviet-intellectuals-discuss-soviet-arts-and-culture</guid>
     </item>
@@ -463,23 +442,15 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <description>First broadcast on May 22, 1975. Discussing &#34;How the Good Guys Finally Won : Notes from an Impeachment Summer&#34; and interviewing Jimmy Breslin.
 </description>
       <pubDate>Sat, 22 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/23230.mp3" type="audio/mpeg" length="126355854" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/23230.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:39</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jimmy-breslin-journalist-and-author-discusses-his-book-about-watergate-affair</guid>
-    </item>
-    <item>
-      <title>Mahalia Jackson discusses the civil rights movement and the upcoming freedom rally</title>
-      <description>First broadcast on May 17, 1963. Studs Terkel interviews gospel vocalist Mahalia Jackson. Jackson discusses the freedom rally that will be taking place at McCormick&#39;s Place in Chicago, IL. The following musical excerpts were removed from the program: &#34;Keep A-Movin&#39;&#34;; &#34;Hold On&#34;; and &#34;I&#39;m On My Way&#34;.</description>
-      <pubDate>Mon, 17 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/34888.mp3" type="audio/mpeg" length="70561129" />
-      <itunes:duration>00:29:24</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/mahalia-jackson-discusses-civil-rights-movement-and-upcoming-freedom-rally</guid>
     </item>
     <item>
       <title>Studs talks to people on the street and in Lincoln Park at the Be-In on Mothers Day 1967 ; part 2</title>
       <description>First broadcast on May 14, 1967. Studs Terkel spends time walking around the Lincoln Park Be-In Mother&#39;s Day, 1967.  He talks to people of all walks of life and generations.  The  question, &#34;What is a Be-In?&#34; is posed to all he talks to.</description>
       <pubDate>Sat, 15 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13497.mp3" type="audio/mpeg" length="62395282" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13497.mp3" type="audio/mpeg"  />
       <itunes:duration>00:25:59</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-talks-people-street-and-lincoln-park-be-mothers-day-1967-part-2</guid>
     </item>
@@ -487,7 +458,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Studs talks to people on the street and in Lincoln Park at the Be-In on Mothers Day 1967; part 1</title>
       <description>First broadcast on May 14, 1967. Studs Terkel spends time walking around the Lincoln Park Be-In Mother&#39;s Day, 1967.  He talks to people of all walks of life and generations.  The  question, &#34;What is a Be-In?&#34; is posed to all he talks to.</description>
       <pubDate>Fri, 14 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13494.mp3" type="audio/mpeg" length="113631854" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13494.mp3" type="audio/mpeg"  />
       <itunes:duration>00:47:20</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-talks-people-street-and-lincoln-park-be-mothers-day-1967-part-1</guid>
     </item>
@@ -495,7 +466,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Terkel comments, reads from Charles Dickens and interviews British Actor George Harland</title>
       <description>First broadcast on May 10, 1982. Readings (3) from Charles Dickens and interviewing with British Actor George Harland.</description>
       <pubDate>Mon, 10 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21231.mp3" type="audio/mpeg" length="94155234" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/21231.mp3" type="audio/mpeg"  />
       <itunes:duration>00:39:14</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/terkel-comments-reads-charles-dickens-and-interviews-british-actor-george-harland</guid>
     </item>
@@ -503,7 +474,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Interviewing Marcel Marceau in Paris while Studs was in France ; part 2</title>
       <description>First broadcast on May 07, 1960. </description>
       <pubDate>Sat, 08 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/41799.mp3" type="audio/mpeg" length="65356518" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/41799.mp3" type="audio/mpeg"  />
       <itunes:duration>00:27:14</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-marcel-marceau-paris-while-studs-was-france-part-2</guid>
     </item>
@@ -511,23 +482,15 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Interviewing Marcel Marceau in Paris while Studs was in France ; part 1</title>
       <description>First broadcast on May 07, 1960. </description>
       <pubDate>Fri, 07 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/41795.mp3" type="audio/mpeg" length="73081452" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/41795.mp3" type="audio/mpeg"  />
       <itunes:duration>00:30:27</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-marcel-marceau-paris-while-studs-was-france-part-1</guid>
-    </item>
-    <item>
-      <title>Interview with Tennessee Williams</title>
-      <description>First broadcast on May 01, 1981. Terkel interviews famous playwright Tennessee Williams. Williams gives his own reflections on his 70th birthday.</description>
-      <pubDate>Sat, 01 May 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21369.mp3" type="audio/mpeg" length="91414467" />
-      <itunes:duration>00:38:05</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interview-tennessee-williams</guid>
     </item>
     <item>
       <title>Interviewing Sun-Times editorial cartoonist Jacob Burck</title>
       <description>First broadcast on April 27, 1959. </description>
       <pubDate>Tue, 27 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/41571.mp3" type="audio/mpeg" length="97798486" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/41571.mp3" type="audio/mpeg"  />
       <itunes:duration>00:40:45</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-sun-times-editorial-cartoonist-jacob-burck</guid>
     </item>
@@ -535,7 +498,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Discussing film with Harold Hayden, Pauline Kael, Arthur Knight, Jerry Teminer and Parker Tyler</title>
       <description>First broadcast on April 25, 1963. </description>
       <pubDate>Sun, 25 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/40501.mp3" type="audio/mpeg" length="168672897" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40501.mp3" type="audio/mpeg"  />
       <itunes:duration>01:10:17</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-film-harold-hayden-pauline-kael-arthur-knight-jerry-teminer-and-parker-tyler</guid>
     </item>
@@ -543,7 +506,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Discussing South Africa with South African expatriates, Reverend Theodore and Helen Koetze</title>
       <description>First broadcast on April 21, 1980. </description>
       <pubDate>Wed, 21 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/39911.mp3" type="audio/mpeg" length="133906287" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/39911.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:48</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-south-africa-south-african-expatriates-reverend-theodore-and-helen-koetze</guid>
     </item>
@@ -551,47 +514,31 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Dolores Huerta discusses workers&#39; rights</title>
       <description>First broadcast on April 16, 1975. Activist Dolores Huerta of United Farm Workers discusses farm laborers and immigrant rights; includes excerpt of Cesar Chavez, excerpt from Viva La Causa, and interview with Roberto Acuna.</description>
       <pubDate>Fri, 16 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33236.mp3" type="audio/mpeg" length="123802763" />
-      <itunes:duration>00:51:35</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/59727.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:49:53</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dolores-huerta-discusses-workers-rights</guid>
     </item>
     <item>
       <title>Jonathon Kozol discusses his book &#34;Free schools&#34; and education</title>
       <description>First broadcast on April 11, 1972. Discussing the book, &#34;Free schools,&#34; and interviewing the author Jonathan Kozol. Jonathon Kozol also discusses education. Includes interview clip of Kermit Eby.</description>
       <pubDate>Sun, 11 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10207.mp3" type="audio/mpeg" length="134323965" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10207.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:58</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jonathon-kozol-discusses-his-book-free-schools-and-education</guid>
-    </item>
-    <item>
-      <title>Joan Didion in conversation with Studs Terkel</title>
-      <description>First broadcast on April 07, 1977. </description>
-      <pubDate>Wed, 07 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44253.mp3" type="audio/mpeg" length="128012194" />
-      <itunes:duration>00:53:20</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/joan-didion-conversation-studs-terkel</guid>
-    </item>
-    <item>
-      <title>Interviewing poet Lawrence Ferlinghetti and about his book &#34;Over All the Obscene Boundaries: European Poems &amp; Transitions&#34;</title>
-      <description>First broadcast on April 03, 1986. </description>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/44096.mp3" type="audio/mpeg" length="59758211" />
-      <itunes:duration>00:24:54</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-poet-lawrence-ferlinghetti-and-about-his-book-over-all-obscene-boundaries</guid>
     </item>
     <item>
       <title>Dizzy Gillespie discusses the art of jazz ; part 2</title>
       <description>First broadcast on March 30, 1961. Part 2 of the program continues with Dizzy Gillespie discovering the following: his jazz style; his interactions with other musicians; and his latin musical influences. The following Gillespie musical excerpts are played: &#34;Tin Tin Deo&#34;; &#34;La Lorraine&#34;; and an musical piece (with an undisclosed title) is played to end the program.</description>
       <pubDate>Wed, 31 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21807.mp3" type="audio/mpeg" length="55699424" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56284.mp3" type="audio/mpeg"  />
       <itunes:duration>00:23:12</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dizzy-gillespie-discusses-art-jazz-part-2</guid>
     </item>
     <item>
       <title>Dizzy Gillespie discusses the art of jazz ; part 1</title>
-      <description>First broadcast on March 30, 1961. Part 1 of this program begins with Studs Terkel reading an excerpt from the book &#34;Giants of Jazz&#34; , which describes Dizzy Gillespie&#39;s early life. Gillespie discusses the following: the state of jazz; his fellow musicians; jazz contributors; jazz fundamentals; and his tours abroad. Gillespie&#39;s &#34;Groovin&#39; High&#34; is played towards the end of this part of the program.</description>
+      <description>First broadcast on March 30, 1961. Part 1 of this program begins with Studs Terkel reading an excerpt from the book &#34;Giants of Jazz&#34; , which describes Dizzy Gillespie&#39;s early life. Gillespie discusses the following: the state of jazz; his fellow musicians; jazz contributors; jazz fundamentals; and his tours abroad. Gillespie&#39;s &#34;Groovin&#39; High&#34; is played towards the end of this part of the program. </description>
       <pubDate>Tue, 30 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21803.mp3" type="audio/mpeg" length="25378575" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56918.mp3" type="audio/mpeg"  />
       <itunes:duration>00:10:34</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dizzy-gillespie-discusses-art-jazz-part-1</guid>
     </item>
@@ -599,7 +546,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Interviewing former CIA agent David MacMichael</title>
       <description>First broadcast on March 24, 1995. MacMichael testified in front of the World Court at the Hague in 1985 about the United States government&#39;s activities with anti-Sandinista contra forces in Nicaragua and President Reagan&#39;s knowledge of such events.</description>
       <pubDate>Wed, 24 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38426.mp3" type="audio/mpeg" length="128716279" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/38426.mp3" type="audio/mpeg"  />
       <itunes:duration>00:53:38</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-former-cia-agent-david-macmichael</guid>
     </item>
@@ -607,7 +554,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Ray Bradbury discusses his books</title>
       <description>First broadcast on March 18, 1992. </description>
       <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/29625.mp3" type="audio/mpeg" length="104482905" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/29625.mp3" type="audio/mpeg"  />
       <itunes:duration>00:43:32</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/ray-bradbury-discusses-his-books</guid>
     </item>
@@ -615,7 +562,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Discussing the book, &#34;Fear and Loathing: On the Campaign Trail &#39;72.&#34; with Hunter S. Thompson</title>
       <description>First broadcast on March 14, 1973. Discussing the book, &#34;Fear and Loathing: On the Campaign Trail &#39;72.&#34;  Includes a clip of Ron Kovic speaking at the Nixon campaign headquarters, courtesy of KPFA/Pacifica Archives.</description>
       <pubDate>Sun, 14 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/12838.mp3" type="audio/mpeg" length="126817413" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/12838.mp3" type="audio/mpeg"  />
       <itunes:duration>00:52:50</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-fear-and-loathing-campaign-trail-72-hunter-s-thompson</guid>
     </item>
@@ -623,7 +570,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Maya Angelou discusses her book &#34;I Know Why the Caged Bird Sings&#34;</title>
       <description>First broadcast on March 13, 1970. Angelou discusses her book &#34;I Know Why the Caged Bird Sings&#34; and recites &#34;When I Think About Myself.&#34; She talks about growing up in Stamps, Arkansas, and her family. Copyrighted material has been removed.</description>
       <pubDate>Sat, 13 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/34339.mp3" type="audio/mpeg" length="114247147" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/34339.mp3" type="audio/mpeg"  />
       <itunes:duration>00:47:36</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/maya-angelou-discusses-her-book-i-know-why-caged-bird-sings</guid>
     </item>
@@ -631,7 +578,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Allen Ginsberg and William S. Burroughs talk about their writing</title>
       <description>First broadcast on March 11, 1975. Writers Allen Ginsberg and William S. Burroughs discuss life and their writing; passages from their writing are read by the authors and clip is played of interview with Allen Ginsberg, Gregory Corso, and Peter Orlovsky.</description>
       <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/43722.mp3" type="audio/mpeg" length="96418173" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56450.mp3" type="audio/mpeg"  />
       <itunes:duration>00:40:10</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/allen-ginsberg-and-william-s-burroughs-talk-about-their-writing</guid>
     </item>
@@ -639,7 +586,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Studs talks with versatile actor, singer, performer Danny Kaye</title>
       <description>First broadcast on March 08, 1963. Studs talks with versatile actor, singer, performer Danny Kaye who opens up about his worldwide appeal to children and adults alike, relating to children on their terms, his father&#39;s influence, the skills and work that go into his crafts, and much more. Kaye reveals his lack of musical training yet details his comic conducting talents ala Victor Borge via his charity work. The conversation continues with talk of his variety show performances, his fondness for Señor Wences, the medium of television, and his knack for dialects. Original broadcast includes recordings of &#34;The Inch Worm&#34; from the film &#34;Hans Christian Andersen,&#34; &#34;Mommy, Gimme a Drinka Water,&#34; &#34;Tschaikowsky (and Other Russians)&#34; from &#34;Lady in the Dark,&#34; &#34;Molly Malone,&#34; &#34;The Babbitt and the Bromide,&#34; and &#34;Dinah&#34;.</description>
       <pubDate>Mon, 08 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/21782.mp3" type="audio/mpeg" length="102696851" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56297.mp3" type="audio/mpeg"  />
       <itunes:duration>00:42:47</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-talks-versatile-actor-singer-performer-danny-kaye</guid>
     </item>
@@ -647,7 +594,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Senator Eugene McCarthy talks about his presidential campaign</title>
       <description>First broadcast on March 03, 1975. Former Minnesota Senator Eugene McCarthy talks about his presidential campaign.  Includes an excerpt of a 1968 program in which Studs and James Cameron visit Lincoln Park after the Chicago Democratic Convention riots.</description>
       <pubDate>Wed, 03 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10916.mp3" type="audio/mpeg" length="124203082" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10916.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:45</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/senator-eugene-mccarthy-talks-about-his-presidential-campaign</guid>
     </item>
@@ -655,7 +602,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Edward Keating discusses the magazine Ramparts</title>
       <description>First broadcast on March 01, 1967. Discussing the philosophy of &#34;Ramparts&#34; and interviewing Edward Keating.</description>
       <pubDate>Mon, 01 Mar 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9924.mp3" type="audio/mpeg" length="121574118" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9924.mp3" type="audio/mpeg"  />
       <itunes:duration>00:50:39</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/edward-keating-discusses-magazine-ramparts</guid>
     </item>
@@ -663,15 +610,15 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Licia Albanese discusses her opera performances</title>
       <description>First broadcast on February 27, 1960. Licia Albanese discusses her performance preparations, advice to young new opera singers, the conductor techniques from Fausto Cleva, and the late Arturo Toscanini. </description>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/13921.mp3" type="audio/mpeg" length="93715003" />
-      <itunes:duration>00:39:02</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56817.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:39:03</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/licia-albanese-discusses-her-opera-performances</guid>
     </item>
     <item>
       <title>Discussing the book &#34;Always Running: La Vida Loca, Gang Days in L. A.&#34;with the author, poet Luis J. Rodriguez and his son Ramiro Rodriguez</title>
       <description>First broadcast on February 24, 1993. </description>
       <pubDate>Tue, 23 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/38033.mp3" type="audio/mpeg" length="124279668" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/38033.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:48</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-always-running-la-vida-loca-gang-days-l-awith-author-poet-luis-j-rodriguez</guid>
     </item>
@@ -679,24 +626,23 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Presenting music and discussing the tuba with tubists Arnold Jacobs, Harvey Phillips, Fritz Kaenzig, and Richard Frazier</title>
       <description>First broadcast on February 20, 1987. Presenting music and discussing the tuba with tubists Arnold Jacobs, Harvey Phillips, Fritz Kaenzig, and Richard Frazier. This mixdown includes recorded and live music in the last three minutes.</description>
       <pubDate>Sat, 20 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/14128.mp3" type="audio/mpeg" length="67826611" />
-      <itunes:duration>00:28:15</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56709.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:28:16</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/presenting-music-and-discussing-tuba-tubists-arnold-jacobs-harvey-phillips-fritz-kaenzig</guid>
     </item>
     <item>
       <title>Alger Hiss talks with Studs Terkel</title>
       <description>First broadcast on February 17, 1973. </description>
       <pubDate>Wed, 17 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9013.mp3" type="audio/mpeg" length="133326088" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9013.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:33</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/alger-hiss-talks-studs-terkel</guid>
     </item>
     <item>
       <title>Calvin Trillin discusses his book “Killings”</title>
-      <description>First broadcast on February 13, 1984. Discussing the book &#34;Killings&#34; with the author Calvin Trillin.
-</description>
+      <description>First broadcast on February 13, 1984. Writer Calvin Trillin discusses his book “Killings” and the murder cases included in the book. Trillin also reads a poem written by one of the victims.</description>
       <pubDate>Sat, 13 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/22930.mp3" type="audio/mpeg" length="130731887" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56049.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:28</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/calvin-trillin-discusses-his-book-killings</guid>
     </item>
@@ -704,7 +650,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <title>Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver&#34;</title>
       <description>First broadcast on February 12, 1976. Film director Martin Scorsese and screenwriter Paul Schrader discuss their movie “Taxi Driver,” including interview from 9:04 - 9:49 of Scorsese discussing the character, Johnny Boy, from his film &#34;Mean Streets.&#34;</description>
       <pubDate>Fri, 12 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/26548.mp3" type="audio/mpeg" length="118643331" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56443.mp3" type="audio/mpeg"  />
       <itunes:duration>00:49:26</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/martin-scorsese-and-screenwriter-paul-schrader-discuss-their-movie-taxi-driver</guid>
     </item>
@@ -713,7 +659,7 @@ At the time of the interview, Wolfe had recently released &#34;The Electric Kool
       <description>First broadcast on February 08, 1974. Neil Postman, an author, educator, media theorist and cultural critic discusses his book;  &#34;The School Book: For People Who Want to Know What All the Hollering Is About,&#34;.  Mr Postman and Studs talk about his definition of what school is for and it&#39;s worth, and they converse about several sections of the book.  
 Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <pubDate>Mon, 08 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/11909.mp3" type="audio/mpeg" length="133802563" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11909.mp3" type="audio/mpeg"  />
       <itunes:duration>00:55:45</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/neil-postman-discusses-book-school-book-people-who-want-know-what-all-hollering-about</guid>
     </item>
@@ -721,7 +667,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Dorothy Parker discusses her plays and the state of literature</title>
       <description>First broadcast on February 06, 1959. Dorothy Parker’s thoughts as a critic and writer on the state of American literature.</description>
       <pubDate>Sat, 06 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/11705.mp3" type="audio/mpeg" length="48172129" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56105.mp3" type="audio/mpeg"  />
       <itunes:duration>00:20:04</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dorothy-parker-discusses-her-plays-and-state-literature</guid>
     </item>
@@ -729,7 +675,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Jonathan Katz discusses his book &#34;Gay American History&#34;</title>
       <description>First broadcast on February 04, 1977. Discussing the book, &#34;Gay American History: Lesbians and Gay Men in the U.S.A.: A Documentary,&#34; and interviewing its author, Jonathan Katz.</description>
       <pubDate>Thu, 04 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9901.mp3" type="audio/mpeg" length="122807100" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9901.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:10</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/jonathan-katz-discusses-his-book-gay-american-history</guid>
     </item>
@@ -737,7 +683,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>James Earl Jones discusses the play &#34;Othello&#34;</title>
       <description>First broadcast on February 01, 1968. Jones discusses the play &#34;Othello&#34; where he plays the  lead character Othello. </description>
       <pubDate>Mon, 01 Feb 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/9802.mp3" type="audio/mpeg" length="118625419" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/9802.mp3" type="audio/mpeg"  />
       <itunes:duration>00:49:25</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/james-earl-jones-discusses-play-othello</guid>
     </item>
@@ -745,7 +691,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Norman Mailer discusses the meaning and future of space exploration</title>
       <description>First broadcast on January 29, 1971. Norman Mailer discusses how recent trips to the moon fit into the American consciousness, technology and machines in modern life, individuality, and the future of space exploration. Studs and Mailer read excerpts from &#34;Fire on the Moon.&#34;</description>
       <pubDate>Fri, 29 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10734.mp3" type="audio/mpeg" length="104685432" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10734.mp3" type="audio/mpeg"  />
       <itunes:duration>00:43:37</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/norman-mailer-discusses-meaning-and-future-space-exploration</guid>
     </item>
@@ -753,7 +699,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Arthur Charles Clarke discusses science fiction</title>
       <description>First broadcast on January 27, 1959. Arthur Charles Clarke discusses science fiction and his books &#34;Childhood&#39;s End&#34;, &#34;Prelude to Space&#34;, and &#34;the Deep Range&#34;.</description>
       <pubDate>Wed, 27 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/6905.mp3" type="audio/mpeg" length="50761384" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6905.mp3" type="audio/mpeg"  />
       <itunes:duration>00:21:08</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/arthur-charles-clarke-discusses-science-fiction</guid>
     </item>
@@ -761,7 +707,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Terkel comments and presents musical performance of Buck Clayton</title>
       <description>First broadcast on January 25, 1978. Musical performance of Buck Clayton, includes interview by Studs Terkel.</description>
       <pubDate>Mon, 25 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/19604.mp3" type="audio/mpeg" length="66352260" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19604.mp3" type="audio/mpeg"  />
       <itunes:duration>00:27:39</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/terkel-comments-and-presents-musical-performance-buck-clayton</guid>
     </item>
@@ -769,7 +715,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Discussing the book &#34;The Story of Jane: The Legendary Feminist Abortion Service&#34;  with the author and former member of Jane, Laura Kaplan</title>
       <description>First broadcast on January 22, 1996. </description>
       <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/37043.mp3" type="audio/mpeg" length="119018581" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/37043.mp3" type="audio/mpeg"  />
       <itunes:duration>00:49:35</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-story-jane-legendary-feminist-abortion-service-author-and-former-member</guid>
     </item>
@@ -777,15 +723,15 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Noam Chomsky discusses his book &#34;American Power and the New Mandarins&#34;</title>
       <description>First broadcast on January 19, 1970. Noam Chomsky discusses his book &#34;American Power and the New Mandarins,&#34; the Vietnam war, and the role of intellectuals, including interview with A.J. Muste; audio is slowed down from 47:30 - 52:52.</description>
       <pubDate>Tue, 19 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/6826.mp3" type="audio/mpeg" length="126916687" />
-      <itunes:duration>00:52:52</itunes:duration>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/55706.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:52:53</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/noam-chomsky-discusses-his-book-american-power-and-new-mandarins</guid>
     </item>
     <item>
       <title>Mike Royko and Herman Kogan talk with Studs Terkel</title>
       <description>First broadcast on January 16, 1967. Discussing Studs&#39; book &#34;Division Street: America&#34; published by Pantheon officially available January 16, 1967 and being interviewed by Herman Kogan and author-journalist Mike Royko.</description>
       <pubDate>Sat, 16 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10125.mp3" type="audio/mpeg" length="130804750" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10125.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:30</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/mike-royko-and-herman-kogan-talk-studs-terkel</guid>
     </item>
@@ -793,7 +739,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>David Mamet discusses his play Glengarry Glen Ross</title>
       <description>First broadcast on January 13, 1984. David Mamet discusses his play Glengarry Glen Ross.  Includes two scenes from the play recited by both David Mamet and Studs Terkel.</description>
       <pubDate>Wed, 13 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10766.mp3" type="audio/mpeg" length="108929807" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10766.mp3" type="audio/mpeg"  />
       <itunes:duration>00:45:23</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-mamet-discusses-his-play-glengarry-glen-ross</guid>
     </item>
@@ -801,7 +747,7 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Newton Minow discusses broadcasting</title>
       <description>First broadcast on January 11, 1964. Interviewing Newton Minow, Chicago lawyer and chairman of the Federal Communications Commission.  He discusses broadcasting as a public service and spends a great deal of time on the history of commercials and how they changed over time.</description>
       <pubDate>Mon, 11 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/11142.mp3" type="audio/mpeg" length="112157498" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11142.mp3" type="audio/mpeg"  />
       <itunes:duration>00:46:43</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/newton-minow-discusses-broadcasting</guid>
     </item>
@@ -809,23 +755,15 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Discussing the documentary film &#34;Shoah,&#34; with the director Claude Lanzmann</title>
       <description>First broadcast on January 09, 1986. In making this film, Lanzmann interviewed death-camp survivors and Nazi functionaries.</description>
       <pubDate>Sat, 09 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/32660.mp3" type="audio/mpeg" length="124504526" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/32660.mp3" type="audio/mpeg"  />
       <itunes:duration>00:51:53</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-documentary-film-shoah-director-claude-lanzmann</guid>
-    </item>
-    <item>
-      <title>Harry Belafonte discusses jazz and folk music</title>
-      <description>First broadcast on January 06, 1955. Singer Harry Belafonte discusses Black music including spirituals and jazz and how it has contributed to American culture.</description>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/18777.mp3" type="audio/mpeg" length="82495775" />
-      <itunes:duration>00:34:22</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/harry-belafonte-discusses-jazz-and-folk-music</guid>
     </item>
     <item>
       <title>Gwendolyn Brooks discusses her poetry</title>
       <description>First broadcast on January 03, 1961. Gwendolyn Brooks, Poet Laureate of Illinois, talks about her poetry, her books, and some of her influences.</description>
       <pubDate>Sun, 03 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33494.mp3" type="audio/mpeg" length="52444567" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33494.mp3" type="audio/mpeg"  />
       <itunes:duration>00:21:51</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/gwendolyn-brooks-discusses-her-poetry</guid>
     </item>
@@ -833,15 +771,15 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
       <title>Panel of women recipients discuss being welfare recipients in Chicago</title>
       <description>First broadcast on January 01, 1969. A panel of women discuss raising their families while getting welfare assistance and living in poverty in Chicago.</description>
       <pubDate>Fri, 01 Jan 2021 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/5942.mp3" type="audio/mpeg" length="131079559" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/5942.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:36</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/panel-women-recipients-discuss-being-welfare-recipients-chicago</guid>
     </item>
     <item>
       <title>Saul Alinsky, American community organizer, political activist, and writer discusses his book &#34;Rules for Radicals&#34; with Studs Terkel</title>
-      <description>First broadcast on December 31, 1971. Community organizer and social activist, Saul Alinsky speaks about his newest book, &#34;Rules for Radicals,&#34; and reminisces about his work in the Back of the Yards neighborhood, his advocacy for African-American labor rights, and his connection with the Mexican-American civil rights movement in California. Although Studs&#39; introduction states that this is a rebroadcast of a 1962 interview, that is incorrect. The interview was recorded in 1971.</description>
+      <description>Community organizer and social activist, Saul Alinsky speaks about his newest book, &#34;Rules for Radicals,&#34; and reminisces about his work in the Back of the Yards neighborhood, his advocacy for African-American labor rights, and his connection with the Mexican-American civil rights movement in California. Although Studs&#39; introduction states that this is a rebroadcast of a 1962 interview, that is incorrect. The interview was recorded in 1971.</description>
       <pubDate>Thu, 31 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/2158.mp3" type="audio/mpeg" length="136892327" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/2158.mp3" type="audio/mpeg"  />
       <itunes:duration>00:57:02</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/saul-alinsky-american-community-organizer-political-activist-and-writer-discusses-his-book</guid>
     </item>
@@ -851,23 +789,15 @@ Mr. Postman reads an excerpt from his book to begin the interview.</description>
 Mr Mayer describes an exchange with a gentleman who asked what is a Quaker.  The man had been an SS officer who told Mr Mayer his story.  The man had been touched by the anonymous generosity of the Quakers many years before.   
 Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor and friend, and the things he learned from him.</description>
       <pubDate>Sun, 27 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/10904.mp3" type="audio/mpeg" length="131486026" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/10904.mp3" type="audio/mpeg"  />
       <itunes:duration>00:54:47</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/milton-mayer-discusses-quakerism-and-impact-they-have-had-society</guid>
-    </item>
-    <item>
-      <title>Studs Terkel sits down with Sandra Cisneros to discuss her new book of poetry</title>
-      <description>First broadcast on December 21, 1992. Sandra Cisneros sits down with Studs Terkel and provides behind the scenes commentary on poems from her new book &#34;My Wicked Wicked Ways.&#34; She provides an enlightening history to them.  &#34;Curtains,&#34; &#34;Velorio,&#34; &#34;Arturo Burro,&#34; &#34;I Told Susan Reyna,&#34; &#34;Traficante,&#34; &#34;In a redneck bar down the street,&#34; The Poet Reflects on Her Solitary Fate,&#34; &#34;His Story,&#34; &#34;Letter to Ilona from the South of France,&#34; &#34;New Year&#39;s Eve&#34; have been removed due to copyright restrictions.</description>
-      <pubDate>Mon, 21 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/28275.mp3" type="audio/mpeg" length="78061286" />
-      <itunes:duration>00:32:32</itunes:duration>
-      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-sits-down-sandra-cisneros-discuss-her-new-book-poetry</guid>
     </item>
     <item>
       <title>Teacher Vivian Cadbury and Lane Technical High School students read and discuss &#34;Cadbury Tales&#34;</title>
       <description>First broadcast on December 19, 1978. Discussing &#34;Cadbury tales,&#34; about teacher Vivian Cadbury, with students from Lane Technical High School in Chicago.</description>
       <pubDate>Sat, 19 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/6537.mp3" type="audio/mpeg" length="89173924" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6537.mp3" type="audio/mpeg"  />
       <itunes:duration>00:37:09</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/teacher-vivian-cadbury-and-lane-technical-high-school-students-read-and-discuss-cadbury</guid>
     </item>
@@ -876,7 +806,7 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <description>First broadcast on December 17, 1964. This interview begins with a clip of one of Dick Gregory’s performances, where he talks about nonviolence and Native Americans. Studs Terkel introduces his guest as an observer, explaining that comedians are the best observers in society. Gregory offers extended analogies to communicate his views on a variety of topics, including the Vietnam War, race relations, segregation, human rights, and urban renewal.
 [The date is unclear, but it has to be after 1970, since the Kent State Shootings were mentioned]</description>
       <pubDate>Thu, 17 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/33489.mp3" type="audio/mpeg" length="121454853" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56417.mp3" type="audio/mpeg"  />
       <itunes:duration>00:50:36</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/dick-gregory-discusses-american-politics</guid>
     </item>
@@ -884,7 +814,7 @@ Mr Mayer speaks of A. J. Musty, clergyman and political activist as his mentor a
       <title>Interviewing Shel Silverstein</title>
       <description>First broadcast on December 12, 1963. </description>
       <pubDate>Sat, 12 Dec 2020 00:00:00 -0000</pubDate>
-      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com//home/palewire/Code/studs-terkel-podcast-feed/mp3/40605.mp3" type="audio/mpeg" length="144287066" />
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40605.mp3" type="audio/mpeg"  />
       <itunes:duration>01:00:07</itunes:duration>
       <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-shel-silverstein</guid>
     </item>

@@ -67,7 +67,10 @@ with open("./data/feed.csv", "r") as f:
         row['date_rfc822'] = format_datetime(row['feed_date'])
         row['duration'] = format_duration(row['duration'])
         row['feed_date'] = parse(row['feed_date']).date()
-        row['broadcast_datetime'] = parse(row['broadcast_datetime'])
+        try:
+            row['broadcast_datetime'] = parse(row['broadcast_datetime'])
+        except:
+            row['broadcast_datetime'] = None
         # Do not allow in items that will published in the future
         if row['feed_date'] <= TODAY:
             DATA.append(row)

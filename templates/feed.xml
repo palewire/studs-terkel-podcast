@@ -25,7 +25,7 @@
     {% for item in item_list|reverse %}
     <item>
       <title>{{ item.title }}</title>
-      <description>First broadcast on {{ item.broadcast_datetime.strftime("%B %d, %Y") }}. {% if item.synopsis %}{{ item.synopsis }}{% endif %}</description>
+      <description>{% if item.broadcast_datetime %}First broadcast on {{ item.broadcast_datetime.strftime("%B %d, %Y") }}. {% endif %}{% if item.synopsis %}{{ item.synopsis }}{% endif %}</description>
       <pubDate>{{ item.date_rfc822 }}</pubDate>
       <enclosure url="{{ item.feed_url }}" type="audio/mpeg" {% if item.mp3_length %}length="{{ item.mp3_length }}"{% endif %} />
       <itunes:duration>{{ item.duration }}</itunes:duration>
