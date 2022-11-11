@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 10 Nov 2022 00:00:58 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Nov 2022 00:00:52 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Toni Morrison reads from and talks about her book &#34;Sula&#34;</title>
+      <description>First broadcast on April 16, 1974. Studs Terkel interviews writer Toni Morrison. This interview begins with a reading from the book, &#34;Sula&#34; by Morrison Morrison continues to read excerpts from her novel &#34;Sula&#34; and discusses her literature.</description>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/34390.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:30:36</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/toni-morrison-reads-and-talks-about-her-book-sula</guid>
+    </item>
     <item>
       <title>Susan Sontag discusses Tuberculosis</title>
       <description>First broadcast on June 30, 1978. Sontag reads from &#34;Illness as Metaphor&#34; and discusses differences between diseases, particularly tuberculosis and cancer, regarding historic understanding and cultural representation.</description>
