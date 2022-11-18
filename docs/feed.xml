@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 17 Nov 2022 00:02:07 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Nov 2022 00:00:44 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Brownie McGhee and Sonny Terry discuss their careers as blues musicians</title>
+      <description>First broadcast on January 28, 1970. Brownie McGhee and Sonny Terry discuss their careers as blues musicians and longtime collaborators. The close relationship between Terry and McGhee is apparent as they perform a number of original and traditional songs during the interview. Songs have been removed due to copyright.</description>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/33484.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:28:34</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/brownie-mcghee-and-sonny-terry-discuss-their-careers-blues-musicians-0</guid>
+    </item>
     <item>
       <title>Toni Morrison reads from and talks about her book &#34;Sula&#34;</title>
       <description>First broadcast on April 16, 1974. Studs Terkel interviews writer Toni Morrison. This interview begins with a reading from the book, &#34;Sula&#34; by Morrison Morrison continues to read excerpts from her novel &#34;Sula&#34; and discusses her literature.</description>
