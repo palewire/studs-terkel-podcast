@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:47 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Dec 2022 00:00:50 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Bob Newhart discusses his comedic craft</title>
+      <description>First broadcast on April 13, 1960. Comedian and actor Bob Newhart discusses his career and his life before becoming a comedian; excerpt from his stand-up performance is played.</description>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/48471.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:19:50</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/bob-newhart-discusses-his-comedic-craft</guid>
+    </item>
     <item>
       <title>Andres Segovia discusses his life and career as a classical guitarist</title>
       <description>First broadcast on February 02, 1978. Studs interview with Andres Segovia about his life in Grenada and how he came to play the guitar as an orchestra instrument.  Segovia speaks to the history of the guitar and other instruments as classical musical instruments.  They discuss Segovia&#39;s choice of instrument, how he gives back to his genre, how he stays vibrant at his age, and how he and his audiences relate.  Segovia explains his desires for the guitar in the philharmonic world.  Studs notes how Segovia has had to teach composers how to write for guitars.</description>
