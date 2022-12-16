@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 15 Dec 2022 00:01:04 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Dec 2022 00:00:49 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>John Prine discusses songwriting and growing up in Southern Illinois</title>
+      <description>They briefly discuss coal mining in Appalachia, specifically Blackey Kentucky.   Includes an interview with Joe Begley a coal miner from Blackey, Kentucky.</description>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/34361.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:32:23</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/john-prine-discusses-songwriting-and-growing-southern-illinois</guid>
+    </item>
     <item>
       <title>Cesar Chavez discusses farm labor rights</title>
       <description>Cesar Chavez discusses the United Farm Workers effort to gain rights for farm laborers and his childhood that led him to become a labor rights activist.</description>
