@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:48 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:54 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Carl Bernstein and Bob Woodward discuss the book &#34;All the President&#39;s Men&#34;</title>
+      <description>First broadcast on June 21, 1974. Washington Post journalists discuss their book &#34;All the President&#39;s Men&#34; about breaking the Watergate scandal.</description>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/5999.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:55:03</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/carl-bernstein-and-bob-woodward-discuss-book-all-presidents-men</guid>
+    </item>
     <item>
       <title>Alan Lomax discusses collecting international folk music ; part 2</title>
       <description>First broadcast on June 30, 1959. This 1959 broadcast was recorded after Alan Lomax traveled Europe collecting folk music.</description>
