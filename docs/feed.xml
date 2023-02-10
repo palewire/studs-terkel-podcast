@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:57 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:51 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Former halfway house residents discuss halfway houses</title>
+      <description>First broadcast on October 16, 1973. Discussion about halfway houses with a panel of former halfway house residents. </description>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56458.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:54:19</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/former-halfway-house-residents-discuss-halfway-houses</guid>
+    </item>
     <item>
       <title>Peter Bogdanovich discusses the &#34;Last Picure Show&#34;</title>
       <description></description>
