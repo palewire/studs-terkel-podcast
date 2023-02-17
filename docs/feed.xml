@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 16 Feb 2023 00:15:24 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:35 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the music of the Mothers of Invention and interviewing Frank Zappa</title>
+      <description>First broadcast on August 01, 1970. Discussing the music of the Mothers of Invention and interviewing Frank Zappa.  Songs include &#34;Who are the Brain Police,&#34; &#34;Brown Shoes Don&#39;t Make It,&#34; &#34;Concentration Moon,&#34; &#34;Mom and Dad,&#34; &#34;Bow Tie Daddy,&#34; &#34;Harry, You&#39;re a Beast,&#34; &#34;What&#39;s the Ugliest Part of Your Body?&#34; &#34;Trouble Every Day,&#34; &#34;Very Distraughtening,&#34; &#34;White Ugliness&#34; and &#34;There Will Come a Time.&#34;</description>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/20148.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:35:35</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-music-mothers-invention-and-interviewing-frank-zappa</guid>
+    </item>
     <item>
       <title>Former halfway house residents discuss halfway houses</title>
       <description>First broadcast on October 16, 1973. Discussion about halfway houses with a panel of former halfway house residents. </description>
