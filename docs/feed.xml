@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 23 Feb 2023 00:00:52 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2023 00:01:01 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,16 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Bertrand Russell discusses science and world peace. Phyllis Evans discusses the National Health Plan ; part 1</title>
+      <description>Sir Bertrand Russell says scientists have a fundamental obligation to let the authorities know if and when what they&#39;re working on could lead to or cause a war. Russell claims, no matter the side, there are no winners as a result of war. The world could be a far better place, Russell explained, if it weren&#39;t for the fact of man&#39;s hatred toward other men.
+
+If one lives in the United States and has a grave illness or needs a major surgery, Phyllis Evans says one should not have to go into bankruptcy because of all the costs. Evans talks about the National Health Plan where she lives in Wales.</description>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/55716.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:49:14</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/bertrand-russell-discusses-science-and-world-peace-phyllis-evans-discusses-national-health</guid>
+    </item>
     <item>
       <title>Discussing the music of the Mothers of Invention and interviewing Frank Zappa</title>
       <description>First broadcast on August 01, 1970. Discussing the music of the Mothers of Invention and interviewing Frank Zappa.  Songs include &#34;Who are the Brain Police,&#34; &#34;Brown Shoes Don&#39;t Make It,&#34; &#34;Concentration Moon,&#34; &#34;Mom and Dad,&#34; &#34;Bow Tie Daddy,&#34; &#34;Harry, You&#39;re a Beast,&#34; &#34;What&#39;s the Ugliest Part of Your Body?&#34; &#34;Trouble Every Day,&#34; &#34;Very Distraughtening,&#34; &#34;White Ugliness&#34; and &#34;There Will Come a Time.&#34;</description>
