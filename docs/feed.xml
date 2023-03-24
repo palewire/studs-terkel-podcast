@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 23 Mar 2023 00:00:51 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2023 00:01:00 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing Hiroshima survivors Hibakusha and Orizuru</title>
+      <description></description>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40802.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:50:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-hiroshima-survivors-hibakusha-and-orizuru</guid>
+    </item>
     <item>
       <title>Interview with Maurice Sendak</title>
       <description>First broadcast on November 12, 1984. Discussing the books &#34;Nutcracker,&#34; &#34;The Love for Three Oranges: The Glyndebourne Version,&#34; &#34;Where the Wild Things Are,&#34; and &#34;Outside Over There&#34; with author and artist Maurice Sendak.</description>
