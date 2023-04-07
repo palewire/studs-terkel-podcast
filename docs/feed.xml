@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 06 Apr 2023 00:01:20 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:39 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,33 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Marlon Brando discusses his views on mankind ; part 3</title>
+      <description>First broadcast on April 19, 1963. Content Warning:  This conversation includes racially and/or culturally derogatory language and/or negative depictions of Black and Indigenous people of color, women, and LGBTQI+ individuals. Rather than remove this content, we present it in the context of twentieth-century social history to acknowledge and learn from its impact and to inspire awareness and discussion.
+In conclusion, Marlon Brando added that his being a famous actor posed an ugly and difficult burden to his son.  Through television, Brando believed that today’s kids are cynical because they’re being sold lies and false truths. Brando’s final thoughts when asked, he wondered why so many microphones were being placed in front of him.  He wondered why people would want to talk to him and/or listen to anything that he had to say.</description>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/42270.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:25:15</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marlon-brando-discusses-his-views-mankind-part-3</guid>
+    </item>
+    <item>
+      <title>Marlon Brando discusses his views on mankind ; part 2</title>
+      <description>First broadcast on April 19, 1963. Content Warning:  This conversation includes racially and/or culturally derogatory language and/or negative depictions of Black and Indigenous people of color, women, and LGBTQI+ individuals. Rather than remove this content, we present it in the context of twentieth-century social history to acknowledge and learn from its impact and to inspire awareness and discussion.
+In a surprising twist, Marlon Brando asks Studs Terkel why he is so obsessed with asking people so many questions and Terkel’s reply was curiosity.  Brando commented that the world is full of atomic bombs and the uncensored life of a politician is a dangerous one. Brando also talks about the meaning of life.</description>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/42146.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:32:19</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marlon-brando-discusses-his-views-mankind-part-2</guid>
+    </item>
+    <item>
+      <title>Marlon Brando discusses his views on mankind ; part 1</title>
+      <description>First broadcast on April 19, 1963. Content Warning:  This conversation includes racially and/or culturally derogatory language and/or negative depictions of Black and Indigenous people of color, women, and LGBTQI+ individuals. Rather than remove this content, we present it in the context of twentieth-century social history to acknowledge and learn from its impact and to inspire awareness and discussion.
+Self-righteousness and values are topics covered by Marlon Brando.  Here in the states, Brando said, we are living a dream.  We do not want strife in our lives, and yet he says it seems as though we seek it.  Brando further explains that even though we have all the advantages, there is no sense of peace and no sense of well-being.  He also stated that people will never see eye to eye.</description>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/42141.mp3" type="audio/mpeg"  />
+      <itunes:duration>01:01:47</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marlon-brando-discusses-his-views-mankind-part-1</guid>
+    </item>
     <item>
       <title>Jack Anderson discusses his book &#34;Confessions of a Muckraker: The Inside Story of Life in Washington During the Truman, Eisenhower, Kennedy, and Johnson Years&#34;</title>
       <description>First broadcast on May 23, 1979. Political commentator Jack Anderson talks about his career, from his beginnings as a war correspondent in WWII, to his time under his mentor Drew Pearson.</description>
