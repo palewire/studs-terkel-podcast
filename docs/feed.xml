@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 13 Apr 2023 00:01:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Apr 2023 00:01:09 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Heinrich Gruber and Howard Schomer discuss Nazi Germany and resistance</title>
+      <description>German theologian Heinrich Gruber and pastor Howard Schomer discuss Nazi Germany and resistance</description>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56013.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:18:13</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/heinrich-gruber-and-howard-schomer-discuss-nazi-germany-and-resistance</guid>
+    </item>
     <item>
       <title>Marlon Brando discusses his views on mankind ; part 3</title>
       <description>First broadcast on April 19, 1963. Content Warning:  This conversation includes racially and/or culturally derogatory language and/or negative depictions of Black and Indigenous people of color, women, and LGBTQI+ individuals. Rather than remove this content, we present it in the context of twentieth-century social history to acknowledge and learn from its impact and to inspire awareness and discussion.
