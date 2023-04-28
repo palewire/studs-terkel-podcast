@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 27 Apr 2023 00:00:55 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2023 00:00:48 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the book, &#34;The Nazi/Skokie Conflict: A Civil Liberties Battle,&#34; and interviewing the author David Hamlin</title>
+      <description>First broadcast on March 05, 1981. </description>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/49558.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:56:13</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-naziskokie-conflict-civil-liberties-battle-and-interviewing-author-david</guid>
+    </item>
     <item>
       <title>Dr. Timothy Leary discusses the stages of the psychadelic experience of turning on and his role as a Shaman ; part 2</title>
       <description>First broadcast on December 01, 1966. Studs interviews Dr. Timothy Leary about the three stages of the psychadelic experience: turning on, tuning in, and dropout.  Leary discusses how his life changed from being a successful psychologist and professor at Harvard to renewing his life as a religious teacher.  He shares how the drug LSD is used in the tribal communities who turn on and also explains the values of those who practice turning on.  Leary also describes other methods used to turn on, which he considers a religious experience.  Studs reads what Richard Goldstein said about Dr. Leary.  Studs and Leary discuss how turning on can benefit society.</description>
