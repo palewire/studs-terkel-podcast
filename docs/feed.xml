@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 04 May 2023 00:00:49 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 May 2023 00:00:53 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing students at Metro High School on the Near North Side of Chicago</title>
+      <description>Metro High School on the Near North Side of Chicago is only one of three high schools in the country that operates without walls and uses the resources of the city for learning.  Four students convey how marine biology is taught at the Shed Aquarium, radio production at WIMD, TV production at Dick Barnett studio WMAQ, drafting at architectural firms and blue collar jobs at factories.</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13562.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:58:06</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-students-metro-high-school-near-north-side-chicago</guid>
+    </item>
     <item>
       <title>Discussing the book, &#34;The Nazi/Skokie Conflict: A Civil Liberties Battle,&#34; and interviewing the author David Hamlin</title>
       <description>First broadcast on March 05, 1981. </description>
