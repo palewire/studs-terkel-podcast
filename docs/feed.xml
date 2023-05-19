@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 18 May 2023 00:01:53 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 May 2023 00:00:55 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Stuart Dybek reads from and discusses his book &#34;The Coast of Chicago&#34;</title>
+      <description>First broadcast on May 07, 1990. Hearing Chopin being played through the pipes of another apartment and a tale about a young girl who died and whose father froze her body in an ice house are among the stories in Stuart Dybek&#39;s book, &#34;The Coast of Chicago.&#34; Dybek explained that although his stories may seem dream-like, he tries to come up up with stories from some place of reality.</description>
+      <pubDate>Fri, 19 May 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56457.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:45:54</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-book-coast-chicago-author-stuart-dybek</guid>
+    </item>
     <item>
       <title>Interviewing Tuskegee Airmen Ralph Orduna, Sammy Rayner, Col. Bill Thompson, and Judge John W. Rogers</title>
       <description>First broadcast on February 05, 1985. </description>
