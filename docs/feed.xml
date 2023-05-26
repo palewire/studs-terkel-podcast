@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 25 May 2023 00:01:05 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 May 2023 00:00:56 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Terkel reads from &#34;The Swimmer&#34; and interviews author John Cheever</title>
+      <description></description>
+      <pubDate>Fri, 26 May 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/15082.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:37:53</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/terkel-reads-swimmer-and-interviews-author-john-cheever</guid>
+    </item>
     <item>
       <title>Stuart Dybek reads from and discusses his book &#34;The Coast of Chicago&#34;</title>
       <description>First broadcast on May 07, 1990. Hearing Chopin being played through the pipes of another apartment and a tale about a young girl who died and whose father froze her body in an ice house are among the stories in Stuart Dybek&#39;s book, &#34;The Coast of Chicago.&#34; Dybek explained that although his stories may seem dream-like, he tries to come up up with stories from some place of reality.</description>
