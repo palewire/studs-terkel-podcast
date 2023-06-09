@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 08 Jun 2023 00:01:02 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:50 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,22 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interviewing Howard Zinn ; part 2</title>
+      <description></description>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40715.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:32:22</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-howard-zinn-part-2</guid>
+    </item>
+    <item>
+      <title>Interviewing Howard Zinn ; part 1</title>
+      <description></description>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/40707.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:19:08</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interviewing-howard-zinn-part-1</guid>
+    </item>
     <item>
       <title>Woody Allen discusses his work as a comedic writer and performer</title>
       <description>First broadcast on June 01, 1965. Woody Allen discusses his life and art, the influence of both success and failure on his work, and how he finds comedy in life’s difficulties and trials. He discusses his first screenplay, “What’s Up Pussycat?” and other comedians who have influenced the development of his own comedic work, including Mort Sahl, Charlie Chaplin, the Marx Brothers, and George S. Kaufman. 
