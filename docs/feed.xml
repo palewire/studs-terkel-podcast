@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 06 Jul 2023 00:01:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:56 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,22 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Rita Moreno discusses her role in West Side Story ; part 2</title>
+      <description>First broadcast on June 13, 1962. Rita Moreno talks about her own Puerto Rican ethnicity and how it relates to her role as Anita in West Side Story.</description>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56720.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:16:05</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/rita-moreno-discusses-her-role-west-side-story-part-2</guid>
+    </item>
+    <item>
+      <title>Rita Moreno discusses her role in West Side Story ; part 1</title>
+      <description>First broadcast on June 13, 1962. Rita Moreno talks about her own Puerto Rican ethnicity and how it relates to her role as Anita in  West Side Story.</description>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56719.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:22:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/rita-moreno-discusses-her-role-west-side-story-part-1</guid>
+    </item>
     <item>
       <title>Robert Caro reads from and discusses his book &#34;The Years of Lyndon Johnson&#34;</title>
       <description>First broadcast on December 09, 1982. Discussing &#34;The years of Lyndon Johnson, Vol 1: the path to power&#34; with the biographer Robert Caro.
