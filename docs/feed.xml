@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 13 Jul 2023 00:01:03 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2023 00:01:11 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,16 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Marshall McLuhan discusses a wide range of philosophical topics</title>
+      <description>First broadcast on July 01, 1966. Marshall McLuhan discusses a wide range of topics including conformity, changes in entertainment media, cultural change, art and artists, originality in dance, reading and language, human interaction with nature, and technology.
+
+Recorded in front of a live audience at Kendall College, McLuhan takes several questions from the audience throughout the program.</description>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56652.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:44:09</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/marshall-mcluhan-discusses-wide-range-philosophical-topics</guid>
+    </item>
     <item>
       <title>Rita Moreno discusses her role in West Side Story ; part 2</title>
       <description>First broadcast on June 13, 1962. Rita Moreno talks about her own Puerto Rican ethnicity and how it relates to her role as Anita in West Side Story.</description>
