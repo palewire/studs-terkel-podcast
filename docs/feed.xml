@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 20 Jul 2023 00:01:01 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jul 2023 00:05:39 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Louis Armstrong discusses music</title>
+      <description>First broadcast on June 24, 1962. In a nightclub in Chicago, at two in the morning and after a performance, Louis Armstrong talks about his music stylings. Notes are good to learn the tune, says Armstrong, but it&#39;s all about the phrasing. Armstrong explained, it&#39;s up to you to express yourself. Armstrong shared the one piece of advice that had always stuck with him. King Oliver told Armstrong not to worry about the notes but rather to put some lead into the song.</description>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56128.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:33:43</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/louis-armstrong-discusses-music</guid>
+    </item>
     <item>
       <title>Marshall McLuhan discusses a wide range of philosophical topics</title>
       <description>First broadcast on July 01, 1966. Marshall McLuhan discusses a wide range of topics including conformity, changes in entertainment media, cultural change, art and artists, originality in dance, reading and language, human interaction with nature, and technology.
