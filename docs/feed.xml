@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 27 Jul 2023 00:00:57 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jul 2023 00:00:54 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>London taxi driver discusses changes in London and speaks about present-day youth culture ; part 1</title>
+      <description>During a visit to London, Studs interviews a 73 year old cab driver in London, who has 50 years on the job.  They discuss traffic jams, the elderly and the young, poverty, welfare, and society.  Studs also interviews a number of people attending the Tate Gallery&#39;s Lichtenstein Exhibition.</description>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/21847.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:35:12</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/london-taxi-driver-discusses-changes-london-and-speaks-about-present-day-youth-culture</guid>
+    </item>
     <item>
       <title>Louis Armstrong discusses music</title>
       <description>First broadcast on June 24, 1962. In a nightclub in Chicago, at two in the morning and after a performance, Louis Armstrong talks about his music stylings. Notes are good to learn the tune, says Armstrong, but it&#39;s all about the phrasing. Armstrong explained, it&#39;s up to you to express yourself. Armstrong shared the one piece of advice that had always stuck with him. King Oliver told Armstrong not to worry about the notes but rather to put some lead into the song.</description>
