@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 03 Aug 2023 00:01:13 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Aug 2023 00:01:08 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Mr Bugliosi and Mr. Gentry discuss, &#34;Helter Skelter: The True Story of the Manson Murders&#34;</title>
+      <description>First broadcast on November 06, 1974. Mr Bugliosi and Mr. Gentry discuss, &#34;Helter Skelter: The True Story of the Manson Murders,&#34;.  Bugliosi was the prosecutor in the case against the Manson &#34;family&#34; for the murders of Sharon Tate and others. The interview opens with &#34;Home is where you are happy&#34; performed by Charles Manson and an excerpt of Catherine Shur Manson&#39;s sister talking about her brother.   They speak in depth on the Manson &#34;family&#34; and the key players in the murders; Susan Atkins, Steve Grogan, Linda Kasabian, Patricia Krenwinkel, Leslie Van Houten and Charles Watson.  Studs brings the interview to a close by reading an excerpt from the book, a quote of Charles Manson&#39;s speech after being convicted.</description>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6480.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:55:42</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/mr-bugliosi-and-mr-gentry-discuss-helter-skelter-true-story-manson-murders</guid>
+    </item>
     <item>
       <title>London taxi driver discusses changes in London and speaks about present-day youth culture ; part 1</title>
       <description>During a visit to London, Studs interviews a 73 year old cab driver in London, who has 50 years on the job.  They discuss traffic jams, the elderly and the young, poverty, welfare, and society.  Studs also interviews a number of people attending the Tate Gallery&#39;s Lichtenstein Exhibition.</description>
