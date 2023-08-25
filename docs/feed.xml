@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 24 Aug 2023 00:01:13 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:45 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Parents of school children talk about integration and busing</title>
+      <description>First broadcast on August 26, 1981. Interviewing Karen Grzybek, Barbara Tekiela and Mark Smith, parents of Chicago schoolchildren.</description>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/8549.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:47:02</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/parents-school-children-talk-about-integration-and-busing</guid>
+    </item>
     <item>
       <title>Oliver W. Sacks discusses his patients from the book &#34;The Man Who Mistook His Wife for a Hat&#34;; part 2</title>
       <description>First broadcast on December 04, 1985. Dr. Oliver W. Sacks details his experiences and approaches to helping patients with various intellectual and physical neurological disorders; part 2.</description>
