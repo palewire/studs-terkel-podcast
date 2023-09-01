@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 31 Aug 2023 01:09:58 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2023 00:00:43 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,30 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Studs Terkel interviews Tom Wolfe ; part 2</title>
+      <description>First broadcast on July 26, 1965. Studs Terkel and Tom Wolfe discuss Wolfe&#39;s first collection of essays, &#34;The Kandy-Kolored Tangerine-Flake Streamline Baby&#34;.
+
+Terkel and Wolfe begin their conversation by listening to and discussing an excerpt from an interview with a young motorcycle enthusiast named Chuck.
+
+Topics of conversation include Wolfe&#39;s writing process and personal history, the generation gap, class and income disparity, motorcycle culture, Las Vegas, and stock car racing.</description>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13105.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:25:18</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-interviews-tom-wolfe-part-2</guid>
+    </item>
+    <item>
+      <title>Studs Terkel interviews Tom Wolfe ; part 1</title>
+      <description>First broadcast on July 26, 1965. Studs and Tom Wolfe discuss Wolfe&#39;s first collection of essays, &#34;The Kandy-Kolored Tangerine-Flake Streamline Baby&#34;.
+
+Terkel and Wolfe begin their conversation by listening to and discussing an excerpt from an interview with a young motorcycle enthusiast named Chuck.
+
+Topics of conversation include Wolfe&#39;s writing process and personal history, the generation gap, class and income disparity, motorcycle culture, Las Vegas, and stock car racing.</description>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13106.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:36:41</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-interviews-tom-wolfe-part-1</guid>
+    </item>
     <item>
       <title>Parents of school children talk about integration and busing</title>
       <description>First broadcast on August 26, 1981. Interviewing Karen Grzybek, Barbara Tekiela and Mark Smith, parents of Chicago schoolchildren.</description>
