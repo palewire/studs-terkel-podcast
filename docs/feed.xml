@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 07 Sep 2023 01:01:46 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Sep 2023 00:15:08 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>David Halberstam discusses Bobby Kennedy</title>
+      <description>Discussing Bobby Kennedy and interviewing David Halberstam.</description>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/8624.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:53:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/david-halberstam-discusses-bobby-kennedy</guid>
+    </item>
     <item>
       <title>Studs Terkel interviews Tom Wolfe ; part 2</title>
       <description>First broadcast on July 26, 1965. Studs Terkel and Tom Wolfe discuss Wolfe&#39;s first collection of essays, &#34;The Kandy-Kolored Tangerine-Flake Streamline Baby&#34;.
