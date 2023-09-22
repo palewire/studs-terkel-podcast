@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 21 Sep 2023 00:00:45 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Sep 2023 00:00:35 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,22 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Charles Eames discusses his life of travel and his study of design and architecture, part 2</title>
+      <description>First broadcast on October 01, 1965. Charles Eames an architect, designer, artist, filmmaker and student of human nature talks with Studs about his years of travel in India and Europe. He discusses studying architecture and working as an architect and the nature of his film making.</description>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7669.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:22:12</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/charles-eames-discusses-his-life-travel-and-his-study-design-and-architecture-part-2</guid>
+    </item>
+    <item>
+      <title>Charles Eames discusses his life of travel and his study of design and architecture, part 1</title>
+      <description>First broadcast on October 01, 1965. Charles Eames, an architect, designer, artist, filmmaker and student of human nature, talks with Studs about his years of travel in India and Europe.  He discusses studying architecture and working as an architect and the nature of his film making. (Part 1 of 2)</description>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7666.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:33:43</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/charles-eames-discusses-his-life-travel-and-his-study-design-and-architecture-part-1</guid>
+    </item>
     <item>
       <title>Charles Mingus discusses his book &#34;Beneath The Underdog&#34;</title>
       <description>First broadcast on May 20, 1971. Studs Terkel speaks with Charles Mingus about his life and work in the context of his autobiography &#34;Beneath The Underdog&#34;.</description>
