@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 05 Oct 2023 00:00:44 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Oct 2023 00:00:46 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Barbara Ehrenreich discusses her book &#34;Fear of Falling: The Inner Life of the Middle Class&#34;</title>
+      <description>First broadcast on September 18, 1989. Discussing the book &#34;Fear of Falling: The Inner Life of the Middle Class&#34; (published by Pantheon) with the author, political essayist Barbara Ehrenreich.</description>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/7718.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:54:10</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/barbara-ehrenreich-discusses-her-book-fear-falling-inner-life-middle-class</guid>
+    </item>
     <item>
       <title>Discussing the book &#34;Amusing Ourselves to Death: Public Discourse in the Age of Show Business,&#34; with the author, culture and communications scholar Neil Postman</title>
       <description>First broadcast on November 22, 1985. </description>
