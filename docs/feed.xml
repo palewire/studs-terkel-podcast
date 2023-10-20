@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 19 Oct 2023 00:00:35 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:39 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,15 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Barrett Deems discusses jazz drumming</title>
+      <description>First broadcast on March 27, 1979. Barrett Deems discusses his upbringing where he began drumming at age 4 and recalls touring with Louis Armstrong and other musicians. He also talks about meeting drummers in Africa. Music is played throughout: &#34;Flip&#34;- Joe Venuti, &#34;Shine&#34;- Barrett Deems Hottet, &#34;Now You Has Jazz&#34;- Bing Crosby and Louis Armstrong (from &#34;High Society&#34;), &#34;Muskrat Ramble&#34;- Louis Armstrong, &#34;Struttin&#39; with Some Barbecue&#34;- Louis Armstrong, &#34;Slipped Disc&#34;- Benny Goodman, &#34;Stompin&#39; at the Savoy&#34;- Louis Armstrong. 
+Music has been removed from this recording for copyright reasons.</description>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/19649.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:29:10</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/barrett-deems-discusses-jazz-drumming</guid>
+    </item>
     <item>
       <title>Actress Tallulah Bankhead discusses her career</title>
       <description>First broadcast on July 15, 1960. Tallulah Bankhead thought she would become an aerialist when she grew up.  At 16, after she saw some plays, Bankhead decided to go into acting.  Bankhead never received any formal training and yet some experts in the theatre world called her “a natural”. In a surprise revelation, Bankhead said she does not attend the theatre as an audience member.  She went on to say she likes to read books, watch television, and she loves her San Francisco Giants.</description>
