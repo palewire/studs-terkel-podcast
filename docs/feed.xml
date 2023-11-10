@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 09 Nov 2023 00:00:44 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:51 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,22 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss the SNCC ; part 2</title>
+      <description>First broadcast on July 23, 1965. Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss civil rights and African Americans in politics. Discussing the philosophy of SNCC.</description>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6651.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:34:47</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/stokely-carmichael-charlie-cobb-and-courtland-cox-discuss-sncc-part-2</guid>
+    </item>
+    <item>
+      <title>Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss the SNCC ;  part 1</title>
+      <description>First broadcast on July 23, 1965. Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss civil rights and African Americans in politics. Discussing the philosophy of SNCC.</description>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6648.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:39:24</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/stokely-carmichael-charlie-cobb-and-courtland-cox-discuss-sncc-part-1-0</guid>
+    </item>
     <item>
       <title>John Malkovich and Gary Sinise discuss the film &#34;Of Mice and Men&#34;</title>
       <description>First broadcast on September 29, 1981. Studs Terkel discusses the upcoming new film &#34;Of Mice and Men&#34;, based on the novel written by John Steinbeck with the starring actors, John Malkovich (Lennie) and Gary Sinise (George). The program begins with the opening excerpt from the play &#34;Of Mice and Men&#34; featuring Terkel (George) and Win Stracke (Lennie) from 1952, which then leads into Malkovich and Sinise&#39;s interpretation of the rest of the scene. Folk singer Utah Phillips song &#34;On the Goodnight Loving Trail&#34;  is presented as a comparison to themes expressed in &#34;Of Mice and Men&#34;. During this program they discuss the following: tackling the characters; the interpretation of the relationship between George and Lennie; universal themes; and the other characters.</description>
