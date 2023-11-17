@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 16 Nov 2023 00:00:35 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:38 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Studs, teachers and students have a conversation at a high school where there is controversy over the use of the book &#34;Working&#34;</title>
+      <description>Discussing the controversy over the use of the book &#34;Working&#34; by author Studs Terkel in a senior vocational class.  Interviews with Kay Nichols, teacher, and two high school classes, as well as Bob Burns and Jim Richardson.  The students talk of how the &#34;bad&#34; language in the book is heard from their peers on a daily basis and they don&#39;t find it offensive. [recorded in Girard, Pennsylvania]</description>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11472.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:55:37</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-teachers-and-students-have-conversation-high-school-where-there-controversy-over-use</guid>
+    </item>
     <item>
       <title>Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss the SNCC ; part 2</title>
       <description>First broadcast on July 23, 1965. Stokely Carmichael, Charlie Cobb, and Courtland Cox discuss civil rights and African Americans in politics. Discussing the philosophy of SNCC.</description>
