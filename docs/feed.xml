@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 23 Nov 2023 00:00:45 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Nov 2023 00:03:37 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Ralph Nader discusses his book &#34;Unsafe at Any Speed&#34;</title>
+      <description></description>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/11364.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:32:31</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/ralph-nader-discusses-his-book-unsafe-any-speed</guid>
+    </item>
     <item>
       <title>Studs, teachers and students have a conversation at a high school where there is controversy over the use of the book &#34;Working&#34;</title>
       <description>Discussing the controversy over the use of the book &#34;Working&#34; by author Studs Terkel in a senior vocational class.  Interviews with Kay Nichols, teacher, and two high school classes, as well as Bob Burns and Jim Richardson.  The students talk of how the &#34;bad&#34; language in the book is heard from their peers on a daily basis and they don&#39;t find it offensive. [recorded in Girard, Pennsylvania]</description>
