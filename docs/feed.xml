@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 28 Dec 2023 00:00:31 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2023 00:00:31 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Leonard Bernstein discusses his career, music, and education</title>
+      <description>First broadcast on February 01, 1985. Leonard Bernstein discusses his career as a composer along with his thoughts on American culture, musical theater, Black music, classical music, and education; music is played throughout the program including songs from Marc Blitzstein&#39;s play &#34;The Cradle Will Rock.&#34;</description>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/45146.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:38:30</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/leonard-bernstein-discusses-his-career-music-and-education</guid>
+    </item>
     <item>
       <title>Anita O&#39;Day discusses her career</title>
       <description>First broadcast on May 21, 1975. Studs Terkel interviews jazz musician Anita O&#39;Day.</description>
