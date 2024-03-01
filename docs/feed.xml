@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:45 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:51 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Allen Ginsberg discusses poetry and meditation</title>
+      <description>First broadcast on November 29, 1976. Studs Terkel and Allen Ginsberg talk about poetry, meditation, and the shifting of American socio-political consciousness between the 50&#39;s and 70&#39;s.</description>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/56269.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:45:14</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/allen-ginsberg-discusses-poetry-and-meditation</guid>
+    </item>
     <item>
       <title>Chicago residents Alice and Bob Taylor talk with Studs Terkel</title>
       <description>Recorded in the Taylor&#39;s home against a backdrop of sounds created by a nine-children family, Studs, Alice and Bob discuss aspects of a white family living in a predominately African-American amidst an exodus of the white, Christian community. Includes a performance of &#34;Onward, Christian Soldiers&#34; by the family around their piano, and &#34;Jesus Loves Me&#34; by two of the children.</description>
