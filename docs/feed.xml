@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 04 Apr 2024 00:00:40 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:40 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Interview in Montgomery, Alabama</title>
+      <description>First broadcast on March 25, 1965. Interviewing in Montgomery, Alabama on March 25, 1965 (Montgomery #1). Speaks with Reverend William Franklin Pascal, cab driver, two barbers</description>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13190.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:49:09</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/interview-montgomery-alabama</guid>
+    </item>
     <item>
       <title>French humorist Jacques Tati talks with Studs Terkel</title>
       <description>First broadcast on November 01, 1962. Filmmaker Jacques Tati and Studs discuss finding the humor in everyday life and people becoming their gadgets. The two also go in-depth about Tati&#39;s film &#34;Mon Oncle&#34; and the development of the character Monsieur Hulot.</description>
