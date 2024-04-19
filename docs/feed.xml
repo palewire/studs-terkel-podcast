@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:33 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2024 00:00:43 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Henry Fonda and John Houseman discuss the play &#34;Clarence Darrow&#34;</title>
+      <description>Henry Fonda and John Houseman talk about working with one another on &#34;Clarence Darrow: A One-Man Play&#34;.  Houseman is in awe of Fonda&#39;s portrayal of Clarence Darrow, explaining that in the play, the audience can really see the growth of Clarence Darrow, from a young lawyer to an experienced, wise one.  Fonda talks about the opening scene when Darrow recalls his father talking to him when he was a young boy. Fonda reflects on times when his father talked to him. Fonda recalls being taught not to hate individuals.</description>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/59734.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:32:21</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/henry-fonda-and-john-houseman-discuss-play-clarence-darrow</guid>
+    </item>
     <item>
       <title>Interviewing Chicagoan Kid Pharaoh  ; part 2</title>
       <description>An interview with Kid Pharoh, a former prize fighter, is included in Terkel&#39;s book, &#34;Division Street: America.&#34;</description>
