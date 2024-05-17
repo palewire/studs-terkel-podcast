@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 16 May 2024 00:00:31 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 00:00:36 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,46 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Studs Terkel discusses race relations and economic disparity with four Chicago area women ; part 2</title>
+      <description>First broadcast on January 27, 1965. Studs discusses race relations and economic disparity with four Chicago area women in a program entitled &#34;Each of us can act&#34;.
+
+This recording was the last of a 6-part series, &#34;Rearing the Child of Good Will&#34;, broadcast under the auspices of the National Conference of Christians and Jews.  The series focused on prejudice, race, religion, and community.
+
+Interviewees are:
+Madeline Bonsigniore of Chicago&#39;s south suburbs
+Naomi Brodky of the Marynook neighborhood of Chicago
+Lynn Williams of Winnetka, IL
+Harriet White of the NCCJ
+
+The discussion begins with a snipped from Terkel&#39;s interview with &#34;Jimmy&#34; a 17-year old African American male who had been involved with gangs on the Chicago&#39;s west side.
+
+Other topics of discussion include racial integration, schools, and home ownership.</description>
+      <pubDate>Fri, 17 May 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6200.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:25:29</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-discusses-race-relations-and-economic-disparity-four-chicago-area-women-0</guid>
+    </item>
+    <item>
+      <title>Studs Terkel discusses race relations and economic disparity with four Chicago area women ; part 1</title>
+      <description>First broadcast on January 27, 1965. Studs discusses race relations and economic disparity with four Chicago area women in a program entitled &#34;Each of us can act&#34;.
+
+This recording was the last of a 6-part series, &#34;Rearing the Child of Good Will&#34;, broadcast under the auspices of the National Conference of Christians and Jews.  The series focused on prejudice, race, religion, and community.
+
+Interviewees are:
+Madeline Bonsigniore of Chicago&#39;s south suburbs
+Naomi Brodky of the Marynook neighborhood of Chicago
+Lynn Williams of Winnetka, IL
+Harriet White of the NCCJ
+
+The discussion begins with a snipped from Terkel&#39;s interview with &#34;Jimmy&#34; a 17-year old African American male who had been involved with gangs on the Chicago&#39;s west side.
+
+Other topics of discussion include racial integration, schools, and home ownership.</description>
+      <pubDate>Fri, 17 May 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6197.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:29:51</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/studs-terkel-discusses-race-relations-and-economic-disparity-four-chicago-area-women-part</guid>
+    </item>
     <item>
       <title>Discussing a tour of the Berlin Wall with author Ursula Bender</title>
       <description></description>
