@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 06 Jun 2024 00:00:49 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Jun 2024 00:00:36 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Ben Kingsley discusses his file &#34;Gandhi&#34; with Studs Terkel, then actress Anabella discusses her film and theatrical career</title>
+      <description></description>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/45339.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:57:45</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/ben-kingsley-discusses-his-file-gandhi-studs-terkel-then-actress-anabella-discusses-her</guid>
+    </item>
     <item>
       <title>Brother John Sellers discusses his career as a blues artist and how church music inspired his music</title>
       <description>First broadcast on July 02, 1982. Studs interviews Brother John Sellers about his career and other blues singers.  Sellers explains that religion influenced his music as did performers like Mahalia Jackson, Big Bill Broonzy, and Muddy Waters.  Studs reads some of the lyrics of blues song, &#34;In the Evening.&#34;  Sellers describes street singers and blind singers.  He describes the music and style of Jackson and Broonzy and some of his own songs.  Sellers performs &#34;Talk About A Child&#34; and &#34;Sally Go Round the Sunshine&#34; live on the program.  Studs and Sellers read together some of the lyrics of &#34;Bo Weavil.&#34;  Most musical pieces are removed from this edited version of the original recording.</description>
