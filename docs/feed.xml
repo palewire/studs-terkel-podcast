@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:43 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:39 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing a trip to the Soviet Union with Sharon Tennison and Barbara Rinnan of The Center for Citizen Initiatives (CCI)</title>
+      <description>First broadcast on February 01, 1985. CCI maintains citizen-to-citizen networks between the US and the USSR in an attempt to empower ordinary citizens to take responsibility.</description>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/35054.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:19:03</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-trip-soviet-union-sharon-tennison-and-barbara-rinnan-center-citizen-initiatives</guid>
+    </item>
     <item>
       <title>Ben Kingsley discusses his file &#34;Gandhi&#34; with Studs Terkel, then actress Anabella discusses her film and theatrical career</title>
       <description></description>
