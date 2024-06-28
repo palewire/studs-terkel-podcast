@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 27 Jun 2024 00:00:36 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:32 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Discussing the young vs. adults with teenagers at Saint Timothy Elementary School</title>
+      <description>Studs Terkel presents a roundtable conversation with children ranging from ages 13-17. They discuss relationships with their family members, other students, growing up in Chicago, and race relations in the U.S.</description>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/46105.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:43:06</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/discussing-young-vs-adults-teenagers-saint-timothy-elementary-school</guid>
+    </item>
     <item>
       <title>Discussing the book &#34;The Other America&#34; with Michael Harrington.</title>
       <description>First broadcast on July 01, 1964. </description>
