@@ -1,4 +1,5 @@
 """Download data from the Studs Terkel Archive."""
+import time
 from pathlib import Path
 import urllib.parse
 import urllib.request
@@ -100,6 +101,7 @@ def html():
 
         # Wait a bit
         time.sleep(0.15)
+
 
 @cli.command()
 def metadata():
@@ -209,7 +211,7 @@ def metadata():
     df.to_csv(DATA_DIR / "programs.csv", index=False)
 
 
-@click.command()
+@cli.command()
 def mp3():
     """Download all the MP3 files."""
     # Load the metadata
@@ -228,7 +230,7 @@ def mp3():
     print(f"Downloading {len(urls)} MP3 files")
     for url in track(urls):
         # Get the target name of the file from the URL
-        name = mp3_url.split("/")[-1].replace("published%2F", "")
+        name = url.split("/")[-1].replace("published%2F", "")
 
         # Set the output path
         path = mp3_dir / name
@@ -242,7 +244,7 @@ def mp3():
         opener = urllib.request.build_opener()
         opener.addheaders = [("Referer", "https://studsterkel.wfmt.com/")]
         urllib.request.install_opener(opener)
-        urllib.request.urlretrieve(mp3_url, filepath)
+        urllib.request.urlretrieve(url, path)
 
         # Wait a bit
         time.sleep(0.15)
