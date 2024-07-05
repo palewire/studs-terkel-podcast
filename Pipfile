@@ -17,6 +17,7 @@ python-dateutil = "*"
 pytz = "*"
 rich = "*"
 ipywidgets = "*"
+click = "*"
 
 [requires]
 python_version = "3.9"
