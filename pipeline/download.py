@@ -26,7 +26,12 @@ def links():
     """Download all of the show links from the Studs Terkel Archive index."""
     # Get the page
     url = "https://studsterkel.wfmt.com/explore#t=date"
-    r = requests.get(url)
+    r = requests.get(
+        url,
+        headers={
+            'User-Agent': 'Studs Terkel Radio Archive Scraper (github.com/palewire/studs-terkel-radio-feed/)',
+        }
+    )
     assert r.ok
 
     # Parse the page
