@@ -244,10 +244,21 @@ def mp3():
         opener = urllib.request.build_opener()
         opener.addheaders = [("Referer", "https://studsterkel.wfmt.com/")]
         urllib.request.install_opener(opener)
-        urllib.request.urlretrieve(url, path)
+        try:
+            urllib.request.urlretrieve(url, path)
+        # If there's a 404, print a message and skip
+        except urllib.error.HTTPError as e:
+            print(f"Failed with status code {e.code}: {url}")
+            continue
 
         # Wait a bit
         time.sleep(0.15)
+
+        # Add the name to the df as mp3_id
+        df.loc[df.mp3_url == url, "mp3_id"] = name
+    
+    # Write out the updated metadata
+    df.to_csv(DATA_DIR / "programs.csv", index=False)
 
 
 if __name__ == "__main__":
