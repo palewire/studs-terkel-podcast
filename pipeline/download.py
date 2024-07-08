@@ -32,7 +32,11 @@ def links():
             'User-Agent': 'Studs Terkel Radio Archive Scraper (github.com/palewire/studs-terkel-radio-feed/)',
         }
     )
-    assert r.ok
+    try:
+        assert r.ok
+    except AssertionError:
+        print(f"Failed with status code {r.status_code}: {url}")
+        raise Exception("Failed to download the page.")
 
     # Parse the page
     html = r.text
