@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 18 Jul 2024 00:00:33 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:38 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>A young white cabbie talks with Studs Terkel</title>
+      <description>First broadcast on March 26, 1962. Interviewing a young white cabbie and farewell comments on the plane ride home when Studs traveled home from Montgomery, Alabama.</description>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13405.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:47:58</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/young-white-cabbie-talks-studs-terkel</guid>
+    </item>
     <item>
       <title>Fred W. Friendly discusses his book &#34;Due to Circumstances Beyond Our Control&#34;</title>
       <description>Studs Terkel interviews Fred W. Friendly to promote his book &#34;Due to Circumstances Beyond Our Control.&#34; Although this interview seems to be the conclusion of a longer discussion, Friendly offers two key points: we should learn from a crisis to better handle the next one and television will shape the world. Duration 1:26. (Part 2 of 2)</description>
