@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:47 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:38 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Brian Dennehy discusses the Goodman Theater&#39;s production of &#34;A Touch of a Poet&#34;</title>
+      <description>First broadcast on May 02, 1996. </description>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/35201.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:48:10</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/brian-dennehy-discusses-goodman-theaters-production-touch-poet</guid>
+    </item>
     <item>
       <title>A young white cabbie talks with Studs Terkel</title>
       <description>First broadcast on March 26, 1962. Interviewing a young white cabbie and farewell comments on the plane ride home when Studs traveled home from Montgomery, Alabama.</description>
