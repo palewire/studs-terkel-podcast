@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:40 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:43 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Daniel Boorstin discuses his book &#34;The Image: A Guide to Pseudo-Events in America&#34;</title>
+      <description>Discussing the book &#34;The Image: A Guide to Pseudo-Events in America&#34; and interviewing the author Professor Daniel Boorstin.</description>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/6206.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:00:01</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/daniel-boorstin-discuses-his-book-image-guide-pseudo-events-america</guid>
+    </item>
     <item>
       <title>Brian Dennehy discusses the Goodman Theater&#39;s production of &#34;A Touch of a Poet&#34;</title>
       <description>First broadcast on May 02, 1996. </description>
