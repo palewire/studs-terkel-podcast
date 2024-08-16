@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 15 Aug 2024 00:01:50 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 00:00:51 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,14 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>Barbara Kingsolver discusses her book &#34;Holding the Line: Women in the Great Arizona Mine Strike of 1983&#34;</title>
+      <description>First broadcast on September 17, 1990. Since no men were allowed to picket against the Phelps Dodge Corp., Mexican American women showed up and according to Kingsolver’s book, “Holding the Line,” the picket lines were a brand new experience for the women. Some of the women had to get their husbands’ permission to picket. The group of women found their lives transformed not only with their cause but with new bonds of friendship from the other women.</description>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/48351.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:46:41</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/barbara-kingsolver-discusses-her-book-holding-line-women-great-arizona-mine-strike-1983</guid>
+    </item>
     <item>
       <title>Derek Walcott discusses poetry and his play &#34;Dream on Monkey Mountain&#34;</title>
       <description>First broadcast on April 11, 1972. Colonial West Indies &amp; Caribbean poet Derek Walcott talks about the traditions of poetry not purely being just the written words.  Poetry, says Walcott, is also oral poetry that&#39;s found in folk songs, folk tales and calypso music.  Walcott&#39;s play, &#34;Dream on Monkey Mountain&#34; is about Makak, an old hermit who lived on Monkey Mountain his whole life, and was now being kicked off the mountain.</description>
