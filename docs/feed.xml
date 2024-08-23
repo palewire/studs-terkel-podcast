@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Studs Terkel Archive Podcast</title>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:56 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:47 -0000</lastBuildDate>
     <googleplay:owner>ben.welsh@gmail.com</googleplay:owner>
     <itunes:owner>
         <itunes:email>ben.welsh@gmail.com</itunes:email>
@@ -23,6 +23,22 @@
     <language>en-us</language>
     <link>https://studs.show</link>
     
+    <item>
+      <title>The Walawa Basies talk with Studs Terkel ; part 2</title>
+      <description>First broadcast on January 14, 1969. Studs Terkel interviews the members of the Walawa Basies: Kelvin Strong, Orlando Lucas, and Levon Campbell.</description>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13552.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:54:31</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/walawa-basies-talk-studs-terkel-part-2</guid>
+    </item>
+    <item>
+      <title>The Walawa Basies talk with Studs Terkel ; part 1</title>
+      <description>First broadcast on January 14, 1969. Studs Terkel interviews the members of the Walawa Basies: Kelvin Strong, Orlando Lucas, Levon Campbell, and Justine Cordwell. This is an Interview done in two parts</description>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 -0000</pubDate>
+      <enclosure url="https://studs-terkel-radio-archive-feed.s3.amazonaws.com/mp3/13551.mp3" type="audio/mpeg"  />
+      <itunes:duration>00:52:00</itunes:duration>
+      <guid isPermaLink="true">https://studsterkel.wfmt.com/programs/walawa-basies-talk-studs-terkel-part-1</guid>
+    </item>
     <item>
       <title>Barbara Kingsolver discusses her book &#34;Holding the Line: Women in the Great Arizona Mine Strike of 1983&#34;</title>
       <description>First broadcast on September 17, 1990. Since no men were allowed to picket against the Phelps Dodge Corp., Mexican American women showed up and according to Kingsolver’s book, “Holding the Line,” the picket lines were a brand new experience for the women. Some of the women had to get their husbands’ permission to picket. The group of women found their lives transformed not only with their cause but with new bonds of friendship from the other women.</description>
